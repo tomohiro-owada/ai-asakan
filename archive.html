@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{.Title}}</title>
+<meta name="description" content="{{.Desc}}">
+<link rel="canonical" href="{{.Canonical}}">
+<link rel="alternate" type="application/rss+xml" title="{{.Paper.Name}}" href="{{.Root}}feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{.Paper.Name}}">
+<meta property="og:title" content="{{.Title}}">
+<meta property="og:description" content="{{.Desc}}">
+<meta property="og:url" content="{{.Canonical}}">
+<meta property="og:image" content="{{.OGImage}}">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700;900&family=Shippori+Mincho+B1:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+{{.CSS}}
+</style>
+</head>
+<body class="archive">
+{{template "nav" .}}
+<header>
+  <div class="mast" style="grid-template-columns:1fr"><div class="title"><a href="{{.Root}}">{{.Paper.Name}}</a><div class="en">THE AI MORNING NEWS ─ ARCHIVE</div></div></div>
+</header>
+<section>
+  <div class="band"><h2>バックナンバー</h2><span class="line"></span><span class="sub">新しい順　全{{len .Issues}}号　<a href="{{.Root}}feed.xml">RSS</a></span></div>
+  <ol class="alist">
+    {{range .Issues}}<li><a href="{{$.Root}}{{.Path}}"><time datetime="{{.Date}}">{{.Short}}（{{.WeekdayJP}}）</time><span class="no">第{{.Issue}}号</span><span class="hd">{{.HeadlinePlain}}</span></a></li>
+    {{end}}
+  </ol>
+</section>
+<footer class="sitefoot"><span><b>{{.Paper.Name}}</b></span><span>記事は公開情報の要約です。</span><span><a href="https://abalol.xyz/">abalol.xyz ←</a></span></footer>
+</body>
+</html>

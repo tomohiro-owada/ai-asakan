@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{.Title}}</title>
+<meta name="description" content="{{.Desc}}">
+<link rel="canonical" href="{{.Canonical}}">
+<link rel="alternate" type="application/rss+xml" title="{{.Paper.Name}}" href="{{.Root}}feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="{{.Paper.Name}}">
+<meta property="og:title" content="{{.Title}}">
+<meta property="og:description" content="{{.Desc}}">
+<meta property="og:url" content="{{.Canonical}}">
+<meta property="og:image" content="{{.OGImage}}">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{.Title}}">
+<meta name="twitter:description" content="{{.Desc}}">
+<meta name="twitter:image" content="{{.OGImage}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700;900&family=Shippori+Mincho+B1:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+{{.CSS}}
+</style>
+</head>
+<body>
+{{template "nav" .}}
+<header>
+  <div class="mast">
+    <div class="ear l">
+      <div class="vert">{{br .Paper.Tagline}}</div>
+    </div>
+    <div class="title">{{.Paper.Name}}<div class="en">THE AI MORNING NEWS</div></div>
+    <div class="ear r">
+      <div class="issue">第{{.Issue}}<small>号</small></div>
+      <div class="ed">{{.Paper.Edition}}</div>
+      <div class="dt">{{.DateJP}}<br>{{.WeekdayJP}}</div>
+    </div>
+  </div>
+  <div class="datebar">
+    <span>{{.DateJP}}{{.WeekdayJP}}　<span class="red">{{.Paper.Edition}}</span></span>
+    <span>本日の掲載　{{.Total}}本</span>
+    <span>見出しは出典リンク</span>
+  </div>
+</header>
+
+<section class="front">
+  <aside class="left">
+    <nav class="toc"><h4>目次</h4>
+      <ol>
+        <li><a href="#top">トップ記事</a><span>1面</span></li>
+        <li><a href="#labs">AI各社の動き</a><span>中段</span></li>
+        <li><a href="#column">天声AI語</a><span>中段</span></li>
+        <li><a href="#society">社会・ビジネス</a><span>下段</span></li>
+        <li><a href="#briefs">短信</a><span>最下段</span></li>
+      </ol>
+    </nav>
+    {{if .Numbers}}<div class="nums"><h4>きょうの数字</h4>
+      <ul>{{range .Numbers}}
+        <li><b>{{.Num}}</b><span>{{br .Label}}</span></li>{{end}}
+      </ul>
+    </div>{{end}}
+    {{range .Left}}<div class="sokuho">{{template "item" .}}</div>{{end}}
+  </aside>
+
+  <article class="lead" id="top">
+    <div class="kicker"><b>{{.Lead.Kicker}}</b><i></i></div>
+    <h1 class="hl"><a href="{{first .Lead.Links}}">{{br .Lead.Headline}}</a></h1>
+    <div class="deck">{{.Lead.Deck}}</div>
+    <div class="subs">{{range .Lead.Subheads}}<div>{{.}}</div>{{end}}</div>
+    <div class="leadbody">
+      <div>{{range .Lead.Body}}<p>{{.}}</p>{{end}}
+        <div class="src">{{range .Lead.Links}}<a href="{{.}}">{{label .}}</a>{{end}}</div>
+      </div>
+      {{with .Lead.Stat}}<div class="statbox"><div class="n">{{.Num}}</div><div class="c">{{.Caption}}</div></div>{{end}}
+    </div>
+    {{template "tomo" .Lead.Tomo}}
+    <div class="related"><div class="lab">関連記事</div>
+      {{range .Lead.Related}}{{template "item" .}}{{end}}
+    </div>
+  </article>
+
+  <aside class="right">
+    {{range .Right}}
+      {{if .Vertical}}
+      <div class="vstory">
+        <h3 class="vert hl"><a href="{{first .Links}}">{{br .Headline}}</a></h3>
+        <div>{{range .Body}}<p>{{.}}</p>{{end}}</div>
+        {{template "tomo" .Tomo}}<div class="src">{{range .Links}}<a href="{{.}}">{{label .}}</a>{{end}}</div>
+      </div>
+      {{else}}{{template "item" .}}{{end}}
+    {{end}}
+  </aside>
+</section>
+
+<section id="labs">
+  <div class="band"><h2>AI各社の動き</h2><span class="line"></span><span class="sub">OpenAI／Anthropic ほか</span></div>
+  <div class="labsgrid">
+    <div class="cols"><div class="cols3">{{range .Labs}}{{template "item" .}}{{end}}</div></div>
+    <aside class="colbox" id="column">
+      <div class="inner">
+        <div class="vert ctitle">{{tcy .Column.Title}}</div><div class="cbody"><div class="ttl"><span class="lab">{{.Column.Label}}</span><span class="meta">{{.DateJP}}{{.WeekdayJP}}付</span></div>
+        <p class="t">{{.Column.Text}}</p>
+        <div class="by">（{{.Paper.Name}}編集部）</div>
+        <div class="note">{{.Column.Note}}</div></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section id="society" class="society">
+  <div class="band red"><h2>社会・ビジネス</h2><span class="line"></span><span class="sub">「→意味」欄は要点の解説</span></div>
+  <div class="cols3">{{range .Society}}{{template "item" .}}{{end}}</div>
+</section>
+
+<section id="briefs" class="briefs">
+  <div class="band"><h2>短信・細かいニュース</h2><span class="line"></span><span class="sub">{{.Date}} 現在　各項目は出典へのリンク</span></div>
+  <div class="grid">
+    {{range .Briefs}}
+    <div class="grp"><h4><span>{{.Name}}</span><em>{{len .Items}}件</em></h4>
+      <ul>{{range .Items}}<li><a href="{{.U}}">{{.T}}</a></li>{{end}}</ul>
+    </div>
+    {{end}}
+  </div>
+</section>
+
+<footer class="sitefoot"><span><b>{{.Paper.Name}}</b>　{{.DateJP}}{{.WeekdayJP}}　第{{.Issue}}号</span><span>記事は公開情報の要約です。詳細は各見出しの出典リンクをご覧ください。</span><span><a href="https://abalol.xyz/">abalol.xyz ←</a></span></footer>
+</body>
+</html>
+{{define "item"}}<div class="item{{if .Region}} region{{end}}">
+  {{if .Region}}<div class="rg"><span>{{.Flag}}</span>{{.Region}}</div><br>{{end}}
+  {{if .Tag}}<span class="tag">【{{.Tag}}】</span>{{end}}
+  <h3 class="hl"><a href="{{first .Links}}">{{br .Headline}}</a></h3>
+  {{range .Body}}{{if .}}<p>{{.}}</p>{{end}}{{end}}
+  {{template "tomo" .Tomo}}
+  {{if .Imi}}<div class="imi"><b>→意味</b>{{.Imi}}</div>{{end}}
+  {{with rest .Links}}<div class="src">{{range .}}<a href="{{.}}">{{label .}}</a>{{end}}</div>{{end}}
+</div>{{end}}
+
+{{define "tomo"}}{{if .}}<aside class="tomo"><div class="tl">知洋のひとこと</div><p>{{br .}}</p></aside>{{end}}{{end}}
+{{define "nav"}}<nav class="sitenav" aria-label="サイト内">
+  <a href="{{.Root}}">最新号</a><a href="{{.Root}}archive/">アーカイブ</a>
+  <span class="pn">{{with .Prev}}<a rel="prev" href="{{.Href}}">← 前号 {{.Short}}</a>{{else}}<i>← 前号</i>{{end}}{{with .Next}}<a rel="next" href="{{.Href}}">翌号 {{.Short}} →</a>{{else}}<i>翌号 →</i>{{end}}</span>
+</nav>{{end}}

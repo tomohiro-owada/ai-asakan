@@ -1,0 +1,583 @@
+{
+  "date": "2026-10-30",
+  "numbers": [
+    {"num": "59", "label": "Gemini 4 Carbon\nAA Index v5 首位"},
+    {"num": "1.05T", "label": "Le Chonk 総パラメータ\n（アクティブ52B）"},
+    {"num": "2倍", "label": "OpenAI Pro上限"},
+    {"num": "約15分", "label": "訓練中モデルの\nネットアクセス検知"},
+    {"num": "5000億ドル", "label": "Alphabet 年間売上\nランレート"},
+    {"num": "58%", "label": "導入の初期〜中期を\n抜けた日本企業"}
+  ],
+  "paper": {
+    "name": "AI朝刊",
+    "tagline": "世界のAIニュースを、\n毎朝ひとつの紙面に",
+    "edition": "朝刊"
+  },
+  "lead": {
+    "kicker": "トップ",
+    "headline": "Google、「Gemini 4 Carbon」発表",
+    "deck": "「Argon」からわずか2週間　次のフロンティアモデル",
+    "subheads": [
+      "AA Intelligence Index v5で首位（スコア59）",
+      "まずサイバー防御担当者向けに先行提供"
+    ],
+    "body": [
+      "Googleは「Gemini 4 Carbon」を発表した。「Argon」から2週間で登場した、次のフロンティアモデルとなる。",
+      "AAのIntelligence Index v5では1位（スコア59）を記録した。",
+      "提供はまず、サイバー防御を担う担当者向けの先行提供から始まる。"
+    ],
+    "stat": {
+      "num": "59",
+      "caption": "AA Intelligence Index v5　Gemini 4 Carbonは首位"
+    },
+    "links": [
+      "https://x.com/sundarpichai/status/2115489219804352921",
+      "https://x.com/GoogleDeepMind/status/2115489356437651654"
+    ],
+    "related": [
+      {
+        "headline": "Alphabet Q3　年間売上ランレート5000億ドル",
+        "body": [
+          "成長率は25%。AIにより検索クエリの伸びが過去5年で最高となった。"
+        ],
+        "links": [
+          "https://x.com/sundarpichai/status/2115535455156642066"
+        ]
+      },
+      {
+        "headline": "Gemini、チャット内で文書・PDF・スライド・表を作成・編集",
+        "body": [],
+        "links": [
+          "https://x.com/GeminiApp/status/2115845164824711247"
+        ]
+      }
+    ],
+    "tomo": "2週間で次のモデルが出るペースでは、評価表の首位は数日で入れ替わると見ています。スコアより、自分の仕事で検証できるかのほうが大事です。先行提供が防御担当者向けなのも、能力の高さの裏返しに見えます。"
+  },
+  "left": [
+    {
+      "tag": "続報",
+      "headline": "Anthropic、IPOへ\n11/16の週にNasdaq上場見込み",
+      "body": [
+        "ティッカーは「ANT」。想定評価額は1.5〜2兆ドル。",
+        "2026年上半期の売上は163億ドル、純損失は807億ドル。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115939276055793750"
+      ],
+      "tomo": "Claude Maxを払っている側としては、上場で料金や方針がどう変わるかが気になります。売上163億ドルに対して純損失807億ドルという数字は、株主に説明が要る規模です。値上げの口実にならないか、見ておきたいです。"
+    }
+  ],
+  "right": [
+    {
+      "vertical": true,
+      "headline": "Mistral「Le Chonk」\n重み公開　非中国勢で首位",
+      "body": [
+        "Mistralは「Le Chonk（Mistral Large 4）」の重みを公開した。総1.05T・アクティブ52BのMoEで、マルチモーダル、1Mコンテキストに対応する。",
+        "AAの評価では中国以外のオープンモデルで1位。ライセンスは修正MIT（外部サービスとしての提供は別契約）。"
+      ],
+      "links": [
+        "https://x.com/MistralAI/status/2115811242556137820",
+        "https://x.com/ArtificialAnlys/status/2115820547103952925"
+      ],
+      "tomo": "1.05Tは8GBのGPUでは動きませんが、重みが公開されれば小さな派生モデルも期待できます。それを待ちたいです。修正MITで外部提供は別契約という条件は、商用で使う前にしっかり読むつもりです。"
+    },
+    {
+      "headline": "GitHub Universe\nCopilot Fusionが一般提供",
+      "body": [
+        "タスクごとにAnthropicとOpenAIのモデルを自動で振り分ける。Coding Agent IndexではClaude Code＋Opus 5.5 Maxと2点差、コストは約半分。"
+      ],
+      "links": [
+        "https://x.com/github/status/2115480207469560109",
+        "https://x.com/satyanadella/status/2115490856685990244"
+      ],
+      "tomo": "タスクごとにモデルを振り分けるのは、部下に仕事を割り振る管理者の仕事そのものです。コストが約半分で2点差という数字は魅力的ですが、指数は自分のコードで確かめるまで鵜呑みにしません。"
+    }
+  ],
+  "labs": [
+    {
+      "headline": "OpenAI、Pro上限を一転2倍に",
+      "body": [
+        "Pro上限の削減を撤回し、逆に2倍へ。Pro（100/200/500）とBusiness Premiumが対象で、即日適用。"
+      ],
+      "links": [
+        "https://x.com/thsottiaux/status/2115850175868727621"
+      ],
+      "tomo": "削減を撤回して一転2倍にしたのは、解約を恐れた動きに見えます。サブスクを複数払う身として上限が増えるのはうれしいですが、囲い込みの一部でもあると思っています。"
+    },
+    {
+      "headline": "ChatGPT Pro/Businessに月最大500ドルのAPIクレジット",
+      "body": [],
+      "links": [
+        "https://x.com/OpenAIDevs/status/2115583698074755078"
+      ]
+    },
+    {
+      "headline": "OpenAI、フロンティアモデルの監視体制を公開",
+      "body": [
+        "9月、訓練中のモデルによるネットアクセスの試みを約15分で検知した。"
+      ],
+      "links": [
+        "https://x.com/OpenAI/status/2115896329645723836"
+      ]
+    },
+    {
+      "headline": "OpenAI Model Spec更新",
+      "body": [
+        "意図への忠実さ、害の最小化、誠実さ、人の主体性、思いやりの5つの価値で再構成した。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115873904208023718"
+      ]
+    },
+    {
+      "headline": "Anthropic「self-assessment」",
+      "body": [
+        "Claudeが応答の直後に、会話の安全性を一次評価する仕組み。6月から運用し、悪用の発見に貢献している。"
+      ],
+      "links": [
+        "https://x.com/AnthropicAI/status/2115871889549865429"
+      ]
+    },
+    {
+      "headline": "Anthropic、AI for Scienceを拡大",
+      "body": [
+        "対象を財団・研究機関に広げた。"
+      ],
+      "links": [
+        "https://x.com/AnthropicAI/status/2115825653539025142"
+      ]
+    },
+    {
+      "headline": "中国ラボがGPT-6 Astraを蒸留",
+      "body": [
+        "The Information/Reutersの報道。Claude側の対策強化を受け、MoonshotとDeepSeekはAstraの出力へ切り替えた。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115640742290821601"
+      ],
+      "tomo": "強いモデルの出力を使って追いかける動きは、モデル単体では差を守りにくいことを示しています。守れるのは、使いやすさや運用の側ではないでしょうか。"
+    },
+    {
+      "headline": "Altman、Cheeky Pintに出演",
+      "body": [
+        "「ローカル推論はDRAMを遊ばせて無駄」と発言。ロボットが自己増殖するデータセンター構想にも言及した。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115860513808916619"
+      ],
+      "tomo": "「ローカル推論はDRAM（メインメモリ）の無駄」という発言は、クラウドを売る側の立場の話だと思います。8GBのGPUでローカルLLMを動かしたい私は、まったく逆の見方です。"
+    }
+  ],
+  "column": {
+    "title": "賢さの差は、使う側に出る",
+    "label": "知洋の総評",
+    "note": "AIエンジニア・大和田知洋が、当日の記事を読んで書いた総評です。",
+    "text": "モデルが速く賢くなるほど、使う側の差が大きくなると感じた一日でした。Googleは2週間で次のモデルを出し、Mistralは巨大なモデルの重みを公開しました。一方で、企業はAIツールを絞り、若手の採用は減り、データセンターの借金は膨らんでいます。賢さが増えても、任せて検証する人間の仕事は減っていません。AIは部下のようなもので、目的と判断基準を渡し、最後は自分で評価する必要があります。これは若手を育てるときと同じ話です。フィリピンのBPO（業務の外部委託）も日本の会社も、問われるのは人数ではなく、その管理の腕だと思います。"
+  },
+  "society": [
+    {
+      "headline": "DeepMind「The Economics of Intelligence」",
+      "body": [
+        "経済を変えるには、個々の能力に加え、組織内の連携という2つ目の壁がある。"
+      ],
+      "imi": "連携の仕組みを持つ組織が先に恩恵を受ける。",
+      "links": [
+        "https://x.com/alexolegimas/status/2115822019518370172",
+        "https://x.com/emollick/status/2115911454994186301"
+      ],
+      "tomo": "AIが賢くなっても、組織内の連携が回らなければ経済は動かない、という点に同意します。個人の生産性より、仕事の渡し方と検証のやり方を決める側の腕が問われます。"
+    },
+    {
+      "headline": "Guardian調査：企業がAIツールの利用を縮小",
+      "body": [
+        "Metaは後始末に追われ、Microsoftなどはセキュリティを理由に制限。浮いた時間が「検証税」に消えている。"
+      ],
+      "imi": "人が監督する前提への揺り戻し。",
+      "links": [
+        "https://x.com/i/trending/2115794367130792288"
+      ],
+      "tomo": "浮いた時間が検証に消えるのは、AIを部下と考えれば当然です。任せた仕事の確認はゼロになりません。検証方法を最初に決めた組織だけが、時間を取り戻せると思います。"
+    },
+    {
+      "headline": "NYT：Z世代の就活はAI選考と孤立",
+      "body": [
+        "AIの影響が大きい分野では、22〜25歳の雇用がトレンドを19%下回る。主因は新規採用の減少。"
+      ],
+      "imi": "「若手を採らない」という形で影響が出ている。",
+      "links": [
+        "https://x.com/i/trending/2115924225097637901"
+      ],
+      "tomo": "新規採用が減るのは、若手の仕事をAIが肩代わりするからでしょう。ただ、育てる相手がいなければ将来の管理者も育ちません。若手とAIの両方を管理する力は、早く身につけたいところです。"
+    },
+    {
+      "headline": "Pew：AIの影響を受けやすい職種、女性の雇用の伸びが男性より遅い",
+      "body": [],
+      "imi": "格差拡大の可能性。",
+      "links": [
+        "https://x.com/pewresearch/status/2115900283939151918"
+      ],
+      "tomo": "職種の偏りがそのまま性別の差になる、という指摘です。調査の中身は元資料で確かめたいですが、AIの影響が職種ごとに均等ではない点は、頭に入れておきたいです。"
+    },
+    {
+      "headline": "規制：米加州は開示、中国は国の審査",
+      "body": [
+        "カリフォルニア州は1/1から、AI置き換えによる解雇通知に「technology displacement」の明記を義務づける。中国国務院は、雇用に影響するAI導入に「雇用リスク評価」を求める。"
+      ],
+      "imi": "米は開示、中国は国の審査。",
+      "links": [
+        "https://x.com/pacterms_ofc/status/2115792533984838055",
+        "https://x.com/Inochan_AI/status/2115625416161660940"
+      ],
+      "tomo": "置き換えへの向き合い方が、米は開示、中国は審査と、国ごとに違います。日本とフィリピンがどちらに近づくのか、働く側としては気になります。"
+    },
+    {
+      "headline": "Spawn：社員10人でAIトークン代が月310万ドル",
+      "body": [
+        "人件費の約30倍。30日間で7.7万件の変更を行った。"
+      ],
+      "imi": "トークン代が人件費を大きく上回る超少人数企業が現れた。",
+      "links": [
+        "https://x.com/guilleflorvs/status/2115826744494080034"
+      ],
+      "tomo": "社員10人でトークン代が月310万ドルは、人件費を超える話です。私もAIに月約400ドルを払っていますが、桁が違います。成果に見合うのか、数字で見てみたいです。"
+    },
+    {
+      "headline": "AIデータセンター向けの借金、信用市場を圧迫",
+      "body": [
+        "18件以上で利回りが2桁に。OracleとMetaのCDSは過去最高水準。"
+      ],
+      "imi": "ブレーキは技術より資金調達か。",
+      "links": [
+        "https://x.com/i/trending/2115506903396606344"
+      ],
+      "tomo": "ブレーキは技術より資金だという見立てには納得感があります。モデルは2週間で更新されても、借金は返済期限まで残ります。API価格に跳ね返る可能性は、頭に置いておきます。"
+    },
+    {
+      "flag": "🇵🇭",
+      "region": "フィリピン",
+      "headline": "フィリピンBPO：問われるのは「価値の作り方と課金」",
+      "body": [
+        "世界のコールセンター雇用はピークから5.3%減。CognizantがSAP専門のDyFlexを買収し、DICTはAIで苦情処理（1.8万件超）、EUとは「AI Industry Lab」を立ち上げる。"
+      ],
+      "imi": "人数勝負から、AI組み込みの高単価へ。",
+      "links": [
+        "https://x.com/Cebutelenet7222/status/2115539399287214093",
+        "https://x.com/thebponews/status/2115672727558230159",
+        "https://x.com/pnagovph/status/2115360467862356096",
+        "https://x.com/ScreencapMedia/status/2115435717589664135"
+      ],
+      "tomo": "人数で勝負するモデルが苦しくなるのは、フィリピンで働く私にも他人事ではありません。AIを組み込んで単価を上げられる会社と、そうでない会社の差が広がると見ています。"
+    },
+    {
+      "flag": "🇯🇵",
+      "region": "日本",
+      "headline": "日本企業のAI導入：初期〜中期を抜けた企業は58%",
+      "body": [
+        "デル社長の発言。パナソニックはAIで78.8万時間を削減した。一方で「成果はまだ」の声もある。"
+      ],
+      "imi": "「入れたか」から「成果を出せるか」へ。",
+      "links": [
+        "https://x.com/ai_topica/status/2115778832817176757",
+        "https://x.com/SmartLaboWorks/status/2115766943986897218",
+        "https://x.com/nagasawatsubasa/status/2115591945632305383"
+      ],
+      "tomo": "導入の段階を抜けたなら、残る課題は成果です。日本の会社は、導入したあとに誰が結果を検証するのかを決めきれていないところが多いのではないでしょうか。"
+    },
+    {
+      "headline": "Anthropic研究：専門家50人、AIに仕込まれた傾きへ86%の割合で同調",
+      "body": [
+        "AIにランダムに仕込まれた傾きに、専門家50人が86%の割合で合わせた。"
+      ],
+      "imi": "判断の偏りが気づかれず入り込む恐れ。",
+      "links": [
+        "https://x.com/i/trending/2115223324565356550"
+      ],
+      "tomo": "専門家でも傾きに引きずられるなら、「最終評価は自分でやる」という心がけだけでは足りません。AIの案を見る前に、自分の答えを先に書いておく手順が要ると思います。"
+    },
+    {
+      "headline": "Reuters：データセンター建設、雇用増と失職不安の板挟み",
+      "body": [
+        "建設で雇用が増える一方、長期的にはAIに仕事を奪われる不安が残る。ネバダの労組は板挟みとなり、中間選挙の争点になっている。"
+      ],
+      "imi": "",
+      "links": [
+        "https://x.com/Reuters/status/2115419278149333498"
+      ],
+      "tomo": "雇用を増やす建設と、仕事を奪うかもしれないAIが、同じ現場にあるのは皮肉です。労組が板挟みになるのは当然で、中間選挙の争点になるのも分かります。"
+    }
+  ],
+  "briefs": [
+    {
+      "name": "新モデル",
+      "items": [
+        {
+          "t": "NVIDIA Nemotron 3.5 Transcribe（30B MoE/アクティブ約4B、40言語の文字起こし・話者識別・翻訳）",
+          "u": "https://x.com/testingcatalog/status/2115697759281975475"
+        },
+        {
+          "t": "Pika H3 Flex（初のオープンウェイト、MiniMax H3追加学習、6ステップ生成）",
+          "u": "https://x.com/HuggingApps/status/2115896729631424760"
+        },
+        {
+          "t": "Fish Audio Drama 3（AAの2つのSpeech Arenaでオープン1位）",
+          "u": "https://x.com/ArtificialAnlys/status/2115820963350929580"
+        },
+        {
+          "t": "Phonic 1（AA Speech to Speech Index初登場1位87.1）",
+          "u": "https://x.com/ArtificialAnlys/status/2115836126925901915"
+        },
+        {
+          "t": "Canva独自VLM「Brush」",
+          "u": "https://x.com/testingcatalog/status/2115917177727643782"
+        },
+        {
+          "t": "Hemmingway-1（自然なメール用27Bオープン）",
+          "u": "https://x.com/MikeTamir/status/2115840593054073064"
+        },
+        {
+          "t": "papr-embed-code（4B埋め込み、コード検索1位をうたう）",
+          "u": "https://x.com/shawkatkabbara/status/2115866733001191704"
+        },
+        {
+          "t": "DeepSeek V5の仮IDがHarnessのコードに（未発表）",
+          "u": "https://x.com/thePandaily/status/2115651453645660249"
+        },
+        {
+          "t": "Articul8 Bivia（自信がないと保留する判断特化モデル）",
+          "u": "https://x.com/testingcatalog/status/2115692114826661956"
+        }
+      ]
+    },
+    {
+      "name": "ローカルLLM",
+      "items": [
+        {
+          "t": "LM StudioでoMLXエンジン",
+          "u": "https://x.com/lmstudio/status/2115829031832830252"
+        },
+        {
+          "t": "vLLMがLe Chonkに初日対応（FP8/NVFP4）",
+          "u": "https://x.com/vllm_project/status/2115824393150701711"
+        },
+        {
+          "t": "MLX-VLMもLe Chonk対応予定",
+          "u": "https://x.com/Prince_Canuma/status/2115816842841276877"
+        },
+        {
+          "t": "Ollama追加モデル（Mistral Large 4, DeepSeek V4.1 Flash, Bonsai-2, EmbeddingGemma-2など）",
+          "u": "https://x.com/ollama/status/2115838993074098261"
+        },
+        {
+          "t": "tiny-llm（Macでミニvllmを作る講座）",
+          "u": "https://x.com/techNmak/status/2115879048606044324"
+        },
+        {
+          "t": "ClineがvLLM設定でスループット約2倍（6,058→11,840 tok/s）",
+          "u": "https://x.com/cline/status/2115884854139380134"
+        },
+        {
+          "t": "NVIDIA向け最適化がApple Siliconで逆効果の論文",
+          "u": "https://x.com/0xpipimd/status/2115764331778634119"
+        }
+      ]
+    },
+    {
+      "name": "開発ツール",
+      "items": [
+        {
+          "t": "OpenCode Goがチーム対応",
+          "u": "https://x.com/opencode/status/2115898662622462126"
+        },
+        {
+          "t": "AntigravityにPluginsマーケットプレイス",
+          "u": "https://x.com/testingcatalog/status/2115889458935382213"
+        },
+        {
+          "t": "Zed DeltaDB（会話と編集を紐づけるGit互換VCS）",
+          "u": "https://x.com/zeddotdev/status/2115831160840290394"
+        },
+        {
+          "t": "Factory Droid 1.0",
+          "u": "https://x.com/FactoryAI/status/2115934579446182213"
+        },
+        {
+          "t": "Kilo Desktop",
+          "u": "https://x.com/kilocode/status/2115912959151002056"
+        },
+        {
+          "t": "Snaptrude Agent",
+          "u": "https://x.com/testingcatalog/status/2115856057914601719"
+        },
+        {
+          "t": "Google Julesが12/31終了（11/11以降読み取り専用）",
+          "u": "https://x.com/solomonneas/status/2115887905076130293"
+        },
+        {
+          "t": "HF Agent Manager",
+          "u": "https://x.com/EveryDevAi/status/2115795034520043999"
+        },
+        {
+          "t": "ai-setup",
+          "u": "https://x.com/RoundtableSpace/status/2115590687588499695"
+        },
+        {
+          "t": "mcp-audit v0.23.0",
+          "u": "https://x.com/AdamDudleyX/status/2115729875109622041"
+        },
+        {
+          "t": "agentplay",
+          "u": "https://x.com/FiveStackAI/status/2115897105449718051"
+        },
+        {
+          "t": "Google Connected Apps Platformプレビュー",
+          "u": "https://x.com/i/trending/2115556124413907180"
+        }
+      ]
+    },
+    {
+      "name": "Claude／Codex",
+      "items": [
+        {
+          "t": "Claudeアプリ更新（iPad・折りたたみ、複数アカウント、24言語追加）",
+          "u": "https://x.com/claudeai/status/2115859377488072879"
+        },
+        {
+          "t": "ChatGPTのChatとWork統合は年内",
+          "u": "https://x.com/thsottiaux/status/2115588390414581916"
+        },
+        {
+          "t": "12月からChatGPTとCodexの利用枠共通に",
+          "u": "https://x.com/i/trending/2115945322107281495"
+        },
+        {
+          "t": "Codexで免疫学者が単一細胞反応をシミュレーション",
+          "u": "https://x.com/OpenAIDevs/status/2115854891650523391"
+        }
+      ]
+    },
+    {
+      "name": "論文・研究",
+      "items": [
+        {
+          "t": "AA Progress Index",
+          "u": "https://x.com/ArtificialAnlys/status/2115848471244886081"
+        },
+        {
+          "t": "AA-PersonalityBench（Grokは新版ほどお世辞減）",
+          "u": "https://x.com/ArtificialAnlys/status/2115923815247274045"
+        },
+        {
+          "t": "Memory Tax（記憶システム11種が単純RAGに勝てず）",
+          "u": "https://x.com/kbhaskar_95/status/2115813657313472751"
+        },
+        {
+          "t": "ツール結果の34%がJSON途中で切断",
+          "u": "https://x.com/Reeexopia/status/2115789572877725926"
+        },
+        {
+          "t": "古いCLAUDE.md/AGENTS.mdに90.1%従う",
+          "u": "https://x.com/Christian_Tichy/status/2115797273925898617"
+        },
+        {
+          "t": "推論xhighで逆に成績低下（8モデル全て）",
+          "u": "https://x.com/sughanthans1/status/2115724293791252744"
+        },
+        {
+          "t": "MintEval（Opus 5.5でも27.5%が別戦略に）",
+          "u": "https://x.com/Davidariasfin/status/2115768132430074043"
+        },
+        {
+          "t": "長い履歴で投機的デコーディング受理長が最大80%低下",
+          "u": "https://x.com/0xpipimd/status/2115794531333312608"
+        },
+        {
+          "t": "MCPツール説明文1行で情報抜き取り",
+          "u": "https://x.com/navaneethan_es/status/2115771377827418440"
+        },
+        {
+          "t": "Replit ViBench 2.0",
+          "u": "https://x.com/eggbaby/status/2115762366147403918"
+        },
+        {
+          "t": "査読ばらつきをLLMチェックリストで低減",
+          "u": "https://x.com/JessicaHullman/status/2115837978190688625"
+        },
+        {
+          "t": "Qwen3.8 27Bの「悪のニューロン」",
+          "u": "https://x.com/i/trending/2115327075003613675"
+        },
+        {
+          "t": "音声対話データセットJoy（10言語10万時間）",
+          "u": "https://x.com/i/trending/2115939271295254806"
+        },
+        {
+          "t": "Reuters：中国製モデルが管理環境で複雑なサイバー攻撃（Irregular報告）",
+          "u": "https://x.com/Reuters/status/2115711526417858868"
+        }
+      ]
+    },
+    {
+      "name": "企業",
+      "items": [
+        {
+          "t": "Sabi RLNF（脳波を報酬に、シード5000万ドル）",
+          "u": "https://x.com/i/trending/2115939268325728298"
+        },
+        {
+          "t": "Rime Prism（注文完了率57%→94%）",
+          "u": "https://x.com/i/trending/2115553122890273091"
+        },
+        {
+          "t": "KimiがGmail/Drive/カレンダー対応",
+          "u": "https://x.com/Kimi_Moonshot/status/2115777746639196376"
+        },
+        {
+          "t": "Geminiでアバター作成・共有",
+          "u": "https://x.com/GeminiApp/status/2115885244805251519"
+        },
+        {
+          "t": "AGIBOT Worken指標と新ヒューマノイド",
+          "u": "https://x.com/i/trending/2115713039383298197"
+        }
+      ]
+    },
+    {
+      "name": "日本語",
+      "items": [
+        {
+          "t": "GitHub Universe基調講演レポート",
+          "u": "https://x.com/kondoyuko/status/2115764456970244575"
+        },
+        {
+          "t": "Alexa+日本で早期アクセス",
+          "u": "https://x.com/chibi_wan/status/2115936926092218756"
+        },
+        {
+          "t": "Gemini API CLIベータ（破壊的変更に注意）",
+          "u": "https://x.com/issoh_co_jp/status/2115942504101224826"
+        },
+        {
+          "t": "オフライン防災AI Survival LLM",
+          "u": "https://x.com/nagasawatsubasa/status/2115942599601352954"
+        },
+        {
+          "t": "Ollama用途別「最初の1本」実測（小VRAMはQwen3.5-4B、コーディングはQwen3-Coder-30B 91.1 tok/s）",
+          "u": "https://x.com/kimonooyaji/status/2115580067753652554"
+        },
+        {
+          "t": "1〜2Bモデルのメール件名生成検証",
+          "u": "https://x.com/wakame_jikken/status/2115643563807506663"
+        },
+        {
+          "t": "サブスク削減のためM5 Max 128GB購入",
+          "u": "https://x.com/shibasaki_k/status/2115771404163645673"
+        },
+        {
+          "t": "RTX 5080/5060 Ti・160GB RAM検証機",
+          "u": "https://x.com/aktsmm/status/2115796532746489960"
+        }
+      ]
+    }
+  ]
+}
