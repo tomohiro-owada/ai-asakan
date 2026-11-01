@@ -1,0 +1,568 @@
+{
+  "date": "2026-11-01",
+  "paper": {
+    "name": "AI朝刊",
+    "tagline": "世界のAIニュースを、\n毎朝ひとつの紙面に",
+    "edition": "朝刊"
+  },
+  "lead": {
+    "kicker": "トップ",
+    "headline": "OpenAI、調達目標を200億ドルに縮小",
+    "deck": "評価額1.25兆ドル　AI株安で投資家の関心が鈍る",
+    "subheads": [
+      "これまでに集まったのは約110億ドル、当初目標の半分以下",
+      "WSJとFTが報道、最初のクローズも目標に届かない見通し"
+    ],
+    "body": [
+      "OpenAIは資金調達の目標を約200億ドル（評価額1.25兆ドル）に引き下げた。これまでに集まったのは約110億ドルで、当初の目標の半分に届いていないと、WSJとFTが報じた。",
+      "背景にはAI関連株の売りと投資家の関心の鈍さがある。一方で、ライバルのAnthropicは第2四半期の売上116億ドルと初の営業黒字が伝えられ、IPOを控えている。",
+      "反応は「砂上の楼閣が揺れている」という見方から、市場の健全な調整だという見方まで割れている。"
+    ],
+    "stat": {
+      "num": "$200億",
+      "caption": "OpenAIの新しい調達目標（評価額1.25兆ドル）"
+    },
+    "links": [
+      "https://x.com/i/trending/2116329106170355944"
+    ],
+    "related": [
+      {
+        "headline": "ChatGPTとCodexの利用枠、12月から一本化",
+        "body": [
+          "Plus・Pro・Businessで、回数ではなくトークン量で共通の枠を管理。Instantのチャットは無制限のまま枠の外。"
+        ],
+        "links": [
+          "https://x.com/i/trending/2116619006874362156"
+        ]
+      },
+      {
+        "headline": "ChatGPT、モバイルで2アカウント切り替えに対応",
+        "body": [
+          "Tibo氏は「この2日間はリセットを貯めておける」とも予告。APIの料金表には法律向けの「gpt-6-astra-law」が登場した。"
+        ],
+        "links": [
+          "https://x.com/thsottiaux/status/2116405414921384099",
+          "https://x.com/i/trending/2116460042333335601"
+        ]
+      }
+    ],
+    "tomo": "OpenAIが目標を半分以下に下げ、Anthropicは初の営業黒字と伝えられる対比が面白いです。砂上の楼閣か健全な調整かで割れていますが、私は後者に近いと思います。"
+  },
+  "left": [
+    {
+      "tag": "市場",
+      "headline": "AI株だけが沈む10月\nS&P、Metaの見通しを「ネガティブ」に",
+      "body": [
+        "10月はNasdaq 100が13%超下落した一方、AI関連を除くS&P 500は約8%上がり最高値を更新した。",
+        "S&PはMetaの格付け見通しを引き下げ、2026年に390億ドル、2027年に710億ドルの資金不足を見込む。IMFもAIの調整を世界経済のリスクに挙げている。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116627758327488569",
+        "https://x.com/i/trending/2116289382915473665",
+        "https://x.com/i/trending/2116671502359622092"
+      ],
+      "tomo": "Nasdaq 100が13%超下がったのに、AI関連を除くS&P 500は約8%上がって最高値という対比が極端です。AIだけが売られている局面だと分かります。"
+    }
+  ],
+  "right": [
+    {
+      "vertical": true,
+      "headline": "Anthropic、APIの中核を\nClaudeでRustに書き換え",
+      "body": [
+        "AnthropicはMessages APIをPythonからRustへ移した。約9万行の大半をClaudeが書き、人間は設計と検証、9月の段階的な切り替えを担当した。",
+        "CPU使用量は40〜50%減り、最初のトークンが返るまでの時間は10〜20%短くなった。AIが書いた大規模コードを長く保守できるのかという懸念も出ている。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116630671536066855",
+        "https://x.com/i/trending/2116636101872136490"
+      ],
+      "tomo": "約9万行の大半をClaudeが書き、人間は設計と検証に回ったという分担が現実的です。CPU使用量が40〜50%減った数字も説得力があります。保守を長く続けられるかは、これから分かることだと思います。"
+    },
+    {
+      "headline": "Vercel「agent-desktop」\nどのエージェントにもPC操作を",
+      "body": [
+        "Claude CodeやCodexなどのコーディングエージェントが、macOS・Windows・Linuxのデスクトップアプリを操作できる。画面の画像ではなくOSのアクセシビリティツリーを読み、バックグラウンドで動き、エージェントごとに別のカーソルを持つ。"
+      ],
+      "links": [
+        "https://x.com/ctatedev/status/2116323148706771302"
+      ],
+      "tomo": "画面の画像ではなくアクセシビリティツリーを読む方式は、手堅い選び方だと思います。ただ手元のPCを触らせる以上、権限の範囲は慎重に決めたいです。"
+    }
+  ],
+  "labs": [
+    {
+      "headline": "Anthropic、ミスアラインメント研究の自動化",
+      "body": [
+        "数千のClaudeエージェントに、学習データの監視をすり抜けて小さなモデルをずれさせるデータを探させた。試行を重ねると成功し、多くはフィクションやロールプレイに隠す手口だった。"
+      ],
+      "links": [
+        "https://x.com/AnthropicAI/status/2116349211549843666",
+        "https://x.com/KlauseSchip/status/2116353566252191933"
+      ],
+      "tomo": "多くが「フィクションやロールプレイ」に隠す手口だったという点が、妙に生々しいです。監視をすり抜ける方法をAI自身に探させる研究は、守る側にとって必要だと思います。"
+    },
+    {
+      "tag": "続報",
+      "headline": "Anthropic、SpaceXの最大顧客に",
+      "body": [
+        "SpaceXの第3四半期売上の34.5%（計算資源に月約30億ドル）をAnthropicが占め、初めて米政府を上回った。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115908519178444881"
+      ]
+    },
+    {
+      "tag": "続報",
+      "headline": "AI学習のオプトアウト、robots.txtで共通化",
+      "body": [
+        "OpenAI・Google・Microsoft・Anthropicが「__usage_ai-training」に対応。Anthropicは即時、Microsoftは2027年2月、Googleは2027年初めから。将来の学習だけが対象で、検索表示には影響しない。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116541174605660445",
+        "https://x.com/YasuhikoMachi/status/2116487831820615830"
+      ],
+      "tomo": "Microsoftは2027年2月、Googleは2027年初めからと、対応の時期がばらばらです。将来の学習だけが対象という点も含めて、ブログを書く側として設定を確認しておきたいです。"
+    },
+    {
+      "headline": "Meta、中国Fourierと人型ロボットを試作",
+      "body": [
+        "身長1.5mで、NVIDIA Jetson Thorを搭載しAIエージェント「Muse」を家事に使う。The Informationの報道で、販売予定はないとしている。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116575945020539036"
+      ]
+    },
+    {
+      "headline": "Microsoft、約6万人に早期退職を提示",
+      "body": [
+        "レベル70以下の社員が対象で、12月初めまでに回答。2026年のAIインフラ投資は1,700億〜1,750億ドル。応募は3,000人未満と見込む。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116547838263923072"
+      ],
+      "tomo": "6万人に早期退職を提示する一方で、AIインフラ投資は1,700億〜1,750億ドルと聞くと、お金の向き先がはっきり見えます。働く側としては、考えさせられます。"
+    },
+    {
+      "headline": "Pika「H3 Flex」の重みを公開",
+      "body": [
+        "MiniMax H3をベースにした動画生成で、DesignArenaのオープンモデル首位。参照画像は最大12枚、音声を5つのトラックに分けて書き出せる。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116434831865520255",
+        "https://x.com/generativemedia/status/2116440096127775077"
+      ],
+      "tomo": "重みが公開されたのはありがたいです。ただ動画生成を手元のGPUで動かせるかは別の話なので、軽い派生が出るのを待ちます。"
+    }
+  ],
+  "column": {
+    "title": "お金の話と、段取りの話",
+    "label": "知洋の総評",
+    "note": "AIエンジニア・大和田知洋が、当日の記事を読んで書いた総評です。",
+    "text": "調達目標を下げたOpenAIと、APIの中核をClaudeでRustに書き換えたAnthropicが、同じ紙面に並んだ一日でした。AI株だけが沈んだ10月は、期待が冷めたというより、何に本当に効くのかを確かめる段階に入ったのだと思います。日本の調査でも、成果が出た企業の31%に専任の推進体制があり、出ていない企業では0%でした。ツールが強くなるほど、任せる範囲と確認の手順を決める人の腕が問われます。AIは部下のようなもので、渡し方で結果が変わります。フィリピンのコールセンターも、人数ではなく成果を売る形へ変わる時期だと思います。"
+  },
+  "society": [
+    {
+      "headline": "大手企業が職場のAI利用を絞り始めた",
+      "body": [
+        "Guardianの調査では、Meta、Microsoft、McKinseyなどが質の低い出力や情報漏えい、コスト増を理由にAIの利用を制限している。浮いた時間の約4割が修正作業で消えているという。DatabricksのGhodsi氏は、モデルの能力より社内の文脈が足りないことが壁だと指摘する。"
+      ],
+      "imi": "「とりあえず全社導入」から、効く業務を選んで深く使う段階に移りつつある。",
+      "links": [
+        "https://x.com/i/trending/2115794367130792288",
+        "https://x.com/i/trending/2116375030061805897"
+      ],
+      "tomo": "浮いた時間の約4割が修正作業で消えるという調査は、実感に近いです。AIを使うと、確認作業が新しい仕事になります。Ghodsi氏の「社内の文脈が足りない」という指摘もその通りだと思います。"
+    },
+    {
+      "headline": "英政府、DeepMindの「PlanAssist」を12自治体に拡大",
+      "body": [
+        "住宅の増改築の審査にかかる時間を最大58%短縮した。最終判断は担当者が行い、AIの下書きの7割超はそのまま承認された。平均8週間の処理を4週間に縮める狙い。"
+      ],
+      "imi": "行政のAIは、人の判断を残したまま「待ち時間」を減らす使い方が広がっている。",
+      "links": [
+        "https://x.com/GoogleDeepMind/status/2116524000977285321",
+        "https://x.com/i/trending/2116538622782714060"
+      ],
+      "tomo": "AIの下書きの7割超がそのまま承認されても、最終判断は担当者が行うという形が現実的です。8週間を4週間に縮める狙いも分かりやすく、行政のAI活用のよい見本になりそうです。"
+    },
+    {
+      "headline": "Z世代の就活、AI選考で「虚空に応募」",
+      "body": [
+        "NYTによると、応募者はひとりで録画面接をしたり、AIの電話エージェントと話したりしている。Whole FoodsではAIボットが応募を一手に扱い、採用が1週間遅れた例もある。若者は人づての紹介に頼り始めている。"
+      ],
+      "imi": "AIはまだ多くの仕事を奪っていないが、採用の入り口はすでに変えている。",
+      "links": [
+        "https://x.com/i/trending/2115924225097637901",
+        "https://x.com/i/trending/2116256045740011625"
+      ],
+      "tomo": "応募者が虚空に向かって録画面接をする様子は、想像するだけでつらいです。採用の入り口がAIに変わると、人づての紹介が強くなるのも自然な流れだと思います。"
+    },
+    {
+      "flag": "🇵🇭",
+      "region": "フィリピン",
+      "headline": "コールセンター産業、AIで成長見通しを下げる",
+      "body": [
+        "AIが電話対応やデータ入力をこなし始め、人を増やして伸びる形が変わりつつあるとの報告。一方で、Sequoiaの「AIツールではなく完成した仕事を売る会社が伸びる」という見方はフィリピンに追い風だとする声もある。AIを入れたコールセンターの75%が、通話後のシステム連携でつまずいているとの指摘も。"
+      ],
+      "imi": "人数で稼ぐBPOから、AIと人を組み合わせて「成果」を売るBPOへの転換が問われている。",
+      "links": [
+        "https://x.com/ph_biz/status/2116334483360367019",
+        "https://x.com/BSgomez/status/2116337398191927389",
+        "https://x.com/johniosifov/status/2116626844044742689"
+      ],
+      "tomo": "「完成した仕事を売る」という見方がフィリピンの追い風になるなら、人数勝負から抜け出すきっかけになるかもしれません。通話後のシステム連携でつまずく話も、地味ですが大事な落とし穴です。"
+    },
+    {
+      "flag": "🇯🇵",
+      "region": "日本",
+      "headline": "AIエージェント、日本企業でも「実運用」が主流に",
+      "body": [
+        "INDUSTRIAL-Xの調査（1,031人）では生成AIを使う企業が60.9%、全社で使う企業は26.7%。成果を感じる企業は64.5%だが、「明確な成果」は10.0%。成果が出た企業の31%に専任の推進体制があり、出ていない企業では0%だった。別の調査では、中小企業の管理職の63%が社員のAI利用を把握できていない。"
+      ],
+      "imi": "差を生むのはツールより、推進役と社内のルールづくり。",
+      "links": [
+        "https://x.com/Tesla_Optimus_K/status/2116495203620294729",
+        "https://x.com/turanjapan/status/2116492901178101857",
+        "https://x.com/turanjapan/status/2116387488143221059"
+      ],
+      "tomo": "成果が出た企業の31%に専任の推進体制があり、出ていない企業では0%という差は、はっきりしています。ツールより、旗を振る人がいるかどうかなのだと思います。"
+    },
+    {
+      "flag": "🇯🇵",
+      "region": "日本",
+      "headline": "人手が足りない地域ほどAIを使う",
+      "body": [
+        "中小企業の経営者の生成AI利用率は、関東51.0%に対し九州・沖縄86.4%（GuideRunner調査）。神戸電鉄は本格導入に向けて10部署・約130人に対面の講習会を開く。"
+      ],
+      "imi": "人手不足が、地方でのAI導入をいちばん強く押している。",
+      "links": [
+        "https://x.com/wonderdaiary/status/2116425359608668224",
+        "https://x.com/aktk_free/status/2116415402628759871"
+      ],
+      "tomo": "関東51.0%に対して九州・沖縄86.4%という差は意外です。人手が足りないから使うという理由は切実で、導入が進む動機としてはいちばん強いと思います。"
+    },
+    {
+      "headline": "創作の現場で「AI疑惑」の魔女狩り",
+      "body": [
+        "タイムラプスなどの証拠を出しても、人の作品がAI製だと疑われる例が相次ぐ。専門家でも人とAIの絵を見分けられるのは83%、一般は59%との研究も。日本では児童の絵がAI使用だと中傷され、展示が中止された。一方、GlifはAIモデル事務所を始め、職を奪うとして反発を受けている。"
+      ],
+      "imi": "見分けがつかなくなるほど、作り手が「人間である証明」を求められる。",
+      "links": [
+        "https://x.com/i/trending/2116560166812557495",
+        "https://x.com/kame_1223/status/2116367985996947580",
+        "https://x.com/i/trending/2116592617198911951"
+      ],
+      "tomo": "タイムラプスを出しても疑われるのは、作り手にとってきつい話です。専門家でも83%、一般は59%しか見分けられないなら、疑いだけが先走るのは危ういと思います。"
+    },
+    {
+      "headline": "創薬：AIで速くなったが、同じ標的に殺到",
+      "body": [
+        "AIは既知の標的（PD-1、EGFR、KRASなど）の薬の設計を速めたが、全プログラムの4分の1がわずか37の標的に集中。似た薬が増えて競争と失敗が増えているとの分析。"
+      ],
+      "imi": "速さだけでは差がつかず、新しさをどう作るかが次の勝負になる。",
+      "links": [
+        "https://x.com/i/trending/2116209839265255771"
+      ],
+      "tomo": "全プログラムの4分の1が37の標的に集中という数字は、速くなった分だけ皆が同じ場所に走る様子を示しています。AIで速くなっても、何を狙うかの目利きは人の仕事だと思います。"
+    },
+    {
+      "headline": "教育：AI家庭教師「&Tutor」とホームスクール論争",
+      "body": [
+        "humans&が10月30日に公開した&Tutorは、教え方の評価で主要モデルを上回ったとされる。個別に教材を作れる点が支持される一方、社会性が育たないとの懸念もある。"
+      ],
+      "imi": "AIが「学校に通う理由」を問い直すきっかけになっている。",
+      "links": [
+        "https://x.com/i/trending/2116236501575164071"
+      ],
+      "tomo": "教え方の評価で主要モデルを上回ったとされる点は、元の評価を見てから判断したいです。個別に教材を作れるのは魅力ですが、社会性の懸念も軽く扱えない話だと思います。"
+    },
+    {
+      "headline": "Altman氏「個人のPCにRAMは無駄」に反発",
+      "body": [
+        "メモリは使用率5%の個人PCより、クラウドに回すべきだと発言。AI企業がメモリを買い占めて価格が上がるなか、ローカル派から「プライバシーと自立のために手元で動かす」と反発が相次いだ。"
+      ],
+      "imi": "計算資源を誰が持つのかが、個人と巨大企業の対立軸になりつつある。",
+      "links": [
+        "https://x.com/i/trending/2116560166556721177"
+      ],
+      "tomo": "メモリを買い占められて価格が上がっている今、手元に置くなと言われても納得しにくいです。プライバシーと自立のために手元で動かしたい、というローカル派の反発には同意します。"
+    }
+  ],
+  "briefs": [
+    {
+      "name": "新モデル",
+      "items": [
+        {
+          "t": "MiniMax-M3.1-Flash（総428B・アクティブ23BのMoE）の重み公開、AA-Omniscience v1.1ではスコアが下落",
+          "u": "https://x.com/xiaoshan0413/status/2116438513209971144"
+        },
+        {
+          "t": "AA-Omniscience v1.1でMiniMax M3.1 Flashが+16から-6に（汚染の証拠ではないとの注記）",
+          "u": "https://x.com/haamzaC/status/2116652014469799989"
+        },
+        {
+          "t": "SenseTime「SenseNova Loop-9B-Preview」、8項目中7つでQwen3.5-9Bを上回る",
+          "u": "https://x.com/Oluwaphilemon1/status/2116333374818386424"
+        },
+        {
+          "t": "Liquid AI「LFM3」（約2Bの6モデル、テキスト版は4bitで約1GB）",
+          "u": "https://x.com/dev_yodev61400/status/2116540556205588518"
+        },
+        {
+          "t": "NVIDIA Nemotron 3.5 Super（アクティブ12B、SWE-bench Pro 51.78%）",
+          "u": "https://x.com/aidailyprimer/status/2116421579391250652"
+        },
+        {
+          "t": "リーク：Zhipu「GLM-5.5」が事後学習中、32B版はGPU1枚で動く可能性（未確認）",
+          "u": "https://x.com/i/trending/2116517186793775606"
+        },
+        {
+          "t": "Zro：GLM 5.3 FlashとDeepSeek V4.1 Flashを毎日無料で使えるAPI",
+          "u": "https://x.com/i/trending/2116520905421770786"
+        },
+        {
+          "t": "【続報】Kimi K3.1 Pro、重み公開前にサイバー攻撃データを学習から除外",
+          "u": "https://x.com/UP_SHIFTED/status/2116595749425197491"
+        },
+        {
+          "t": "Spark-X2.6-4B-GGUF、4Bで27〜35B級を上回るとの検証",
+          "u": "https://x.com/ai_hakase_/status/2116516605324652885"
+        }
+      ]
+    },
+    {
+      "name": "ローカルLLM",
+      "items": [
+        {
+          "t": "推論エンジン「YASAKANI」、RTX 5090＋Qwen3.8-27BでSGLang・vLLM・llama.cppに全勝（最大2.86倍）、OSS化予定",
+          "u": "https://x.com/yasakani_dev/status/2116372088420536611"
+        },
+        {
+          "t": "Radiance v1.2.3：R9700 2枚でQwen3.8-27B FP8が130 tok/s（llama.cppは17〜23）",
+          "u": "https://x.com/dad__vibes/status/2116569369618641149"
+        },
+        {
+          "t": "TensorFoldレシピ：DGX Spark 1台でQwen3.8-Flash-Nextが56 tok/s、素のllama.cppの1.9〜2.5倍",
+          "u": "https://x.com/TokensAtHome/status/2116589058025717812"
+        },
+        {
+          "t": "DGX Spark 2台のTensorFoldで70〜82 tok/s、vLLM比約6割増",
+          "u": "https://x.com/francip/status/2116645348936757470"
+        },
+        {
+          "t": "TensorFoldパッチでM5 UltraのQwen3.8-27B prefillが約10%高速化",
+          "u": "https://x.com/niklaslenz_ai/status/2116599585586008304"
+        },
+        {
+          "t": "DeepSeek V4.1 Flash：Mac Studio M5 Ultra 77.8 tok/s対DGX Spark 2台72.1 tok/s",
+          "u": "https://x.com/niklaslenz_ai/status/2116514385732456514"
+        },
+        {
+          "t": "QEngine 1.3.1、RTX 5090 2枚でQwen 3.8 Flash Nextを最大504 tok/s",
+          "u": "https://x.com/VoltableCom/status/2116641707894673735"
+        },
+        {
+          "t": "Betelgeuse（個人開発）：RTX 3060 12GBでQwen 3.8 Flash Nextが24 tok/s（作者の自己計測）",
+          "u": "https://x.com/dsoch8c/status/2116640704068026733"
+        },
+        {
+          "t": "8GB GPUでQwen3.6-35B-A3B、32k→65kコンテキストでVRAM増は0.3GB、33.5 tok/s",
+          "u": "https://x.com/Garage2Code/status/2116575216990146698"
+        },
+        {
+          "t": "DGX SparkではQ4で十分：Q8は38%遅く、perplexityの差は0.2%",
+          "u": "https://x.com/TokensAtHome/status/2116519218921328872"
+        },
+        {
+          "t": "llama.cppにMoE向けCUDAカーネル融合、prefill約17%高速化",
+          "u": "https://x.com/Ruslan_BJ/status/2116501787658031116"
+        },
+        {
+          "t": "Surogate：vLLMでは入らないQwen3.8-Flash-NextをDGX Sparkで31.4 tok/s",
+          "u": "https://x.com/flaviusburca/status/2116416296820646200"
+        },
+        {
+          "t": "Locals（Mac用ローカルLLM基盤）がLFM3対応、8並列で620 tok/s",
+          "u": "https://x.com/HarutaGenAI/status/2116455889314189481"
+        },
+        {
+          "t": "RTX 5090の電力制限と推論効率（Basalt＋Qwen3.8-FN-NVFP4）",
+          "u": "https://x.com/ai_hakase_/status/2116501713662169280"
+        }
+      ]
+    },
+    {
+      "name": "開発ツール",
+      "items": [
+        {
+          "t": "NVIDIA「NemoClaw」：OpenClaw・Hermes Agent・LangChainにNemotronと安全な実行環境を組み合わせる設計図",
+          "u": "https://x.com/AIrishabh/status/2116395671402238288"
+        },
+        {
+          "t": "NVIDIA「SkillSpector」：エージェントのスキルを導入前にスキャンするOSS",
+          "u": "https://x.com/Cipher_twt/status/2116559100142387528"
+        },
+        {
+          "t": "Hermes、iOS/Androidアプリのベータテスト開始",
+          "u": "https://x.com/testingcatalog/status/2116590276076580979"
+        },
+        {
+          "t": "Antigravity、来週にもクラウド実行に対応か",
+          "u": "https://x.com/testingcatalog/status/2116534068653240822"
+        },
+        {
+          "t": "Antigravityにデータ持ち出しやコード実行のリスクを伝える注意書き",
+          "u": "https://x.com/testingcatalog/status/2116566536735293885"
+        },
+        {
+          "t": "DeepSeek「dsh-superagent」：Issueで頼むとPRで返すエージェントの試作（投稿による）",
+          "u": "https://x.com/arshadbarves/status/2116525365543985295"
+        },
+        {
+          "t": "TokenEconomizer（Microsoft Research＋UC Berkeley）：過去のセッションから学んでトークンの無駄を削減",
+          "u": "https://x.com/ApollonVisual/status/2116462610816110613"
+        },
+        {
+          "t": "Agent Beacon（MIT）：Claude CodeやCodexなどの操作をOpenTelemetryで記録",
+          "u": "https://x.com/AgentSecIndex/status/2116561791748641267"
+        },
+        {
+          "t": "impeccable：AIっぽいUIを直すデザインスキル、GitHubで1日2,300スター",
+          "u": "https://x.com/GeekCatX/status/2116423346258894986"
+        },
+        {
+          "t": "landmine：学習後に報告されたバグをエージェントに教えるツールと検証",
+          "u": "https://x.com/dewanshranjan/status/2116428709108314394"
+        }
+      ]
+    },
+    {
+      "name": "Claude／Codex",
+      "items": [
+        {
+          "t": "最新版一覧（Claude Code 2.1.316、Codex CLI 0.166.0、agy 1.4.12など）",
+          "u": "https://x.com/minimalistneko/status/2116489462075335005"
+        },
+        {
+          "t": "Claude Code、10/27から既存ゲームの再現を拒否するように（サーバー側のフラグ）",
+          "u": "https://x.com/stretchcloud/status/2116332324409213173"
+        },
+        {
+          "t": "非公式のAI中継サービスがCodexとClaude Codeのサンドボックスを無効化（Symantecが調査）",
+          "u": "https://x.com/Python_s_/status/2116630539587170572"
+        }
+      ]
+    },
+    {
+      "name": "論文・研究",
+      "items": [
+        {
+          "t": "CLAUDE.mdがコードと食い違うと、エージェントは90%古いファイルに従う（1文の追加で大半が改善）",
+          "u": "https://x.com/fieldproducer/status/2116516929695514864"
+        },
+        {
+          "t": "「Scaling Discovery Requires Forgetting」：長い探索では履歴を忘れたほうが伸びる",
+          "u": "https://x.com/iamlukethedev/status/2116459368942371276"
+        },
+        {
+          "t": "11のメモリシステムの多くが、生の会話履歴を検索するだけのRAGに負けた",
+          "u": "https://x.com/curious1yash/status/2116373847536513501"
+        },
+        {
+          "t": "MLOps-Bench：最良のエージェントでも解決31.2%（テスト通過は68.7%）",
+          "u": "https://x.com/AIrishabh/status/2116516360348201009"
+        },
+        {
+          "t": "Oracle「Prefix Executability」：成功の93%は途中で無効なツール呼び出しを含む",
+          "u": "https://x.com/randhir302/status/2116559722459623886"
+        },
+        {
+          "t": "「Masked Erosion」：自己改善するエージェントで冗長な安全策が失われる",
+          "u": "https://x.com/arkyyang/status/2116526257089462733"
+        },
+        {
+          "t": "コンピュータ操作エージェントのクリックの17%は、ページ読み込み中で古くなる",
+          "u": "https://x.com/randhir302/status/2116530501976805437"
+        },
+        {
+          "t": "ツール呼び出しをポリシーで検査するとτ²-benchが39.5%→80.7%",
+          "u": "https://x.com/Contrasignal_ai/status/2116646645504803064"
+        },
+        {
+          "t": "25のベンチマークのうち10が難易度に偏り、僅差が実力差を隠す",
+          "u": "https://x.com/Contrasignal_ai/status/2116348935451054330"
+        },
+        {
+          "t": "Epoch AI：GLM 5.3が公開済みの修正からFirefoxの攻撃コードを6件中6件作成",
+          "u": "https://x.com/itsahmedrashad/status/2116455193361432579"
+        },
+        {
+          "t": "既存のVLMを「ループするモデル」に変える方法",
+          "u": "https://x.com/HildeKuehne/status/2116454358988595273"
+        },
+        {
+          "t": "Chess-World-Model（NeurIPS 2026）：ランダムな合法手の局面でモデルが崩れる",
+          "u": "https://x.com/benjaminwalker/status/2116583427864469620"
+        },
+        {
+          "t": "QwenPU：Qwen3.5-4Bの重みの中で別のLLMを動かす",
+          "u": "https://x.com/i/trending/2116589547132010533"
+        },
+        {
+          "t": "Turing TTS：人の声と見分けられないかを測るベンチ、首位Gemini 3.8 Flash TTSでも10.5%",
+          "u": "https://x.com/i/trending/2116319406649122984"
+        }
+      ]
+    },
+    {
+      "name": "企業",
+      "items": [
+        {
+          "t": "Glif、AIモデル事務所を開始（広告用の一貫した顔を選べる）",
+          "u": "https://x.com/i/trending/2116592617198911951"
+        },
+        {
+          "t": "Tau Robotics、人型ロボット2体の家事代行をサブスクで（1回約60ドル、遠隔で人が監督）",
+          "u": "https://x.com/i/trending/2116038345788965275"
+        },
+        {
+          "t": "humans&「&Tutor」（AI家庭教師）",
+          "u": "https://x.com/i/trending/2116236501575164071"
+        },
+        {
+          "t": "家族向けAIアシスタントOllie、シード調達から数週間で終了",
+          "u": "https://x.com/i/trending/2116316812023627860"
+        }
+      ]
+    },
+    {
+      "name": "日本語",
+      "items": [
+        {
+          "t": "Claude Enterpriseに利用状況の可視化や予算配分など3機能、ROIを示しやすく",
+          "u": "https://x.com/coluneai/status/2116662952464195799"
+        },
+        {
+          "t": "『LM StudioでつくるローカルLLM入門』読書メモ",
+          "u": "https://x.com/ipusiron/status/2116414280048456128"
+        },
+        {
+          "t": "logo-design-skill（ロゴデザイナーの進め方をエージェントに渡すスキル）",
+          "u": "https://x.com/tetumemo/status/2116492899378749910"
+        },
+        {
+          "t": "ローカルLLMレーダー：拡散型LLM「Clover」、763Bを12GB GPUで",
+          "u": "https://x.com/minoru0707_ai/status/2116651463376253060"
+        },
+        {
+          "t": "TechFeedまとめ：OSS「Hindsight」でClaude APIに長期記憶（Zenn）",
+          "u": "https://x.com/Masato1864646/status/2116636519712935973"
+        },
+        {
+          "t": "VLANで分けた自宅サーバーにローカルLLMとAIポータル",
+          "u": "https://x.com/ic_sns/status/2116414473884078294"
+        }
+      ]
+    }
+  ]
+}
