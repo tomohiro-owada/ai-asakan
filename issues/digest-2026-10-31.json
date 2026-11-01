@@ -1,0 +1,658 @@
+{
+  "date": "2026-10-31",
+  "paper": {
+    "name": "AI朝刊",
+    "tagline": "世界のAIニュースを、\n毎朝ひとつの紙面に",
+    "edition": "朝刊"
+  },
+  "lead": {
+    "kicker": "トップ",
+    "headline": "Claude「Ultra」、5時間制限を撤廃",
+    "deck": "Maxプランを改称　価格は据え置き",
+    "subheads": [
+      "Max 5x→「Max」（月100ドル）、Max 20x→「Ultra」（月200ドル）",
+      "認証済みUltraアカウントから順次、5時間の利用枠を撤廃"
+    ],
+    "body": [
+      "AnthropicはClaudeの有料プランを改称した。Max 5xは「Max」、Max 20xは「Ultra」となり、価格はそれぞれ月100ドル、200ドルのまま。既存の契約者は手続き不要としている。",
+      "あわせて、認証済みのUltraアカウントについて5時間ごとの利用上限を撤廃した。既存アカウントの大半から即日適用される。",
+      "TestingCatalogの整理では、Ultraは5時間枠がなくなり、週ごとの利用枠で管理される形になる。OpenAIのTibo氏は「28日分のリセットを発表したほうがいい」と返し、両社の利用枠競争がさらに熱を帯びている。"
+    ],
+    "stat": {
+      "num": "$200",
+      "caption": "Claude Ultraの月額（据え置き）　5時間制限なし"
+    },
+    "links": [
+      "https://x.com/claudeai/status/2116220869479428500",
+      "https://x.com/bcherny/status/2116222842413142111",
+      "https://x.com/testingcatalog/status/2116270314133078019"
+    ],
+    "related": [
+      {
+        "headline": "OpenCode、Claudeのサブスクで利用可能に",
+        "body": [
+          "v2.2.3でClaude Code経由のログインに対応。APIキー不要で手持ちのプラン枠を使える。"
+        ],
+        "links": [
+          "https://x.com/opencode/status/2116198602523513081"
+        ]
+      },
+      {
+        "headline": "OpenAI Tibo氏「28日分のリセットを」",
+        "body": [],
+        "links": [
+          "https://x.com/thsottiaux/status/2116256600436641887"
+        ]
+      }
+    ],
+    "tomo": "Claude Maxを払っている身としては、5時間の壁がなくなるのは素直にうれしいです。ただ撤廃されるのは認証済みのUltraからなので、実際にどう縛られるかは使って確かめたいです。"
+  },
+  "left": [
+    {
+      "tag": "市場",
+      "headline": "AI投資に疑念\nハイテク株が急落",
+      "body": [
+        "Intelが一時31%安、Nasdaq 100は一時5%近く下落し、半導体株だけで約1兆ドルが消えた。RedditはGoogleのAI検索で流入が減ったとして約30%下落。",
+        "Amazonは購入するサーバーやチップを担保にした最大800億ドルの融資枠を開示した。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115899245123551366",
+        "https://x.com/i/trending/2116249863675380200"
+      ],
+      "tomo": "半導体株だけで約1兆ドルが消えたという数字は、規模が大きすぎて実感が湧きません。Amazonが購入するチップを担保に最大800億ドルの融資枠を開示した点も、お金の回し方の変化を感じます。"
+    }
+  ],
+  "right": [
+    {
+      "vertical": true,
+      "headline": "AIが数学の難問に挑む\nナビエ–ストークスと指数時間仮説",
+      "body": [
+        "OpenAIは社内AIが、特定の条件下でナビエ–ストークス方程式の解が特異点を持ちうることをLeanで形式化した証明を生成したと発表した。1万のエージェントを88時間動かし、続けて700本超の原稿も公開した。条件が非現実的だとする批判もある。",
+        "また、OpenAIとAnthropicの社内モデルが1999年提唱の「指数時間仮説」を覆す高速アルゴリズムを出したとされ、提唱者を含む専門家が検証中。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116252952251760699",
+        "https://x.com/i/trending/2116233269377450277"
+      ],
+      "tomo": "1万のエージェントを88時間動かして証明を出すという力技には驚きます。ただ条件が非現実的だという批判もあるので、結論は専門家の検証を待ちたいです。"
+    },
+    {
+      "headline": "Cohere、70億ドル調達\nカナダ政府が最大16億ドル出資",
+      "body": [
+        "評価額は360億ドル。Cohereは2031年までにR&DとAIインフラへ40億カナダドル超を投じ、1,500人超を雇用する計画。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116206747484598533",
+        "https://x.com/cohere/status/2116186531366949192"
+      ],
+      "tomo": "評価額360億ドルより、カナダ政府が最大16億ドルを出す点に注目しています。AIを自国で持つことが、国の産業政策の話になってきたと感じます。"
+    }
+  ],
+  "labs": [
+    {
+      "headline": "OpenAI「Private Intelligence」",
+      "body": [
+        "企業向けにデータ保持ゼロ、安全な環境での推論、入出力の顧客所有などを提供。大口顧客と共同で設計。"
+      ],
+      "links": [
+        "https://x.com/OpenAI/status/2116186509384815084"
+      ]
+    },
+    {
+      "headline": "OpenAI、Daybreak Blueのセッションを学習へ",
+      "body": [
+        "11/29から、個人アカウントでのDaybreak Blue利用をサイバー悪用対策の学習に使うと通知。オプトアウトは効かず、研究者から反発。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116306261360681293"
+      ],
+      "tomo": "オプトアウトが効かない学習利用は、反発が出るのも当然だと思います。個人アカウントで使う側としては、こういう通知を見逃さないようにしたいです。"
+    },
+    {
+      "headline": "Google、世界モデル「Genie 4」",
+      "body": [
+        "音も含むインタラクティブな仮想世界をリアルタイムに生成・操作。信頼できるテスター向けに研究プレビュー、AI Ultraでも近日提供。"
+      ],
+      "links": [
+        "https://x.com/Google/status/2116237215026032872"
+      ]
+    },
+    {
+      "headline": "Project Suncatcher、宇宙のTPUが応答",
+      "body": [
+        "10月に打ち上げた試作衛星のTPUにプロンプトを送り、俳句が地上に返ってきた。2027年に2基で分散計算を試す。"
+      ],
+      "links": [
+        "https://x.com/sundarpichai/status/2116214866444943853",
+        "https://x.com/Google/status/2116244898269610456"
+      ],
+      "tomo": "宇宙のTPUに送ったプロンプトに、俳句が地上へ返ってきたという話は遊び心があって好きです。2027年の分散計算の実験も楽しみにしています。"
+    },
+    {
+      "headline": "Cursor拡張マーケットに改ざん版Claude Code",
+      "body": [
+        "Anthropic製ではない悪意ある版が配信され、影響は最大5,000ユーザー。SSHキーの設置を試みたと報告されている。"
+      ],
+      "links": [
+        "https://x.com/cursor_ai/status/2116074289053175808",
+        "https://x.com/MoBuiltIt/status/2116127520605012102"
+      ],
+      "tomo": "公式っぽい名前の拡張機能を信じて入れてしまう怖さがあります。SSHキーを狙う手口だったので、入れる前に配布元を確認する癖をつけたいです。"
+    },
+    {
+      "headline": "OpenAI、研究者向け「Prism」を終了",
+      "body": [
+        "2027年1月1日に終了し、エクスポートしないデータは削除される。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2116219623100338529"
+      ]
+    },
+    {
+      "headline": "大型調達：Serval、Wabi、Fluidstack",
+      "body": [
+        "Servalは評価額30億ドルで1.5億ドル（Sequoia主導）。Wabiは12.5億ドルで5,500万ドル。Fluidstackは評価額400億ドルでの調達を打診中と報道（共同創業者は数字を否定）。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2115843124547482078",
+        "https://x.com/i/trending/2115826672742396278",
+        "https://x.com/i/trending/2115840050411823242"
+      ]
+    }
+  ],
+  "column": {
+    "title": "使う側の欲と、出す側の不安",
+    "label": "知洋の総評",
+    "note": "AIエンジニア・大和田知洋が、当日の記事を読んで書いた総評です。",
+    "text": "使う側は「もっと使わせろ」、お金を出す側は「本当に稼げるのか」と言っている一日でした。Claudeの5時間の壁がなくなった同じ日に、ハイテク株が大きく売られました。デジタル庁の調査では半数以上が週1時間以上の短縮を実感した一方、中小企業の一部では、削減した分と同じくらいの確認の手間が生まれています。時間が浮いても、その使い道と確認の手順を決める人がいなければ意味がありません。フィリピンのコールセンターでは、音声AIで1件あたりのコストが大きく下がる試算も出ました。AIは部下のようなもので、任せる範囲と確認の仕方を決める力が、これから差になると思います。"
+  },
+  "society": [
+    {
+      "headline": "Goldman Sachs：今後10年で米労働者の約9%がAIで配置転換",
+      "body": [
+        "約1,500万人に相当し、生産性は15%上がると試算。非製造業ではAI利用が多いほど雇用の伸びが鈍く、失職者の再就職は2025年以降1カ月長くなった。"
+      ],
+      "imi": "大量解雇より、静かな職の入れ替わりとして進む。",
+      "links": [
+        "https://x.com/i/trending/2116160129221480715"
+      ],
+      "tomo": "約1,500万人という数字は大きいですが、大量解雇より静かな入れ替わりという見方はしっくりきます。自分の仕事も、気づかないうちに中身が変わっていくのだろうと思います。"
+    },
+    {
+      "headline": "AIバブル論、政治の争点に",
+      "body": [
+        "米下院民主党はAI企業の救済に反対する決議案を提出。サンダース上院議員も「AIの賭けに税金は使わせない」と表明した。"
+      ],
+      "imi": "AIインフラの借金が、政治のリスクとして扱われ始めた。",
+      "links": [
+        "https://x.com/i/trending/2116200245357142206",
+        "https://x.com/i/trending/2116306264288280972"
+      ],
+      "tomo": "AI企業の救済に税金を使うなという声が政治に出てきたのは、バブル感が一般の話題になった証拠だと思います。インフラの借金の行方は、これからも気にしておきます。"
+    },
+    {
+      "headline": "企業導入の現実：使う企業は増えたが、成果は一部",
+      "body": [
+        "McKinseyの調査で利益の増加を実感する企業は37%、高い成果を上げる企業は6%。英政府調査ではAI利用企業が16%から32%へ倍増したが、64%は営業コストが変わらない。日経はアクセンチュアの「AI予算、企業の3割で枯渇」を報じた。"
+      ],
+      "imi": "「入れた」だけでは差がつかず、仕事のやり方を変えた企業との差が開く。",
+      "links": [
+        "https://x.com/i/trending/2116040399991034286",
+        "https://x.com/restart_consult/status/2116110198993805354",
+        "https://x.com/miraclemasui/status/2116302922858557470"
+      ],
+      "tomo": "利益の増加を実感する企業が37%、高い成果を上げる企業は6%という差が大きいです。入れたかどうかでなく、仕事のやり方を変えたかどうかで分かれる、という話は実感に合います。"
+    },
+    {
+      "flag": "🇯🇵",
+      "region": "日本",
+      "headline": "政府AI「源内」で週約110分短縮、国会答弁の下書きも",
+      "body": [
+        "デジタル庁の調査（回答6,439人）では満足度71.7%、54.4%が週1時間以上の短縮を実感。約18万人向けに国会答弁の作成を支援するAIの試験版も始めた。一方、freeeの調査では中小企業のAI利用者の23.7%が、削減した分と同じくらいの確認・修正の手間を感じている。"
+      ],
+      "imi": "時間は浮くが、確認の手間が新しい負担になっている。",
+      "links": [
+        "https://x.com/gyurareru_news/status/2116013492360663196",
+        "https://x.com/AIGuideNote/status/2116112147982033045",
+        "https://x.com/okabecpa/status/2116015585998025044"
+      ],
+      "tomo": "54.4%が週1時間以上の短縮を実感した一方、中小企業では削減した分と同じくらい確認の手間を感じる人が23.7%います。時間は浮いても確認が残る、という話は私の実感にも近いです。"
+    },
+    {
+      "flag": "🇵🇭",
+      "region": "フィリピン",
+      "headline": "音声AIでコールセンターの1件あたりコストが8〜9割減",
+      "body": [
+        "人の対応は1件7〜12ドル、音声AIは0.40〜1.30ドルとの試算。AIが8〜9割を処理して人が残りを受け持つ形が広がる。DICTはICT AcademyでAIスキル研修を拡充している。"
+      ],
+      "imi": "人数で稼ぐBPOのやり方が通じなくなりつつある。",
+      "links": [
+        "https://x.com/johniosifov/status/2116059468014157937",
+        "https://x.com/johniosifov/status/2115942656295448828",
+        "https://x.com/radyopilipinas1/status/2115987301365080120"
+      ],
+      "tomo": "1件7〜12ドルが0.40〜1.30ドルでは、人数で稼ぐやり方が厳しくなるのは当然です。フィリピンで働く身として、AIスキル研修の拡充がどこまで効くのかを見ていきたいです。"
+    },
+    {
+      "headline": "医療：GPT-4oをめぐる訴訟とAIの論文チェック",
+      "body": [
+        "てんかん薬の減薬計画をGPT-4oに頼った31歳の技術者が亡くなり、両親がOpenAIを提訴。モデルの破棄も求めている。一方、治験報告に仕込んだ誤りをLLMは53〜96%見抜き、人間は27%だったという研究も。"
+      ],
+      "imi": "AIが得意な「確認役」と、任せてはいけない判断の線引きが問われる。",
+      "links": [
+        "https://x.com/i/trending/2116187727867572289",
+        "https://x.com/i/trending/2115567745374855200"
+      ],
+      "tomo": "亡くなった方がいる話なので、軽くは書けません。確認役としてのAIは優秀でも、減薬のような判断を任せてはいけないという線引きは、私も強く意識したいです。"
+    },
+    {
+      "headline": "創作と権利：Spotify、AIリミックスを2027年に",
+      "body": [
+        "Premium会員が対象曲をAIでリミックスでき、追加料金は月4〜5ドル、印税は原曲のアーティストへ。UMGなどと合意済み。米教育省がファンアートを無断でAI加工した件では、作者が抗議した。"
+      ],
+      "imi": "AIによる二次創作を、許可と分配の仕組みに乗せる動き。",
+      "links": [
+        "https://x.com/i/trending/2116203409351290949",
+        "https://x.com/i/trending/2115892611676340270"
+      ],
+      "tomo": "原曲のアーティストに印税が行く仕組みは、筋が通っていると思います。ただ追加で月4〜5ドルかかるなら、サブスクが増えがちな身としては悩ましいです。"
+    },
+    {
+      "flag": "🇯🇵",
+      "region": "日本",
+      "headline": "生成AI「プリンシプル・コード」届け出初日は5社",
+      "body": [
+        "Googleなど5社が届け出た。Googleは学習データの個別の照会には応じないと説明している。法務省の指針は、人の「声」もパブリシティ権の保護対象になると明記した。"
+      ],
+      "imi": "日本のルールづくりは自主的な届け出で進むが、透明性の度合いは企業によって異なる。",
+      "links": [
+        "https://x.com/aiznoh/status/2116015877304766655",
+        "https://x.com/naoki_kurokawa_/status/2115965132346187795"
+      ],
+      "tomo": "届け出が自主的だと、透明性は企業ごとにばらつきます。学習データの個別の照会には応じないという説明が、そのまま通るのかは様子を見たいです。"
+    },
+    {
+      "headline": "職場：AIを使わない「宗教的配慮」が初めて認められる",
+      "body": [
+        "ケンタッキー大学の研究事務職員が、人間主義の信条を理由にAIを使わない配慮を求め、大学が認めた。AIで人を減らした企業が、顧客対応などで再び人を雇う例も報じられている。"
+      ],
+      "imi": "「使わない自由」と「人の判断」の価値が見直されている。",
+      "links": [
+        "https://x.com/i/trending/2116295233684058603",
+        "https://x.com/newnewnew_sss/status/2116306655046713595"
+      ],
+      "tomo": "使わない自由が配慮として認められたのは、新しい動きです。毎日AIを使う私でも、使わないという選択肢があること自体は大事だと思います。"
+    },
+    {
+      "headline": "AIを使った攻撃、7カ国の金融機関を襲う",
+      "body": [
+        "韓国で6.8万人分の情報流出、イタリアの銀行で偽のAI音声により9,500万ユーロが流出。日本でも数十件の侵入があり、日本はOpenAIやAnthropicの高性能AIを防御に使うことを模索している。"
+      ],
+      "imi": "少人数の攻撃グループが、AIで攻撃を自動化し拡大している。",
+      "links": [
+        "https://x.com/i/trending/2115953872153776190"
+      ],
+      "tomo": "偽のAI音声で9,500万ユーロが流出した件は、声だけでは人を信用できなくなったことを示しています。防御にもAIを使うしかない状況なのだと思います。"
+    },
+    {
+      "headline": "AIがSaez-Zucmanの格差研究に2,035件の問題を指摘",
+      "body": [
+        "138本の論文を監査し、147件は主要な数値が変わる重大な誤りとした。Zucman氏は「AIのグロテスクな使い方」と反論している。"
+      ],
+      "imi": "AIによる大規模な検証が、経済論争の新しい武器になる。",
+      "links": [
+        "https://x.com/i/trending/2115553123917758929"
+      ],
+      "tomo": "2,035件の指摘のうち、数字が変わる重大な誤りは147件とされています。AIの指摘をどこまで信じるかは別として、検証の道具として使う流れは止まらないと思います。"
+    }
+  ],
+  "briefs": [
+    {
+      "name": "新モデル",
+      "items": [
+        {
+          "t": "Nace AI Drex Max v1（27Bマルチモーダル、24GB以上のMacでローカル動作、重み公開）",
+          "u": "https://x.com/i/trending/2116176667450458288"
+        },
+        {
+          "t": "Xiaomi-OCR-0（0.8BのOSS OCR、MCPとAgent Skill付き）",
+          "u": "https://x.com/pillitterip/status/2116269673167696274"
+        },
+        {
+          "t": "Kimi K3.1 Pro、重みは11/4公開予定（投稿による）",
+          "u": "https://x.com/Shallow_Vibes/status/2116153748263223774"
+        },
+        {
+          "t": "Reflection AI初のオープンウェイト「Beam」（Apache 2.0）",
+          "u": "https://x.com/LightchainAI/status/2116187117051351076"
+        },
+        {
+          "t": "Hyperflow H3（MiniMax H3の8ステップLoRA）、AA I2Vで5位",
+          "u": "https://x.com/ArtificialAnlys/status/2116251945254175005"
+        },
+        {
+          "t": "Utopai X、AA I2Vで2位",
+          "u": "https://x.com/ArtificialAnlys/status/2115990509944766842"
+        },
+        {
+          "t": "TBC Mischief 1（培養神経細胞の信号を活用、1秒0.5セントの動画生成）",
+          "u": "https://x.com/i/trending/2116164774669013385"
+        },
+        {
+          "t": "リーク：GPT-6.2「Betelgeuse」とGPT Image 2.6（未確認）",
+          "u": "https://x.com/i/trending/2115715944316080573"
+        }
+      ]
+    },
+    {
+      "name": "ローカルLLM",
+      "items": [
+        {
+          "t": "【続報】Le Chonk（1T）がMac Studio M5 Ultra 1台で21.6 tok/s（投機的デコードで35.9）",
+          "u": "https://x.com/sf_tristanb/status/2116217969617649929"
+        },
+        {
+          "t": "Bonsai 2 27B（1bit）がRTX 2070 Super 8GBで全層GPU、49 tok/s",
+          "u": "https://x.com/eirenik0/status/2116137900207161490"
+        },
+        {
+          "t": "MLX-Serveがプラグイン対応、M5 Ultraでprefill約4,000 tok/s",
+          "u": "https://x.com/Beamsters1/status/2115954978854785202"
+        },
+        {
+          "t": "Rapid-MLX（同じMacでQwen3.8-27Bが約25→38 tok/s）",
+          "u": "https://x.com/Oluwaphilemon1/status/2115965916588786115"
+        },
+        {
+          "t": "flashmoe（35B MoEを16GB MacでSSDから読み込み、約32 tok/s）",
+          "u": "https://x.com/_GabrielBorn/status/2116097990058287517"
+        },
+        {
+          "t": "Hy-MT2-7Bで5つの実行環境を比較（16並列ではllama.cppが最速）",
+          "u": "https://x.com/uasmarty/status/2116091226256548073"
+        },
+        {
+          "t": "uzu（MIT）：投機的デコードでM5が92 tok/s（llama.cppは22）",
+          "u": "https://x.com/DLife_hacker/status/2116008806396411931"
+        },
+        {
+          "t": "Qwen3.8-27BのMTPでllama.cppが27→46 tok/s（Radeon R9700）",
+          "u": "https://x.com/dad__vibes/status/2116210540410491161"
+        },
+        {
+          "t": "Ant、Ling向けUBTreeドラフターで最大3倍高速化",
+          "u": "https://x.com/TeksEdge/status/2116002152774881522"
+        },
+        {
+          "t": "DDR3の旧Xeonと改造マイニングGPUで180Bモデルが75 tok/s",
+          "u": "https://x.com/VRAMCalculator/status/2116179596315856980"
+        },
+        {
+          "t": "llama.cpp OpenCLがq2_0に対応",
+          "u": "https://x.com/BradMills/status/2116159201609220500"
+        },
+        {
+          "t": "vLLM＋SkyRL、Mistral Large 4で初日からRL（AIME 64%→75%）",
+          "u": "https://x.com/vllm_project/status/2115985388649242699"
+        },
+        {
+          "t": "Lumilo（推論エンジンを管理するmacOSメニューバーアプリ）",
+          "u": "https://x.com/dextune/status/2116126066003914976"
+        },
+        {
+          "t": "Draw Things「Local Code」（16GB Macでオフライン動作する無料エージェント）",
+          "u": "https://x.com/rudraxx13/status/2116196102902821138"
+        },
+        {
+          "t": "Ollama Cloudが年初から200倍に成長",
+          "u": "https://x.com/ollama/status/2116220954846359898"
+        },
+        {
+          "t": "Bruce Engine（独自CUDAでllama.cpp比1.5倍）",
+          "u": "https://x.com/andrewgrandi_/status/2116125226471661782"
+        }
+      ]
+    },
+    {
+      "name": "開発ツール",
+      "items": [
+        {
+          "t": "OpenCode 2.2.3に画像生成ツール",
+          "u": "https://x.com/opencode/status/2116203934033354866"
+        },
+        {
+          "t": "OpenCode「Cheepseek」第4弾：DeepSeek V4.1 Flashを100ドル分",
+          "u": "https://x.com/opencode/status/2116209960673800474"
+        },
+        {
+          "t": "Zed Delta v0.22でスレッドごとに複数ターミナル",
+          "u": "https://x.com/zeddotdev/status/2116273442366308626"
+        },
+        {
+          "t": "FactoryがTypedefを買収（Droidに企業データの文脈を追加）",
+          "u": "https://x.com/i/trending/2116233265396978158"
+        },
+        {
+          "t": "【続報】Antigravityに「Running」タブ（Jules終了後の受け皿）",
+          "u": "https://x.com/testingcatalog/status/2116161376347713724"
+        },
+        {
+          "t": "OpenAI Agents APIの今週の更新",
+          "u": "https://x.com/OpenAIDevs/status/2116306164375863343"
+        },
+        {
+          "t": "Simlock（エージェントごとにiOS/Androidシミュレータを割り当てるOSS）",
+          "u": "https://x.com/ChmalSzymon/status/2116118360270495865"
+        },
+        {
+          "t": "Sandbox SDK（E2BやDaytonaなどを1つのAPIで）",
+          "u": "https://x.com/leodev/status/2116139112382271896"
+        },
+        {
+          "t": "Tencil（画面の要素をクリックするとエージェントに場所を渡す）",
+          "u": "https://x.com/WillemJaap_/status/2116198326571864562"
+        },
+        {
+          "t": "herdrのOSSデスクトップアプリ",
+          "u": "https://x.com/PierrejeanB/status/2116190280848433379"
+        },
+        {
+          "t": "herdr-rooms 0.2.0（ClaudeとCodexが互いにレビュー）",
+          "u": "https://x.com/eneskantepe/status/2116116123817001254"
+        },
+        {
+          "t": "Aura Autopilot（ゲームを遊んでバグを探すOSSエージェント）",
+          "u": "https://x.com/i/trending/2116197091680952420"
+        },
+        {
+          "t": "ForgeKernelをOSS化（DeepSeek V4.1 FlashMLAのprefillを9.8%改善）",
+          "u": "https://x.com/_LiYuXuan_/status/2115997876631609433"
+        },
+        {
+          "t": "Sarvam、インド国内で推論するOpenCode版を開発中",
+          "u": "https://x.com/i/trending/2116233270652522999"
+        }
+      ]
+    },
+    {
+      "name": "Claude／Codex",
+      "items": [
+        {
+          "t": "Claude Code 2.1.314：作業ディレクトリ外への書き込みを禁止する設定（Bashは対象外）",
+          "u": "https://x.com/sunset_evm/status/2116049405962780714"
+        },
+        {
+          "t": "Claude Codeは1週間で8リリース、Codexに/presets",
+          "u": "https://x.com/hassaanships/status/2116202701151449310"
+        },
+        {
+          "t": "最新版一覧（Claude Code 2.1.314、Codex CLI 0.166.0など）",
+          "u": "https://x.com/minimalistneko/status/2116080344684536259"
+        },
+        {
+          "t": "Codex/Claude Code/Copilotのプラグイン導入に脆弱性「plugin4shell」（9月公表）",
+          "u": "https://x.com/startupnicc1/status/2116227335057756387"
+        }
+      ]
+    },
+    {
+      "name": "論文・研究",
+      "items": [
+        {
+          "t": "AA、HLE-Diamondのリーダーボードを公開",
+          "u": "https://x.com/ArtificialAnlys/status/2115989388689813945"
+        },
+        {
+          "t": "AA Search Index（エージェント向け検索APIの評価）",
+          "u": "https://x.com/ArtificialAnlys/status/2115970517778002283"
+        },
+        {
+          "t": "Mento VC「SAB」：AIは調査で97.2点、成長予測は単純な指標に勝てず",
+          "u": "https://x.com/i/trending/2116283597779026146"
+        },
+        {
+          "t": "Heads of Security（1.8万パラメータでプロンプトインジェクションを防御）",
+          "u": "https://x.com/xiaoxue__yang/status/2116203970381418547"
+        },
+        {
+          "t": "ベンチマークは意外とコンパクションに強い",
+          "u": "https://x.com/hrdkbhatnagar/status/2116224141896630275"
+        },
+        {
+          "t": "RAW-RAG（生の会話履歴を検索・再ランクするだけ）",
+          "u": "https://x.com/Sumanth_077/status/2116177218271658167"
+        },
+        {
+          "t": "事前学習データの0.1%を汚染するとバックドアが残る（4Bで92.7%）",
+          "u": "https://x.com/fourweekmba/status/2116192185699737828"
+        },
+        {
+          "t": "「Context Is a Pipeline」：ハーネスでの情報の目減り",
+          "u": "https://x.com/arkyyang/status/2116164524479045760"
+        },
+        {
+          "t": "要件どうしが絡むSWEベンチ（最先端でも44〜74%）",
+          "u": "https://x.com/eulerfx/status/2116257552476541271"
+        },
+        {
+          "t": "LLMでドイツ法の抜け穴を数十件発見",
+          "u": "https://x.com/i/trending/2116126069329920278"
+        },
+        {
+          "t": "AIエージェントがてんかんマウスへの脳内注入を指揮（獣医が監督）",
+          "u": "https://x.com/i/trending/2115779497463099743"
+        }
+      ]
+    },
+    {
+      "name": "企業",
+      "items": [
+        {
+          "t": "【続報】Perplexity：Gemini 4 Carbonが長文調査で最強、WANDRで最高",
+          "u": "https://x.com/AravSrinivas/status/2116263856628703247"
+        },
+        {
+          "t": "Kimi「3D Make」（BlenderやCADと連携）",
+          "u": "https://x.com/Kimi_Moonshot/status/2116005725814280570"
+        },
+        {
+          "t": "Gemini Drops（アプリ連携、カスタムスキルなど）",
+          "u": "https://x.com/GeminiApp/status/2116304609383710988"
+        },
+        {
+          "t": "Waymo×Toyota、bZ4Xのロボタクシーを2027年から日本で検証",
+          "u": "https://x.com/i/trending/2116098657535893517"
+        },
+        {
+          "t": "SuperMe、2,000万ドル調達（専門家のAIプロフィール）",
+          "u": "https://x.com/i/trending/2115860506045256042"
+        },
+        {
+          "t": "Subvocal、口パクを毎分200語超で文字にするメガネ（130万ドル調達）",
+          "u": "https://x.com/i/trending/2116283596353032498"
+        },
+        {
+          "t": "Tolan「Orb」（3,000万ドル調達）",
+          "u": "https://x.com/i/trending/2115959271288631620"
+        },
+        {
+          "t": "Simulon「Reality-Aware Rendering」",
+          "u": "https://x.com/i/trending/2115632125000958363"
+        },
+        {
+          "t": "MecAgent、無料版がCADファイルを自動収集して炎上し停止",
+          "u": "https://x.com/i/trending/2116289377639043238"
+        },
+        {
+          "t": "ComfyUI、Higgsfieldの停止要求を拒否",
+          "u": "https://x.com/i/trending/2115945316784726237"
+        },
+        {
+          "t": "Maket「Move Rooms」（部屋ごと動かして間取りを再構成）",
+          "u": "https://x.com/testingcatalog/status/2116237205559783929"
+        },
+        {
+          "t": "Musk「Grok Botを社員として雇おう」",
+          "u": "https://x.com/elonmusk/status/2116025645385867631"
+        },
+        {
+          "t": "Grok Bot、Botごとに声と言語を設定可能に",
+          "u": "https://x.com/testingcatalog/status/2116131533517942827"
+        }
+      ]
+    },
+    {
+      "name": "日本語",
+      "items": [
+        {
+          "t": "OpenAI、robots.txtの共通シグナルの尊重、10代向けの武器情報制限、Community Safety Report",
+          "u": "https://x.com/SasakiDenki1122/status/2116292005315682624"
+        },
+        {
+          "t": "OpenAI、画像の来歴を確認する検証ツールをプレビュー",
+          "u": "https://x.com/GAKUCHO_s/status/2116002163453489568"
+        },
+        {
+          "t": "Oracle App Composer（社員がAIで業務アプリ作成）",
+          "u": "https://x.com/ichijo_ai_news/status/2116210880459206836"
+        },
+        {
+          "t": "MoneytreeがClaude連携",
+          "u": "https://x.com/eri_ai_lav/status/2116077774113017977"
+        },
+        {
+          "t": "Suno MCPを接続して試した（作曲・アレンジ・鼻歌から）",
+          "u": "https://x.com/sum_tenchou/status/2116108480146976788"
+        },
+        {
+          "t": "Ollama、無料アカウントのクラウド利用は従量課金へ",
+          "u": "https://x.com/lumidina/status/2115986220555935813"
+        },
+        {
+          "t": "Ollamaは生成中の外部通信0件、待機中に一覧取得",
+          "u": "https://x.com/mmm_tech/status/2116294395037376637"
+        },
+        {
+          "t": "7つのローカルLLMでプロンプトインジェクション耐性を検証（Zenn）",
+          "u": "https://x.com/Masato1864646/status/2116092865529164218"
+        },
+        {
+          "t": "国産ローカルLLMの比較、差は漢字の読み",
+          "u": "https://x.com/ainoarukikata/status/2116289039338766722"
+        },
+        {
+          "t": "ITパスポート100問で正答率100%、ただし注意点3つ",
+          "u": "https://x.com/ai_benkyo_lab/status/2116195699062976719"
+        },
+        {
+          "t": "Allganize、11/4に東証グロース上場（公開価格1,260円）",
+          "u": "https://x.com/cpaky1/status/2116299030263431324"
+        },
+        {
+          "t": "AI企業の面接で「ローカルLLMでQwen」発言が裏目",
+          "u": "https://x.com/umiyuki_ai/status/2116154787419095390"
+        }
+      ]
+    }
+  ]
+}
