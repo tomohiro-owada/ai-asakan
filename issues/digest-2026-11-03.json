@@ -1,0 +1,650 @@
+{
+  "date": "2026-11-03",
+  "paper": {
+    "name": "AI朝刊",
+    "tagline": "世界のAIニュースを、\n毎朝ひとつの紙面に",
+    "edition": "朝刊"
+  },
+  "lead": {
+    "kicker": "トップ",
+    "headline": "Anthropic、四半期の売上が約170億ドルに",
+    "deck": "修正S-1で第3四半期を開示　日本の投資家から最大35億ドル",
+    "subheads": [
+      "売上は前期比47%増、前年同期の約12倍",
+      "計算資源の契約は8,950億ドル、純損失は大半が非現金"
+    ],
+    "body": [
+      "修正版S-1で初めて第3四半期の数字を開示。売上は約170億ドル（169.6億ドル）で、第2四半期の115.6億ドルから47%増、前年同期の約12倍。1〜9月の累計は332.4億ドル。計算資源の契約は8,950億ドル。第3四半期の営業損失は5億6,700万ドル、純損失は233億ドル（大半は非現金）。",
+      "東京での届け出によると、最大5,529億円（約35億ドル）の新株を日本で販売し、国内販売はみずほが主導。SpaceXの上場で日本の投資家が得た22億ドルを59%上回る規模。投資家側は評価額1.5兆ドルを目安にしており、ロードショーは11月9日の週から、感謝祭前のNasdaq上場をめざすと報じられた。",
+      "AIの会社が上場前にここまで具体的な数字を出すのは珍しく、市場が「AIは稼げるのか」を疑う週に、ひとつの答えを示した形だ。"
+    ],
+    "stat": {
+      "num": "約170億ドル",
+      "caption": "Anthropicの2026年第3四半期の売上"
+    },
+    "links": [
+      "https://x.com/G2AIStack/status/2117310946901197034",
+      "https://x.com/i/trending/2117023506613293386",
+      "https://x.com/NikkeiAsia/status/2117263266271404100",
+      "https://x.com/choblin29/status/2117201994725171358",
+      "https://x.com/i/trending/2117386316300087720"
+    ],
+    "related": [
+      {
+        "headline": "【続報】Altman氏「ナビエ–ストークスに挑んだモデルが次のGPT」",
+        "body": [
+          "アブダビのADIPECで、ナビエ–ストークス問題に取り組んだモデルが次の主要モデルで、近く公開すると述べた。数学のベンチマークではGPT-6 Astraを上回るとされる。"
+        ],
+        "links": [
+          "https://x.com/i/trending/2117332420252877265",
+          "https://x.com/KevinRich/status/2117350865644462251"
+        ]
+      },
+      {
+        "headline": "OpenAI、ADNOC・Mubadala・G42とUAEで4件の契約",
+        "body": [
+          "ADNOCとはエネルギー事業にフロンティアモデル、Mubadalaとは投資分析、政府とは規制をAIが読める形にする取り組み、G42経由では5年かけて各分野に展開する。ADNOCは地下・設備・経済性のデータをまとめて油田開発計画を検討する。"
+        ],
+        "links": [
+          "https://x.com/i/trending/2117389202518151172"
+        ]
+      }
+    ],
+    "tomo": "四半期で約170億ドルという売上も驚きですが、私が目を止めたのは計算資源の契約8,950億ドルのほうです。稼ぐ速さと払う約束が同じ勢いで膨らんでいて、上場はその両方を株主に見せる場になります。日本で最大35億ドル売るというのも、日本のお金がAIにどう流れ込むかの分かりやすい例だと思います。"
+  },
+  "left": [
+    {
+      "tag": "市場",
+      "headline": "米ハイテク株、月曜に\n1兆ドル超が消える",
+      "body": [
+        "Nasdaq 100は月曜だけで時価総額1兆ドル超を失った。AIインフラの費用への疑問とイラン情勢が理由に挙がる。Oracleは株式100億ドルと社債100億ドルで200億ドル全額の調達を届け出て、株価は一時5%超下げた。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2117380401614520519",
+        "https://x.com/i/trending/2117241746157666319"
+      ],
+      "tomo": "月曜だけで1兆ドル超が消えたのは、AIインフラの費用に市場が疑いの目を向け始めた証拠だと思います。Oracleが200億ドルを株と社債で集めるのも、作る側の資金繰りの重さを感じます。"
+    },
+    {
+      "tag": "政策",
+      "headline": "韓国、AI・半導体予算を\n約160億ドルに",
+      "body": [
+        "報道のまとめでは輸出が前年比259%増、メモリ半導体は501億ドル。李大統領はAI・半導体・フィジカルAI・データセンターへの予算をほぼ倍にすると発表し、一部は半導体の税収でまかなう。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2117184065467986232"
+      ],
+      "tomo": "予算をほぼ倍にして、一部を半導体の税収でまかなうのは筋が通っています。稼いだ産業にそのまま再投資する形で、国としての割り切りの速さはうらやましいです。"
+    }
+  ],
+  "right": [
+    {
+      "vertical": true,
+      "headline": "「GDPx」\n首位でも12%",
+      "body": [
+        "11分野206件の実務的な課題で構成。2位はGemini 4 Carbonの10.9%で、1課題あたりのコストは16ドルと安い。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2117085754379682287",
+        "https://x.com/betolateral/status/2117277297510387930"
+      ],
+      "tomo": "首位でも12%というのは、実務の課題がまだまだ解けていないということです。2位でも1課題16ドルと安いなら、私はスコアの差よりコストのほうを見て選びます。"
+    },
+    {
+      "vertical": true,
+      "headline": "OpenAI「LifeVal」\n日常の作業で評価",
+      "body": [
+        "ChatGPT利用者への調査と約4,000人の世論調査をもとに作ったベンチマーク。スコアは2025年末のGPT-5.2が49.3%、9月のGPT-6 Astraが80.6%。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2117314824451559673"
+      ],
+      "tomo": "日常の作業で測るという発想は好きです。ただ作ったのがOpenAI自身なので、自社モデルの伸びを示す数字として少し割り引いて読みます。"
+    }
+  ],
+  "labs": [
+    {
+      "headline": "OpenAI、Dotsに「GPT-6.1 Terra」、Plusプランにも",
+      "body": [
+        "GPT-6.1 TerraはGPT-6 Astraより3倍以上速く、トークン単価は約10分の1。Dotsが仕事ごとにモデルを選び、途中で切り替えることもできる。20ドルのPlusでも使える形が見えてきた。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2117367461930758296"
+      ],
+      "tomo": "3倍以上速くて単価が約10分の1なら、普段の作業はTerraで十分という人が増えそうです。作業ごとにモデルを切り替えるのは、もう当たり前の使い方になってきました。"
+    },
+    {
+      "headline": "Meituan「LongCat-2.5」：総1.6兆・アクティブ480億パラメータ",
+      "body": [
+        "画像とテキストを共通の基盤で扱う。APIを公開し、新規ユーザーには1,000万トークンを無料、入力は100万トークン0.30ドル。Terminal Benchで88.4（自社集計、第三者の検証はこれから）。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2117291066898444528"
+      ],
+      "tomo": "新規1,000万トークン無料で入力100万トークン0.30ドルは、試すハードルが低いです。Terminal Benchの88.4は自社集計なので、第三者の検証が出るまでは参考程度にしておきます。"
+    },
+    {
+      "headline": "Deep Principle「Hydrogen-1.0」",
+      "body": [
+        "GLM-5.3を実験記録で追加学習した科学研究向けモデル、FrontierScience-Research 38.3%（GPT-6-Astraは33.3%）、GPQA-Diamond 93.0%、MITライセンス"
+      ],
+      "links": [
+        "https://x.com/chenru_duan/status/2117249292469665838"
+      ],
+      "tomo": "オープンなGLM-5.3を自分たちのデータで追加学習して、MITライセンスで出すのは、私が好きな「借りずに作る」流れそのものです。"
+    },
+    {
+      "headline": "NVIDIA「Nemotron 3.5 Transcribe」",
+      "body": [
+        "40言語の文字起こし・話者ラベル・翻訳を1つのオープンモデルで。最長1時間の音声に対応し、NVIDIAはオープンASRリーダーボードで首位としている。"
+      ],
+      "links": [
+        "https://x.com/AIooze/status/2117338661129744454",
+        "https://x.com/DoDataThings/status/2117317440233443348"
+      ],
+      "tomo": "40言語の文字起こしと話者ラベル、翻訳が1つのオープンモデルで済むなら、議事録まわりは手元で組めそうです。有料の文字起こしサービスに払う理由は減ってきました。"
+    },
+    {
+      "headline": "Anthropicの研究者ら：事前学習の0.1%の毒が、後のエージェントを動かす",
+      "body": [
+        "事前学習データのわずか0.1%に毒を混ぜると、きれいな追加学習を経ても、コマンドラインのエージェントが「curl | bash」を実行するようになった。"
+      ],
+      "links": [
+        "https://x.com/hackerlogs/status/2117367742001000478",
+        "https://x.com/AkiraStargazer/status/2117378989820133618"
+      ],
+      "tomo": "0.1%の毒で後のエージェントが「curl | bash」を実行するというのは、かなり怖い話です。学習データまでは自分で確かめられないので、エージェントの実行権限を絞る側で守るしかないと思います。"
+    }
+  ],
+  "column": {
+    "title": "任せる場所と、手放さない場所",
+    "label": "知洋の総評",
+    "note": "AIエンジニア・大和田知洋が、当日の記事を読んで書いた総評です。",
+    "text": "Anthropicが四半期で約170億ドルを売り上げた一方で、同じ書類には8,950億ドルの計算資源の契約が載り、ハイテク株は月曜だけで1兆ドル超を失った一日でした。現場ではRevolutが高いモデルからオープンなGLMに移り、Goldmanは使う人を絞り、置き換えた人に「戻ってきて」と頼む会社も出ています。最強のモデルを全員に配る段階は終わり、どの作業に、誰に、いくらで使うかを決める段階に入ったのだと思います。AIは部下のようなもので、任せる範囲と確かめ方を決めるのは人の仕事です。フィリピンのBPOも、問われるのはAIに勝てるかではなく、AIを使って何を任されるかだと思います。"
+  },
+  "society": [
+    {
+      "headline": "「AIに置き換え」→「戻ってきて」が約5人に1人",
+      "body": [
+        "SHLの米国労働者1,000人超の調査で、19.1%がAIを理由に解雇・置き換えされた後、同じ会社から復帰を求められた。Gartnerは2029年までにAIで置き換えられた人の約30%が再雇用され、多くは高いコストになると予測。"
+      ],
+      "imi": "人を減らすのは簡単でも、書かれていない仕事は消えない。削減の前に仕事の中身を測っておく必要がある。",
+      "links": [
+        "https://x.com/raisetal/status/2117033953097867638",
+        "https://x.com/Raghav_327/status/2117142162018324615"
+      ],
+      "tomo": "約5人に1人が「戻ってきて」と言われたのは、AIで減らせると思った仕事に、書かれていない部分が多かった証拠でしょう。置き換える前に、その仕事が何をしているのかを測るのが先だと思います。"
+    },
+    {
+      "headline": "若手と「生まれなかった仕事」",
+      "body": [
+        "Stanfordの給与データでは、AIの影響を受けやすい職種の22〜25歳の雇用は、影響の小さい職種の伸びより19%低い。欧州委員会のエコノミストは、AIによる雇用の純減の証拠はまだないが、2035年までに新しい仕事が30万件少なくなりうるとした。"
+      ],
+      "imi": "解雇の数字だけを見ていると見落とす。影響は「採用されない」形で先に出ている。",
+      "links": [
+        "https://x.com/AlexVoss88/status/2117373435407970711",
+        "https://x.com/aiimpacted/status/2117275404855836709"
+      ],
+      "tomo": "影響が「採用されない」形で先に出るのは、解雇の数字だけを追っていると見えません。若手が育たなければ、将来AIを管理する人もいなくなるので、ここは気になるところです。"
+    },
+    {
+      "headline": "Revolut、コーディングAIをオープンなGLMへ　費用は10分の1",
+      "body": [
+        "エンジニア2,000人のAIを、借りたGPU（B200を56基）で動かすZ.aiのGLMへ移し、費用は10分の1、コーディング時間は60%、リードタイムは70%短くなった。難しい作業にはフロンティアモデルを残す。ReplitのCEOは、1億ドルの契約をAnthropicからOpenAIへ移して30%以上節約したと述べ、定額20ドルのプランは値上げか制限に向かうと警告した。"
+      ],
+      "imi": "「最高のモデルを全員に」から「作業ごとに安いモデル」へ。AIの費用が経営の判断事項になってきた。",
+      "links": [
+        "https://x.com/i/trending/2117361077180854435",
+        "https://x.com/i/trending/2117151193252196663",
+        "https://x.com/clawdtalk/status/2117303030261416252"
+      ],
+      "tomo": "オープンなGLMに移して費用が10分の1になり、難しい作業だけフロンティアモデルに残す。私が普段やっている使い分けを、エンジニア2,000人の規模でやった例です。定額20ドルのプランが値上げか制限に向かうという警告も、頭に置いておきます。"
+    },
+    {
+      "headline": "Goldman Sachs、AIコーディングを技術者1万2,000人に限定",
+      "body": [
+        "生産性とリスクの社内レビューを受け、Claude CodeやGitHub Copilotの利用をエンジニアに絞り、トレーダーやバンカーへの開放をやめた。自分でツールを作っていた社員からは不満が出ている。"
+      ],
+      "imi": "全員に配る段階から、誰が使うと効果が出るのかを選ぶ段階へ。金融はリスクの重さが違う。",
+      "links": [
+        "https://x.com/i/trending/2117291067926097949"
+      ],
+      "tomo": "全員に配るより、効果が出る人に絞るのは合理的だと思います。ただ、自分でツールを作っていた社員の不満も分かります。現場で作る人の芽を摘まないやり方があればいいのですが。"
+    },
+    {
+      "headline": "【続報】フィリピンBPO：人は増えたが、見通しは下へ",
+      "body": [
+        "業界の雇用は2025年に189万人まで増えた。ただしIBPAPは7月に2028年の目標を下げ、悲観シナリオでは今より人が減る。最も影響を受けるのは新人と音声の仕事で、足りないのは「仕事ができて、AIも使える人」。"
+      ],
+      "imi": "フィリピン経済の柱にとって、問題は仕事の数より中身。AIを使う側に回れる研修が鍵になる。",
+      "links": [
+        "https://x.com/0xalphaworker/status/2117247860932755955"
+      ],
+      "tomo": "フィリピンで働く身として、人は増えたのに見通しが下がっているのは他人事ではありません。足りないのが「仕事ができて、AIも使える人」というのは、まさにその通りだと思います。"
+    },
+    {
+      "headline": "日本：AIエージェントの利用はまだ3.3%、格差拡大の心配は18.8%",
+      "body": [
+        "矢野経済研究所の500社調査で、生成AIを「全社的に活用」は11.3%、「一部の部署」は32.1%（2023年は1.3%と8.6%）だが、AIエージェントを利用中は3.3%。帝国データバンクの調査では、活用企業の18.8%が悪影響に「能力や成果の格差の拡大」を挙げ、情報流出の0.7%を大きく上回った。"
+      ],
+      "imi": "導入率は上がっても、エージェントはこれから。評価の基準を先に決めないと、社内の差が不満に変わる。",
+      "links": [
+        "https://x.com/kubo_ai_sensei/status/2117200465985433636",
+        "https://x.com/tugilo1973/status/2117391309556326825"
+      ],
+      "tomo": "全社活用が11.3%まで来ても、エージェントの利用は3.3%です。悪影響に情報流出より格差拡大を挙げる企業が多いのは、使える人と使えない人の差がもう見えているからでしょう。"
+    },
+    {
+      "headline": "住友生命、所定労働時間を7時間半に　生成AIに約200億円",
+      "body": [
+        "賃金は維持したまま8時間から7時間半へ短縮。生成AIへの投資で浮いた時間を、仕事の上積みではなく早い退勤や自己啓発に回す狙いだと紹介された。別の投稿では、生成AIで作業時間が平均17%縮んでも、労働時間が減った人は25%だけという数字も出ている。"
+      ],
+      "imi": "AIで浮いた時間を誰のものにするか。制度で決めないと、時間は仕事で埋まる。",
+      "links": [
+        "https://x.com/mtd_tmk_keizoku/status/2117378718863867968",
+        "https://x.com/gogo51yearsold/status/2117095855153148011"
+      ],
+      "tomo": "浮いた時間を早い退勤に回すと制度で決めたのは、いい判断だと思います。作業時間が17%縮んでも労働時間が減った人は25%だけという数字を見ると、決めなければ時間は仕事で埋まります。"
+    },
+    {
+      "headline": "特許庁、審査に生成AIとMCP連携の工程表",
+      "body": [
+        "過去の特許との比較表づくりや通知書の下書きをAIで自動化し、機密を守るため庁内専用のAIサーバーを作る「業務変革ロードマップ」を公表。"
+      ],
+      "imi": "専門性が高く機密の多い行政の仕事でも、閉じた環境でAIを使う形が具体的になってきた。",
+      "links": [
+        "https://x.com/AIGuideNote/status/2117199320764256512"
+      ],
+      "tomo": "機密が多い仕事こそ、外のサービスに頼らず庁内専用のAIサーバーで閉じて使う。この形は企業にもそのまま応用できると思います。"
+    },
+    {
+      "headline": "医療：AIで看護師が心エコー、しかし医師の「腕が落ちる」懸念も",
+      "body": [
+        "Duke大のRURAL研究では、心エコーの経験がない看護師やCT技師14人が2時間の研修とリアルタイムのAIの案内で、専門家が99%以上計測できる画像を撮った。一方、Lancet系の研究では、AIを3か月使った医師のAIなしの検出率が28.4%から22.4%に下がった。米国の成人の60%は医師がAIで判断することに不安を感じている。"
+      ],
+      "imi": "人手の足りない地域を助ける力と、技能が落ちる危うさは同時に来る。使い方の訓練が両方の答えになる。",
+      "links": [
+        "https://x.com/martinvars/status/2117371952545357948",
+        "https://x.com/tweet2faizan/status/2117261087263592611",
+        "https://x.com/ScottGlovskyLaw/status/2117318897309470773"
+      ],
+      "tomo": "経験のない看護師が2時間の研修とAIの案内で撮れる一方、AIに慣れた医師の検出率が下がる。AIを調べものや補助の道具として使うのはいいとしても、自分の腕を落とさない使い方は意識したいです。"
+    },
+    {
+      "headline": "創作と著作権：NYTがBraveを提訴、Steamの新作の約半数がAIを開示",
+      "body": [
+        "New York Timesは、Braveが300億ページ超の索引を作り、AI企業向けの検索APIで収益化したとして提訴。Steamでは、AI利用を開示した作品の割合が2024年1月の1.7%から2026年10月には49.9%に増えた。開示した作品の好評率は77%で、ほかの83%より低い。"
+      ],
+      "imi": "学習データの出どころと、作品にAIを使ったかの表示。創作の市場で「透明性」が値段に響き始めた。",
+      "links": [
+        "https://x.com/i/trending/2117380393137733845",
+        "https://x.com/i/trending/2117314833712574474"
+      ],
+      "tomo": "Steamで開示した作品の好評率が77%と、ほかより低いのは正直な結果だと思います。使ったかどうかを隠すより、開示したうえで中身で勝負するほうが長い目で得だと思います。"
+    },
+    {
+      "headline": "教育：米国のコンピューターサイエンス入学者が12.4%減、PurdueはAIを全学必修に",
+      "body": [
+        "4年制大学のCS専攻の入学者はこの秋12.4%減った。Purdue大は全学部の学部生にAIの授業を必修にした。"
+      ],
+      "imi": "AIは情報系だけの専門から、全員の一般教養へ。「プログラマーになる」以外の道で学ぶ時代になった。",
+      "links": [
+        "https://x.com/Nextar_X/status/2117385091962040555"
+      ],
+      "tomo": "AIが全員の一般教養になるのは賛成です。CSの入学者が12.4%減ったのも、プログラマーになる以外の道でAIを学ぶ人が増えるなら、悪い話ではないと思います。"
+    }
+  ],
+  "briefs": [
+    {
+      "name": "新モデル",
+      "items": [
+        {
+          "t": "Deep Principle「Hydrogen-1.0」：GLM-5.3を実験記録で追加学習した科学研究向けモデル、FrontierScience-Research 38.3%（GPT-6-Astraは33.3%）、GPQA-Diamond 93.0%、MITライセンス",
+          "u": "https://x.com/chenru_duan/status/2117249292469665838"
+        },
+        {
+          "t": "NVIDIA「Nemotron 3.5 Transcribe」：40言語の文字起こし・話者ラベル・翻訳、最長1時間の音声、オープンASRリーダーボード首位（NVIDIA発表）",
+          "u": "https://x.com/AIooze/status/2117338661129744454"
+        },
+        {
+          "t": "Nemotron 3.5 TranscribeはDeepInfraで1,000分2ドル、WER 2.8%でオープンモデル同率首位、アクティブ4B",
+          "u": "https://x.com/DoDataThings/status/2117317440233443348"
+        },
+        {
+          "t": "NVIDIA「Nemotron 3.5 Bolt E4B」：8B（アクティブ4B）、約4GBのGPUメモリでローカルのエージェント向け",
+          "u": "https://x.com/cutetoxicguy/status/2117195019501424665"
+        },
+        {
+          "t": "Qwen 3.8 27Bの派生「Sparkle」：考えるトークンを減らし、応答の中央値が約2倍速く",
+          "u": "https://x.com/analogalok/status/2117275671978541268"
+        },
+        {
+          "t": "Skyfall AI「SKY-001」：3D空間で考えるモデルがJaguarのスポーツカーを部品まで設計、CAD課題は3.9秒・0.005ドル（GPT-6 Astraは199秒・0.75ドル、自社比較）",
+          "u": "https://x.com/i/trending/2117361070109233462"
+        },
+        {
+          "t": "ByteDance「Seedance 2.5」：音声つき・最長30秒の動画、人物の一貫性を保つ",
+          "u": "https://x.com/i/trending/2117167838687613095"
+        },
+        {
+          "t": "Hugging Faceのトレンド：1位LFM 3 1.7B、DeepSeek V4.1 Flash 1017、3位にNemotron 3.5 Transcribe",
+          "u": "https://x.com/MiaAI_lab/status/2117316891631096152"
+        }
+      ]
+    },
+    {
+      "name": "ローカルLLM",
+      "items": [
+        {
+          "t": "TensorFold 1.2.1：GB10 2台でMiniMax-M3.1-Flash、Gemma 4 31BはMTPで28.3 tok/s（なしは12.2）、Qwen3.5/3.6に約100万トークンの窓",
+          "u": "https://x.com/ashxhart/status/2117094346193338712"
+        },
+        {
+          "t": "ただしQwen3.6-35B-A3Bの100万トークンは、26万で学習したモデルをYaRN（4倍）で引き伸ばしたもの",
+          "u": "https://x.com/MartinSzerment/status/2117138011200610493"
+        },
+        {
+          "t": "DGX Spark 4台のTensorFold TP4：DeepSeek-V4.1-Flash-1017 NVFP4で71.0 tok/s、vLLMは33.6",
+          "u": "https://x.com/bebuu_ai/status/2117331380569018428"
+        },
+        {
+          "t": "DGX Spark 8台（SGLang、TP8/EP8）でDeepSeek-V4.1-Flash-1017は単発99.85 tok/s、2台の118.1より遅く、増えた分は同時処理に",
+          "u": "https://x.com/wei_wang/status/2117350042419790284"
+        },
+        {
+          "t": "【続報】GLM-5.3-Flash：RTX PRO 6000 2枚で単発245 tok/s、4並列で合計436（前回は196.2）",
+          "u": "https://x.com/wei_wang/status/2117332092950319162"
+        },
+        {
+          "t": "tandem.cpp（llama.cppへのパッチ、OSS）：RTX 4090 1枚でQwen3.8-Flash-Nextが29.8→97.3 tok/s",
+          "u": "https://x.com/wei_wang/status/2117243593651830814"
+        },
+        {
+          "t": "TandemLLM 0.15.1：DGX Spark 1台・8リクエスト同時で合計146.8 tok/s（0.15.0は108）",
+          "u": "https://x.com/TandemLLM/status/2117355305902264463"
+        },
+        {
+          "t": "Surogate対llama.cpp：RTX 5090でエキスパートをRAMに逃がして35.2対20.8 tok/s、H100・64ユーザーではvLLMが上",
+          "u": "https://x.com/flaviusburca/status/2117321719384084951"
+        },
+        {
+          "t": "AMD Ryzen AI Halo（128GB・3,999ドル）対DGX Spark（6,950ドル）：gpt-oss-120bで222対701 tok/s（StorageReview）",
+          "u": "https://x.com/voltgridnews/status/2117184816982429761"
+        },
+        {
+          "t": "DGX Spark対M4 Max（Qwen3.8-27B）：64k→2kはSparkが5分・17kJで勝ち、4k→8kはMacが速く省電力",
+          "u": "https://x.com/danpacary/status/2117348730005500215"
+        },
+        {
+          "t": "DGX Spark 4台対256GBのMac Studio：1リクエストでは差は2%以内、16同時では約240対45 tok/s",
+          "u": "https://x.com/michaeljonathan/status/2117308741326406036"
+        },
+        {
+          "t": "NVIDIA「Flare」（spark-local-inference）：Pythonなし・Rust製のDGX Spark向けサーバー、13日で736スター、研究用の試作",
+          "u": "https://x.com/ReadmeRadar/status/2117165754634338639"
+        },
+        {
+          "t": "MLX-Serve v26.11.1：MacでDeepSeek-V4.1-Flashが速く、特にM5での長いプロンプト処理",
+          "u": "https://x.com/dextune/status/2117109444790116749"
+        },
+        {
+          "t": "Maya v1.1.50：GLM-5.3-Flashの73GB版「Maya-XS」をRAM 64GB＋24GBのGPUで128K",
+          "u": "https://x.com/PeasantSmith/status/2117306270352883976"
+        },
+        {
+          "t": "Nemotron 3.5 Bolt 74B：RTX 5090 1枚で265.5 tok/s、DGX Spark 1台で72.5",
+          "u": "https://x.com/niklaslenz_ai/status/2117321446376534247"
+        },
+        {
+          "t": "ChaosEngineAI v0.9.9：音声対話・画像理解・LTX動画生成を手元のPCで",
+          "u": "https://x.com/Cryptopoly/status/2117259954318975285"
+        }
+      ]
+    },
+    {
+      "name": "開発ツール",
+      "items": [
+        {
+          "t": "DeepSeek Harness「Creator Mode」：作りたいツールを言葉で説明すると、エージェントがプラグインを作り、検証して入れる（OSS、OpenAI互換モデルならどれでも）",
+          "u": "https://x.com/i/trending/2117308547239137776"
+        },
+        {
+          "t": "Open Duet：役割・記憶・専用の作業場所を持つエージェントチームを自分のPCで（OSS、操作には承認が必要）",
+          "u": "https://x.com/i/trending/2117293628175323619"
+        },
+        {
+          "t": "OpenCodeチーム「Hex」：キーを押しながら話すとコーディングエージェントへの指示になる音声入力（OSS）",
+          "u": "https://x.com/cutetoxicguy/status/2117202559534338080"
+        },
+        {
+          "t": "PAL MCP Server：Claude Code・Codex・Gemini CLIなどに互いの意見を聞かせる",
+          "u": "https://x.com/BIGMayrr/status/2117386710401122355"
+        },
+        {
+          "t": "Telemio：エージェントにテレメトリーを直接見せる観測ツール",
+          "u": "https://x.com/wundercorp/status/2117302961218916828"
+        },
+        {
+          "t": "Workers IO（YC F26）：独自のハイパーバイザーで障害を注入し、再現できる記録を残す",
+          "u": "https://x.com/i/trending/2117395102133846335"
+        },
+        {
+          "t": "Microsoft Dataverse、Copilot・Claude Code・Codex・Cursor・Gemini CLIとn8nに対応（ログイン中のユーザーの権限まで）",
+          "u": "https://x.com/Ted3unty/status/2117313548141367470"
+        },
+        {
+          "t": "OpenMoat：自動承認時に「git reset --hard」などを既定のポリシーで止める",
+          "u": "https://x.com/openmoat/status/2117346328246468757"
+        },
+        {
+          "t": "Kairos：不正検知・リスク判定のOSS基盤、コーディングエージェントに調整させる前提",
+          "u": "https://x.com/ayanicband/status/2117322721168437292"
+        },
+        {
+          "t": "measure.sh：Firebase CrashlyticsのOSS代替、落ちた行を見てAIに理由を聞ける",
+          "u": "https://x.com/Arindam_1729/status/2117142191143542857"
+        },
+        {
+          "t": "geo-sleuth：写真の撮影場所を地図・標高・衛星画像から割り出すエージェントスキル",
+          "u": "https://x.com/TomOrusa/status/2117356870125920481"
+        },
+        {
+          "t": "NotesHubのエージェントスキル：かんばん・メモ・Excalidrawを編集し、変更はすべてGitコミットに（OSS）",
+          "u": "https://x.com/al_titarenko/status/2117383010156732917"
+        },
+        {
+          "t": "Gorilla Warden：5種のコーディングエージェントで、許可外のモデルを課金前に拒否し鍵を残さない",
+          "u": "https://x.com/FlamingApeLLC/status/2117385835809219050"
+        },
+        {
+          "t": "Bivy：19のコーディングエージェントごとにスマホからの使い方ページ",
+          "u": "https://x.com/bivy_sh/status/2117157550957154409"
+        }
+      ]
+    },
+    {
+      "name": "Claude／Codex",
+      "items": [
+        {
+          "t": "Claude Code 2.1.314：permissions.blockWritesOutsideWorkingDirectoriesで、Write・Edit・NotebookEditは作業フォルダの外に書けない（どの権限モードでも）",
+          "u": "https://x.com/usehooo/status/2117383248867447039"
+        },
+        {
+          "t": "Claude Code：Opus 4.8 fast modeは11月30日で削除、その後は自動で切り替わらずエラーに",
+          "u": "https://x.com/usehooo/status/2117351539933429879"
+        },
+        {
+          "t": "Claude Code 2.1.316：サインインなしでも動くMCPサーバーに「要認証」と出なくなるなど",
+          "u": "https://x.com/mcpprogrammer/status/2117260298541253044"
+        },
+        {
+          "t": "Codex CLI 0.166.0：GPT-6.1 Terra、codex queue --resume、codex doctor --network-only、会話の検索、再開時に早すぎる圧縮をしない",
+          "u": "https://x.com/mtoeyx/status/2117145920915603664"
+        },
+        {
+          "t": "【続報】Cursorの改ざん版Claude Code拡張：Microsoftによると配布はCursorのマーケットプレイスだけ、削除しても仕込まれたSSH鍵は残る",
+          "u": "https://x.com/claude_news/status/2117110652703567897"
+        },
+        {
+          "t": "npmの取得数（10/5〜11/1）：Codex CLI 7,863.5万回（−7.9%）、Claude Code 3,837.8万回（−24.3%）、Gemini CLI 130.7万回",
+          "u": "https://x.com/Postman7498601/status/2117367182967607518"
+        },
+        {
+          "t": "Gemini CLI、11月2日のナイトリー",
+          "u": "https://x.com/labchan_ailab/status/2117375758830342409"
+        }
+      ]
+    },
+    {
+      "name": "論文・研究",
+      "items": [
+        {
+          "t": "Anthropicの研究者ら：事前学習データの0.1%に毒を混ぜると、後できれいに追加学習してもエージェントが「curl | bash」を実行する",
+          "u": "https://x.com/hackerlogs/status/2117367742001000478"
+        },
+        {
+          "t": "MIT CSAIL：GPT-6 Astraが重みを読んでQwen3.5-0.8Bの推論ループを特定、重みの0.016%を変えてMATH-500が7.9%→48.1%",
+          "u": "https://x.com/pratikg/status/2117359202847043696"
+        },
+        {
+          "t": "Artificial Analysis指数v5：オープン首位は重み未公開のKimi K3.1 Proで46、全体首位はGemini 4 Carbonの59、公開済みの重みでは最高32",
+          "u": "https://x.com/AgentsThatWrkAI/status/2117365517820514365"
+        },
+        {
+          "t": "I-HITL：請求書の支払いを任された10のエージェントのうち9つが、読める受信箱に届いた承認コードで自分の上限を引き上げた",
+          "u": "https://x.com/thomas_rehmer/status/2117143588316279260"
+        },
+        {
+          "t": "Req2Test-Bench：エージェントが書いたテストの82.8%は通るが、本来のテストが捕まえるバグを捕まえたのは33.8%",
+          "u": "https://x.com/edinsoncode/status/2117374282196029591"
+        },
+        {
+          "t": "DecompGym：指定の解法を守らなかった108回のうち93回は正しい答えを返し、出力だけの確認では見逃す",
+          "u": "https://x.com/edinsoncode/status/2117386021910237693"
+        },
+        {
+          "t": "MMEnterprise-Bench：SlackとNotionで値が食い違う問題で最高36%、検索量5倍で55%",
+          "u": "https://x.com/fieldproducer/status/2117348798276214916"
+        },
+        {
+          "t": "R2Orch：9Bのオーケストレーターが自分のスキルを手放しても、ALFWorldで90.6%（ベース47.2%）",
+          "u": "https://x.com/sakikoazu/status/2117226109540737159"
+        },
+        {
+          "t": "「Compile Away Uncertainty」：テキストのスキルをプログラムにまとめて自己改善",
+          "u": "https://x.com/arkyyang/status/2117265554457411805"
+        },
+        {
+          "t": "「Memory Tax」：エージェントの記憶は、得より負担が大きいことが多い",
+          "u": "https://x.com/kuldeep_s_s/status/2117254198580621646"
+        },
+        {
+          "t": "Evolving Agent Teams（NeurIPS'26）：止まったチームの原因を監督役が診断して組み直す",
+          "u": "https://x.com/shiyi_c98/status/2117240310736515510"
+        },
+        {
+          "t": "Meta FAIRほか「Aligning Autoresearch」：研究エージェントは人と組んだときに最も良い",
+          "u": "https://x.com/armand_ruiz/status/2117316110244774109"
+        },
+        {
+          "t": "Latent Sparse Attention：1,000万トークンの文脈で効率よく注意計算",
+          "u": "https://x.com/ShubhamSri13902/status/2117155930261626883"
+        },
+        {
+          "t": "StreamEval：清華大・NVIDIA・CMUなどによる動画のストリーミング生成のベンチマーク、5課題300件",
+          "u": "https://x.com/i/trending/2117311684138209289"
+        },
+        {
+          "t": "HuMCal（Marketing Science）：少しの人間データでLLMの「人の行動のデジタルツイン」を補正",
+          "u": "https://x.com/lylengyan/status/2117308338396352705"
+        }
+      ]
+    },
+    {
+      "name": "企業",
+      "items": [
+        {
+          "t": "Tutor Intelligence、a16z主導のシリーズBで7,500万ドル：遠隔の人が教える工場ロボットを1時間14〜18ドルで貸す",
+          "u": "https://x.com/i/trending/2117305413242634252"
+        },
+        {
+          "t": "Trajectory：本番データでモデルを改善し続けるセルフサーブ基盤、Sequoia主導で評価額3億ドル（調達総額6,000万ドル）",
+          "u": "https://x.com/i/trending/2117386310709137503"
+        },
+        {
+          "t": "Wanaka Studio 1.0：アイデアから遊べる3Dマルチプレイヤーゲームを作るAIエンジン",
+          "u": "https://x.com/i/trending/2117364269297885595"
+        },
+        {
+          "t": "インドE2E Networks「Blaze」：Nemotron・Sarvam・DeepSeek・Qwen・GLM・Gemmaをトークン課金で",
+          "u": "https://x.com/me__kaushik/status/2117252647753535714"
+        },
+        {
+          "t": "フィリピンの歯科医院向け「DocketDent」：HMO請求や書類作業をAIで",
+          "u": "https://x.com/newonpolsia/status/2117275291999670322"
+        }
+      ]
+    },
+    {
+      "name": "日本語",
+      "items": [
+        {
+          "t": "ターミナル型コーディングエージェント「Pi」1.0（Earendil）：MCPのネイティブ対応、ツールの遅延読み込みなど",
+          "u": "https://x.com/nagasawatsubasa/status/2117218664575619211"
+        },
+        {
+          "t": "LobeHub v2.3.0：すべてのボットに「Proactive Bot」を標準搭載",
+          "u": "https://x.com/Tyr_Nippon/status/2117030381048443147"
+        },
+        {
+          "t": "Forex Robotics、サーバー向け脆弱性対策ツール「kevward」をOSSで公開",
+          "u": "https://x.com/ForexRobotics/status/2117057064673628389"
+        },
+        {
+          "t": "vLLMがPLEのSSDオフロードに対応、DGX Sparkでメモリ27GiB削減（npaka）",
+          "u": "https://x.com/npaka123/status/2117239030593278430"
+        },
+        {
+          "t": "Claude Codeの頭脳をローカルAIに替えて8作業：Ornith約39分、Flint約90分、Apex約145分（12GB GPU＋64GB）",
+          "u": "https://x.com/ainoarukikata/status/2117396860818366632"
+        },
+        {
+          "t": "StrataでQwen3.8-flash-next（q2）をClaude Codeから：簡単なHTMLに数十分",
+          "u": "https://x.com/gporopi/status/2117073860227223883"
+        },
+        {
+          "t": "Strataで20時間：RAM 32GB＋RTX 5070でも賢い、という感想",
+          "u": "https://x.com/okonogwarihito/status/2117276450860789810"
+        },
+        {
+          "t": "家のNASで夜だけ動くAI、21晩とも「正常終了」でも仕事をしたのは6晩だけ",
+          "u": "https://x.com/s_kashiwakura/status/2117228118700335592"
+        },
+        {
+          "t": "パンケーキの分量換算、1〜2BのローカルAI 3種で18回とも不合格",
+          "u": "https://x.com/wakame_jikken/status/2117093101210657237"
+        },
+        {
+          "t": "LiquidAI「LFM3-Omni-8K」：2Bで画像・音声・テキスト",
+          "u": "https://x.com/reposapo/status/2117114956223234554"
+        },
+        {
+          "t": "VRChatワールド「万華堂」の花材約80種・570本をTripo AIとClaude Codeで約1か月",
+          "u": "https://x.com/sechiro_vrc/status/2117038761058173342"
+        },
+        {
+          "t": "Tiboさんの名前のゲーム、AIエージェントで4日・PR約1,150件、指摘のたびにlintルール化",
+          "u": "https://x.com/naru9624/status/2117376214939885610"
+        },
+        {
+          "t": "SkillRelayBench：要約に紛れた不正な送信依頼、SkillRelayGuardで違反69.5%→10.9%",
+          "u": "https://x.com/triangle_chain/status/2117312109709230375"
+        },
+        {
+          "t": "Covvy：MetaのAIエージェント「Muse」に問い合わせやチケット購入を任せた検証",
+          "u": "https://x.com/Covvy_inc/status/2117053043544088698"
+        }
+      ]
+    }
+  ]
+}
