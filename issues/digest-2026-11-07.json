@@ -1,0 +1,532 @@
+{
+  "date": "2026-11-07",
+  "paper": {
+    "name": "AI朝刊",
+    "tagline": "世界のAIニュースを、\n毎朝ひとつの紙面に",
+    "edition": "朝刊"
+  },
+  "lead": {
+    "kicker": "トップ",
+    "headline": "OpenAI、新規調達で110億ドルをクローズ",
+    "deck": "評価額1.25兆ドル　当初目標300億ドル超から縮小した第一トランシェ",
+    "subheads": [
+      "Bloomberg報道：資金は金曜時点で入金済み　残り約90億ドルは「数週間内」との見方",
+      "当初は1.4兆ドル評価で300億超を志向　市場の冷えと計算コスト懸念で規模を圧縮"
+    ],
+    "body": [
+      "Bloombergなどの報道によると、OpenAIは最新ラウンドの第一トランシェとして約110億ドルをクローズし、評価額は1.25兆ドルとなった。資金は金曜時点で会社に送金済みとされる。",
+      "当初は評価額1.4兆ドルで300億ドル超の調達を目指していたが、AI株の調整や計算コストへの慎重論を背景に、目標は縮小。報道では残りの約90億ドルも「数週間内」に完了する見通しとされる一方、投資家がAnthropicのIPO動向を見極めたいとの観測もある。",
+      "同日、OpenAIはフロンティアモデルのJailbreak評価枠組み（FMF連携）や湿式実験向けベンチマークBioBasicsBenchも公式発表。大型モデルの一般公開を待つ空気の中で、資金と安全・科学ベンチが先に並んだ一日となった。"
+    ],
+    "stat": {
+      "num": "$11B",
+      "caption": "OpenAIがクローズしたとされる第一トランシェ規模（Bloomberg報道）"
+    },
+    "links": [
+      "https://x.com/i/trending/2118824983518703636",
+      "https://x.com/negligible_cap/status/2118811691295154607"
+    ],
+    "related": [
+      {
+        "headline": "OpenAI×FMF「Jailbreak Rating Framework」：サイバー危害の共通評価",
+        "body": [
+          "Frontier Model Forumと加盟企業と連携し、セーフガード回避が深刻なサイバー危害につながりうるかを共通手法で評価・優先順位づけする枠組みを発表した。"
+        ],
+        "links": [
+          "https://x.com/OpenAI/status/2118795218099253606"
+        ]
+      },
+      {
+        "headline": "BioBasicsBench：湿式ラボの日常解析100課題でエージェントを測定",
+        "body": [
+          "酵素設計のLigoと共同開発。ゲル画像など生データから誤りを見抜き、証拠が結論を支えない場面も判定する。科学・バイオセーフティの進捗追跡用と位置づけた。"
+        ],
+        "links": [
+          "https://x.com/OpenAI/status/2118782708767965238",
+          "https://x.com/i/trending/2118800545532039264"
+        ]
+      }
+    ],
+    "tomo": "110億ドルが入った一方で、当初の300億超・評価1.4兆ドルからははっきり縮んでいます。同じ日にJailbreakの採点枠と湿式ラボのベンチが出たのは、調達と安全・科学の物差しを先に揃える動きに見えます。"
+  },
+  "left": [
+    {
+      "tag": "オープンウェイト",
+      "headline": "Thinking Machines「Inkling 2 Small」\nAA Index 31　重みは近日公開予定",
+      "body": [
+        "Mira Murati氏のThinking MachinesがInkling 2 Smallを発表。594B総パラメータ／活性17BのMoEで、Artificial Analysis Intelligence Indexは31（前世代から約18点上昇）。Gemini 3.8 Flash（high）と並ぶ水準で、中国外のオープンウェイト首位候補との評価。Tinkerでファインチューン／推論が利用可能、Apache 2.0での重み公開を予定。"
+      ],
+      "links": [
+        "https://x.com/thinkymachines/status/2118489527362912566",
+        "https://x.com/miramurati/status/2118489804585509192",
+        "https://x.com/ArtificialAnlys/status/2118493376186388530",
+        "https://x.com/i/trending/2118493638007062804"
+      ],
+      "tomo": "594B／活性17BでAA Index 31、中国外のオープンウェイト首位候補、という位置づけは魅力的です。Apache 2.0で重みが出たら、まずはTinker経由で自分のタスクで試したいです。"
+    },
+    {
+      "tag": "研究",
+      "headline": "Google DeepMind、AIエージェントで\nレガシー1024bit RSAの弱点を発見",
+      "body": [
+        "人間の監督下で暗号解析を加速。署名パディングとバッチ因数分解で従来想定より低い計算予算で弱点を示した。現代の2048bit以上は安全とし、硬度仮定の継続的検証の重要性を強調。"
+      ],
+      "links": [
+        "https://x.com/GoogleDeepMind/status/2118755418675765656"
+      ],
+      "tomo": "2048bit以上は安全、としつつ1024bit級の硬度仮定を検証し直す、という慎重さが好感です。レガシー暗号が残る現場では、こうした再点検が地味に効いてくると思います。"
+    }
+  ],
+  "right": [
+    {
+      "vertical": true,
+      "headline": "Anthropic「dreaming」：\nエージェントが失敗から学ぶ記憶整理",
+      "body": [
+        "セッション記録をオフラインで見直し、記憶の誤りを直し次回の検索を楽にする仕組み。海馬に着想。ベンチマークやポケモン実演でも効果を示した。ハーネス設計の一部と位置づけ。"
+      ],
+      "links": [
+        "https://x.com/AnthropicAI/status/2118814753154064501",
+        "https://x.com/i/trending/2118822091612950819"
+      ],
+      "tomo": "失敗したセッションをオフラインで見直して記憶を直す、というのはハーネス設計として素直です。ポケモン実演は派手ですが、次の検索が本当に楽になるかどうかのほうを見たいです。"
+    },
+    {
+      "vertical": true,
+      "headline": "Google Antigravity 2.29：\nリモートエージェントと音声モード",
+      "body": [
+        "有料プランでGoogle VM上のクラウドエージェントがテストやPRを実行。Gemini Liveの音声で計画・承認も可能。UI刷新とGitHub／Drive連携強化。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118515778144141492"
+      ],
+      "tomo": "VM上でテストやPRまで回せて、音声で計画と承認もできるなら、外出先の監視役としては便利そうです。権限の範囲と課金の上限を確認してから触りたいです。"
+    }
+  ],
+  "labs": [
+    {
+      "headline": "METR：Anthropic内部でモデル能力の伸びが約1.9倍に加速",
+      "body": [
+        "2026年8〜10月の内部アクセス調査。AECI指標ベースで、加速の約8割はAIが研究者を支援する効果。Anthropicは公開版で機微を伏せ、共同創業者Sam McCandlish氏は結論に同意し自社分析も予定。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118427442922901851"
+      ],
+      "tomo": "加速の約8割がAIによる研究者支援、という分解は説得力があります。公開版で機微を伏せている点も含め、共同創業者が予告した自社分析の続きを待ちたいです。"
+    },
+    {
+      "headline": "Claude Code：メールがUser-Agentに漏えい　v2.1.317で対策",
+      "body": [
+        "作者識別のためコンテキストに入れたメールがWebリクエストのUser-Agentに載り、スパム急増の報告。Anthropicはプライバシープラグインを出荷し、コンテキストからメール削除も予定。クラウドセッション自動検出なども同時期に。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118630191685914974",
+        "https://x.com/i/trending/2118833479668400385"
+      ],
+      "tomo": "識別用に入れたメールがUser-Agentに載るのは、地味ですが痛い事故です。v2.1.317の対策は入ったので、自分の環境でもプライバシー設定を見直しておきます。"
+    },
+    {
+      "headline": "Claude Duet：スマホからClaude Codeの進捗確認・承認",
+      "body": [
+        "モバイルで実行中タスクの監視、変更承認、更新送信。依存関係やAPIキーの自動検出・安全保管も。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118812904648794590"
+      ],
+      "tomo": "スマホから進捗確認と承認ができるのは、長時間エージェント向きです。APIキーの自動検出・保管がどこまで安全かは、使う前に確認したいです。"
+    },
+    {
+      "headline": "Mistral「Voxtral 3」：発話終了（end-of-turn）検出",
+      "body": [
+        "音声対話で「話し終わった瞬間」を検出する機能を紹介。応答型ボイスUI向け。"
+      ],
+      "links": [
+        "https://x.com/MistralAI/status/2118744719870066936"
+      ],
+      "tomo": "話し終わった瞬間を検出できるなら、音声UIの「間」のストレスは減りそうです。応答型の会話で誤割り込みがどれだけ減るかを、まずは短い対話で見てみます。"
+    },
+    {
+      "headline": "ChatGPTビジネス可視性：印象・クリック分析ダッシュボード開発中",
+      "body": [
+        "Search Console風にChatGPT内の表示回数・クリックを企業が確認できるツールを開発中との報道。所有権クレームやShopify連携の可能性も。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118755136361152559"
+      ],
+      "tomo": "Search Console風にChatGPT内の印象・クリックが見えるなら、企業のSEO感覚はまた変わりそうです。報道段階なので、出てからの実データで判断します。"
+    },
+    {
+      "headline": "Astra／Sol／Fable待ち：11/6は大型モデル一般公開なし",
+      "body": [
+        "コミュニティではGPT-6.2 AstraやAnthropic Fable 5.5の当日公開を期待する声が強かったが、公式の一般公開はなく「互いを待つ」との観測が広がった。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118555311078309901",
+        "https://x.com/i/trending/2118844626979148126"
+      ],
+      "tomo": "大型モデル待ちの空気が強かった日に公式一般公開がなかった、という観測はそのまま受け取っておきます。公式が出るまで、噂だけでは動かないほうがいいです。"
+    },
+    {
+      "headline": "【続報】GPT-6 Cyber：Firefoxで未知の高深刻度81件も",
+      "body": [
+        "前日発表の続報として、Mozilla側で未知の高深刻度バグ81件の修正が進むとのまとめが拡散。Daybreak Red経由の限定提供という枠組みは変わらず。"
+      ],
+      "links": [
+        "https://x.com/i/trending/2118842019439092085"
+      ],
+      "tomo": "Firefoxで未知の高深刻度81件、という続報は重い数字です。Daybreak Red経由の限定提供のままなので、誰が防御に使えるかが引き続き焦点だと思います。"
+    }
+  ],
+  "column": {
+    "title": "天声AI語",
+    "label": "コラム",
+    "note": "※本欄は本紙の論評であり、報道記事ではありません。",
+    "text": "110億ドルが入った日に、次のフロンティアモデルは出てこなかった。代わりに並んだのは、Jailbreakの共通採点表と、湿式ラボの日常課題100問、そして「夢を見る」エージェントの記憶整理だ。市場は評価額1.25兆ドルを語り、開発者はメールがUser-Agentに漏れた話で夜更かしし、学校やアニメの入口仕事では「AIを使うな」の声が続く。お金と安全枠と現場の摩擦が、同じ日付のタイムラインに同居している。知洋のひと言：モデル待ちの日ほど、評価の物差しと、漏えいのような地味な事故対応のほうが、使う側の現実を決める。"
+  },
+  "society": [
+    {
+      "headline": "Canva、人員の約22%を削減　AI計算コスト増も背景",
+      "body": [
+        "約1,271職を削減・再編。成長鈍化とAIコンピュート費用の上昇を理由に挙げ、予測成長率も30%から20%へ下方修正したと報じられた。対象者には最低6か月分給与、MacBook保持、株式クリフ免除、最長12か月の医療、起業向け1万ドル助成など手厚い条件が話題に。"
+      ],
+      "imi": "「AIで成長」と「AIの請求書」が同じ会社で衝突。クリエイティブSaaSでも人員と計算資源のトレードオフが表面化した。",
+      "links": [
+        "https://x.com/i/trending/2118465194745790570"
+      ],
+      "tomo": "約22%削減の背景にAIコンピュート費用も挙がっている点は象徴的です。退職条件が厚い一方で、成長見通しを30%から20%へ下げた数字もセットで見ておきたいです。"
+    },
+    {
+      "headline": "金融・事務職がAI露出の上位　Bloombergの暴露チャート",
+      "body": [
+        "AnthropicやOpenAIの実利用データに基づく可視化で、ビジネス・金融、コンピュータ／数理、事務、販売が上位。肉体労働系は相対的に低い。金融卒が分析エージェントの監督役になる、といった現場変化も議論された。"
+      ],
+      "imi": "ホワイトカラーの「認知ルーチン」から先に置換・監督化が進む構図。新卒ラダーの設計が問われる。",
+      "links": [
+        "https://x.com/i/trending/2118717266686570972"
+      ],
+      "tomo": "実利用データで金融・事務が上位、というのは肌感にも近いです。金融卒が分析エージェントの監督役になる、という現場変化の話は特に気になります。"
+    },
+    {
+      "headline": "Mag7以外はAIをコストセンター視　利益への寄与見えず",
+      "body": [
+        "ApolloのTorsten Slok氏の議論として、Magnificent 7以外のS&P493社では従業員あたり収益・利益率が横ばいで、トークン支出を成長エンジンではなくコストと見る動きが強い、とのまとめが再燃（Mag7格差の続報的議論）。"
+      ],
+      "imi": "AI投資のリターンが一部巨大テックに偏るなら、一般企業は「使い方」より「支出抑制」に振れやすい。",
+      "links": [
+        "https://x.com/i/trending/2118717268322390419"
+      ],
+      "tomo": "Mag7以外はトークン支出を成長ではなくコストと見る、という整理は納得感があります。利益への寄与が見えないあいだは、慎重論が続くと思います。"
+    },
+    {
+      "headline": "AIバブル崩壊確率、Polymarketで2027年半ば27%に",
+      "body": [
+        "Nasdaqが大きく下落した直後、予測市場で「2027年半ばまでにバブル崩壊」のオッズが約27%まで上昇したとの投稿が拡散。一方で実収益があるとの反論も。"
+      ],
+      "imi": "中間選挙後のデータセンター規制懸念が株と予測市場を同時に動かした。物語とキャッシュフローの綱引き。",
+      "links": [
+        "https://x.com/i/trending/2118770821124464793"
+      ],
+      "tomo": "予測市場で27%は「話題になった」以上でも以下でもない数字です。実収益があるとの反論と並べて、相場の空気として読むくらいがちょうどいいです。"
+    },
+    {
+      "headline": "Microsoft、OracleからのAIクラウド借りを終了へ",
+      "body": [
+        "Bing強化向けに借りていたOracle容量を段階的に停止。古いNvidiaチップが現行仕様に合わないため、との説明。Oracle株下落要因の一つとして報じられた。"
+      ],
+      "imi": "AIインフラ契約も「世代遅れ」で打ち切られる。需要減というよりスペック更新の話でもある。",
+      "links": [
+        "https://x.com/i/trending/2118764671066919161"
+      ],
+      "tomo": "古いチップが現行仕様に合わないから借りを止める、というのは実務的な理由です。クラウドの世代遅れが、契約の切れ目になる一例だと思います。"
+    },
+    {
+      "headline": "経営層のAI義務化と、現場の懐疑が衝突",
+      "body": [
+        "CEOがAI利用を事実上義務づけ、使わない同僚に置き換わると警告する一方、有権者はデータセンターに反発し、世論はリスクと便益で割れている、という整理が広がった。"
+      ],
+      "imi": "上からの導入圧力と下からの政治的ブレーキが同時進行。組織内の納得形成がボトルネックになる。",
+      "links": [
+        "https://x.com/i/trending/2118298102448677157"
+      ],
+      "tomo": "経営層の義務化と、有権者のデータセンター反発が同時に起きる構図はきついです。社内の強制と社会の拒否が、同じ「AI」という言葉でぶつかっています。"
+    },
+    {
+      "headline": "アニメーターMatt Braly氏：入口業務にAIを使うな",
+      "body": [
+        "背景塗りやクリーンアップはキャリアの土台だとして、AI利用を拒否するよう呼びかけ。イラストレーターの46%がAIで仕事を失ったとの調査数字も議論に。"
+      ],
+      "imi": "効率化の前に「先輩になる道」が細る懸念。クリエイティブ産業の徒弟制と生成AIの相性が問われている。",
+      "links": [
+        "https://x.com/i/trending/2118520809803382839"
+      ],
+      "tomo": "入口の塗りやクリーンアップはキャリアの土台、という指摘は重いです。調査数字の46%も含め、創作現場では効率化だけでは片付けられない話だと思います。"
+    },
+    {
+      "flag": "🇯🇵",
+      "region": "日本",
+      "headline": "横須賀市、小規模事業者向けICT補助金で生成AI導入を支援",
+      "body": [
+        "従業員30人以下向け「小規模事業者ICT補助金」。生成AI導入など業務効率化が対象で、上限30万円・補助率3/4。"
+      ],
+      "imi": "大企業の導入ニュースの裏で、自治体補助金が中小の第一歩を後押しする段階に入っている。",
+      "links": [
+        "https://x.com/yokosukacci/status/2118548679284191251"
+      ],
+      "tomo": "上限30万円・補助率3/4で生成AI導入も対象、というのは小規模事業者には手が届きやすいです。導入後の定着まで見据えた使い方がポイントになりそうです。"
+    },
+    {
+      "headline": "米企業のOSS系AI支出の89%が中国モデル向け（Menlo）",
+      "body": [
+        "Menlo Ventures「State of Enterprise AI 2026」として、オープンソースAIへの米企業支出のうち中国プロバイダが89%、Kimiが61%などとまとめた投稿が拡散。一方クローズド米モデルは企業支出の大半を維持との対比も。"
+      ],
+      "imi": "閉源は米勢、開源推論コストは中国勢、という二層構造が数字で語られ始めた。",
+      "links": [
+        "https://x.com/loong_of/status/2118703760381763686",
+        "https://x.com/VestigiaLabs/status/2118737925374431538"
+      ],
+      "tomo": "OSS支出の89%が中国モデル向け、という対比は強いです。クローズド米モデルが企業支出の大半を維持しているなら、用途で二層化が進んでいる印象です。"
+    },
+    {
+      "headline": "Google、ワイオミングに170億ドル規模のデータセンター",
+      "body": [
+        "Cheyenne近郊で初の州内キャンパス。Crusoeから取得、702MWの燃料電池＋炭素回収など。建設ピークで8,800人超の雇用見込み、稼働は2028年後半目標。"
+      ],
+      "imi": "選挙で嫌われた国内DCだが、個別州では大型投資が続く。立地と電力調達の交渉力が鍵。",
+      "links": [
+        "https://x.com/i/trending/2118427436832673902"
+      ],
+      "tomo": "170億ドル・702MW規模のキャンパスは、計算資源の地理がまた動いている証拠です。2028年後半稼働なら、使う側はリージョン選択も設計の一部になります。"
+    }
+  ],
+  "briefs": [
+    {
+      "name": "新モデル／オープンウェイト",
+      "items": [
+        {
+          "t": "Thinking Machines「Inkling 2 Small」：594B／活性17B、AA Index 31、Tinker提供・重み近日",
+          "u": "https://x.com/thinkymachines/status/2118489527362912566"
+        },
+        {
+          "t": "Mistral「Voxtral 3」：end-of-turn検出で音声対話の区切りを判定",
+          "u": "https://x.com/MistralAI/status/2118744719870066936"
+        },
+        {
+          "t": "Moonshot「Kimi K3.1 Pro」：オープンウェイト／NVIDIA buildで無料試用の投稿も",
+          "u": "https://x.com/i/trending/2118824973016117608"
+        },
+        {
+          "t": "Ricursive「Ripple-65B Preview」：チップ設計AIラボの65B dense、HFで重み",
+          "u": "https://x.com/tsnmediahub/status/2118527559088447819"
+        },
+        {
+          "t": "Fastino：トークン生成なしで判定する意思決定モデル5種、最小0.8GB・約7ms",
+          "u": "https://x.com/TeksEdge/status/2118538879607112188"
+        },
+        {
+          "t": "Preferred Networks「PLaMo 3 Translate」：53言語オフライン、GGUF約570MB",
+          "u": "https://x.com/cutetoxicguy/status/2118818207796789294"
+        },
+        {
+          "t": "CCORE GLB-3D-Coder（4B）：編集可能な3Dゲームアセットをローカル生成",
+          "u": "https://x.com/cutetoxicguy/status/2118689870474306019"
+        }
+      ]
+    },
+    {
+      "name": "ローカルLLM／MLX／推論",
+      "items": [
+        {
+          "t": "OllamaにPhonon系TTS：テキスト読み上げ、まずmacOS",
+          "u": "https://x.com/rubbletag/status/2118784873582514553"
+        },
+        {
+          "t": "Atomic Local AI Server：llama.cpp／vLLM／SGLang／MLX等をOpenAI互換で束ねる",
+          "u": "https://x.com/theagenticdaily/status/2118505982783590546"
+        },
+        {
+          "t": "Locally Uncensored：チャット・ComfyUI・コーディングを一つのデスクトップに",
+          "u": "https://x.com/OwnYourCompute/status/2118776680919478757"
+        },
+        {
+          "t": "Kimi K3.1 Proローカル：重み約1.56TB、llama.cpp／mlx-lmは未対応との注記",
+          "u": "https://x.com/modelfit_/status/2118689905031409825"
+        },
+        {
+          "t": "Rogue AI Assistant for Blender 5.2：LM Studio＋クラウド、Plan/Buildモード",
+          "u": "https://x.com/MakanAnsariCG/status/2118804862779744298"
+        }
+      ]
+    },
+    {
+      "name": "開発ツール／エージェント／OSS",
+      "items": [
+        {
+          "t": "Anthropic「dreaming」：トランスクリプト見直しでエージェント記憶を補正",
+          "u": "https://x.com/AnthropicAI/status/2118814753154064501"
+        },
+        {
+          "t": "Google Antigravity：リモートクラウドエージェント＋Gemini Live音声",
+          "u": "https://x.com/i/trending/2118515778144141492"
+        },
+        {
+          "t": "World Labs「Frameboy」：ブラウザでリアルタイム世界モデルを操作",
+          "u": "https://x.com/i/trending/2118448210276753768"
+        },
+        {
+          "t": "Quest：メール／アプリから個人wikiを構築する常駐エージェント（事前シード600万ドル）",
+          "u": "https://x.com/i/trending/2118679333980004630"
+        },
+        {
+          "t": "Standard Physics「Archimedes」＋OSS Reynolds：物理シミュレーションで設計検証",
+          "u": "https://x.com/i/trending/2118773895993946584"
+        },
+        {
+          "t": "Entelligence Memory：チームのコーディングエージェント共有メモリ",
+          "u": "https://x.com/EntelligenceAI/status/2118744189697671313"
+        },
+        {
+          "t": "Gauge CLI（MIT）：Claude Code／Codex等をDockerで実走しAgent UXを改善",
+          "u": "https://x.com/Khaled865412521/status/2118487374850076756"
+        },
+        {
+          "t": "Vercel Labs agent-desktop v1.2：CLI操作をMCPツール化",
+          "u": "https://x.com/Khaled865412521/status/2118532139645866286"
+        },
+        {
+          "t": "FactoryがHumanLayerを買収後にOSS化：マルチプレイヤー型コーディングIDE",
+          "u": "https://x.com/stretchcloud/status/2118608321464639833"
+        },
+        {
+          "t": "Hermes Agent v0.23（Nous）：ブラウザでフルデスクトップ体験など",
+          "u": "https://x.com/i/trending/2118496566541684861"
+        },
+        {
+          "t": "LangChain：非同期サブエージェントで本体が応答し続ける",
+          "u": "https://x.com/i/trending/2118493638065840486"
+        },
+        {
+          "t": "Linear共同創業者：人間とエージェントの一体型IDE構想",
+          "u": "https://x.com/i/trending/2118773897298415902"
+        }
+      ]
+    },
+    {
+      "name": "Claude Code／Codex／Cursor",
+      "items": [
+        {
+          "t": "Claude Codeメール漏えい：v2.1.317のPrivacyプラグインで暫定対策",
+          "u": "https://x.com/i/trending/2118630191685914974"
+        },
+        {
+          "t": "Claude Duet：モバイルからセッション監視・承認",
+          "u": "https://x.com/i/trending/2118812904648794590"
+        },
+        {
+          "t": "Claude Codeクラウド：依存関係・APIキーを自動検出して環境を再利用",
+          "u": "https://x.com/i/trending/2118833479668400385"
+        },
+        {
+          "t": "Cursor：Agents Window等で音声通話（コーディングモデルは維持）との投稿",
+          "u": "https://x.com/AgentsPulse/status/2118794751986311251"
+        },
+        {
+          "t": "ハーネス工学：長時間エージェントのための足場が独立分野に",
+          "u": "https://x.com/i/trending/2118767668119691265"
+        }
+      ]
+    },
+    {
+      "name": "論文・ベンチマーク",
+      "items": [
+        {
+          "t": "OpenAI BioBasicsBench：湿式ラボ日常100課題",
+          "u": "https://x.com/OpenAI/status/2118782708767965238"
+        },
+        {
+          "t": "FMF Jailbreak Rating Framework：サイバー危害の共通評価",
+          "u": "https://x.com/OpenAI/status/2118795218099253606"
+        },
+        {
+          "t": "Artificial Analysis「VIALS-AA」：生命科学の視覚推論リーダーボード",
+          "u": "https://x.com/ArtificialAnlys/status/2118752670030700953"
+        },
+        {
+          "t": "DeepMind：1024bit RSA系の暗号解析をAIエージェントで加速",
+          "u": "https://x.com/GoogleDeepMind/status/2118755418675765656"
+        },
+        {
+          "t": "METR：Anthropic内部で能力伸び約1.9倍（AI支援が主因）",
+          "u": "https://x.com/i/trending/2118427442922901851"
+        },
+        {
+          "t": "PSI：Aaronson-Ambainis予想をAIが証明（Lean検証）との発表",
+          "u": "https://x.com/i/trending/2118729991345123597"
+        },
+        {
+          "t": "Axiom：Weil予想の証明を1日弱でLean形式化",
+          "u": "https://x.com/i/trending/2118732615620674029"
+        },
+        {
+          "t": "Visa Agentic Commerce：買い物エージェント成功率約57%",
+          "u": "https://x.com/i/trending/2118707514845843675"
+        },
+        {
+          "t": "ICLR 2027査読：AI生成レビュー多用への反発",
+          "u": "https://x.com/i/trending/2118746505796325577"
+        },
+        {
+          "t": "Science’s Last Exam（SLE）：自律研究ベンチで最高でも37.5/100",
+          "u": "https://x.com/i/trending/2118465194611630250"
+        }
+      ]
+    },
+    {
+      "name": "企業・プロダクト",
+      "items": [
+        {
+          "t": "OpenAI調達：110億ドル／評価1.25兆ドル（Bloomberg）",
+          "u": "https://x.com/i/trending/2118824983518703636"
+        },
+        {
+          "t": "ChatGPTビジネス可視性分析ツール開発中",
+          "u": "https://x.com/i/trending/2118755136361152559"
+        },
+        {
+          "t": "Canva：約22%削減、手厚い退職条件",
+          "u": "https://x.com/i/trending/2118465194745790570"
+        },
+        {
+          "t": "Google：ワイオミングDCに170億ドル",
+          "u": "https://x.com/i/trending/2118427436832673902"
+        },
+        {
+          "t": "Microsoft：Oracle AIクラウド借りを終了へ",
+          "u": "https://x.com/i/trending/2118764671066919161"
+        },
+        {
+          "t": "NVIDIA build：Kimi K3.1 Pro等を無料試用できるとの案内",
+          "u": "https://x.com/i/trending/2118755132603060694"
+        }
+      ]
+    },
+    {
+      "name": "日本語ポスト",
+      "items": [
+        {
+          "t": "FMF Jailbreak Rating Frameworkの日本語まとめ（IT navi）",
+          "u": "https://x.com/itnavi2022/status/2118800951469604892"
+        },
+        {
+          "t": "横須賀商工会議所：生成AI導入にも使える小規模ICT補助金",
+          "u": "https://x.com/yokosukacci/status/2118548679284191251"
+        },
+        {
+          "t": "縁恩「AI Visibility Tracker」：主要生成AIでの推奨シェア可視化SaaS先行募集",
+          "u": "https://x.com/ennonn_official/status/2118533059498885396"
+        },
+        {
+          "t": "生成AIコンテンツ検証リンク集（OpenAI／Gemini SynthID／Adobe等）",
+          "u": "https://x.com/mokkori_nn/status/2118622831596695823"
+        }
+      ]
+    }
+  ]
+}
