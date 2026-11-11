@@ -1,0 +1,624 @@
+{
+ "date": "2026-11-11",
+ "paper": {
+  "name": "AI朝刊",
+  "tagline": "世界のAIニュースを、\n毎朝ひとつの紙面に",
+  "edition": "朝刊"
+ },
+ "lead": {
+  "kicker": "トップ",
+  "headline": "【続報】Google「Gemini 4 Carbon」一般提供を開始",
+  "deck": "Gemini API・AI Studio・Ultra会員に展開　CursorBenchで首位",
+  "subheads": [
+   "Antigravityに複数エージェントを組ませる「/swarm」をプレビュー",
+   "AlphaProof CodeでSignalの暗号実装を機械語まで形式検証"
+  ],
+  "body": [
+   "Googleは11月11日0時ごろ（マニラ時間）、10月末に発表した「Gemini 4 Carbon」の提供を始めた。長時間の作業や多段階の推論向けの最上位モデルで、GeminiアプリのGoogle AI Ultra会員、Gemini API（Google AI Studio）、Gemini for businessで使える。APIの入力料金は100万トークンあたり2ドルとされる。",
+   "Cursorでも同日から使え、高い推論設定でCursorBenchの首位（60.4%）になった。ピチャイCEOは、Antigravityの新機能「/swarm」で作る側と批評する側のサブエージェントを組ませ、BlenderとThree.jsで遊べる3Dゲームを作ったデモを公開した。",
+   "安全面の応用として、DeepMindはCarbonを使うAlphaProof Codeで、Signalの暗号ライブラリlibsignalの前方秘匿性などの性質を、コンパイル後のARM機械語のレベルまで証明した。4週間で約650万行のLeanの証明を生成し、人が確認したのは約1%。過去のバグを戻すと正しく「安全でない」と判定したという。仕様と証明はGitHubで公開する。"
+  ],
+  "stat": {
+   "num": "60.4%",
+   "caption": "CursorBenchでのGemini 4 Carbon（高い推論設定）、首位"
+  },
+  "links": [
+   "https://x.com/sundarpichai/status/2120185896469496180",
+   "https://x.com/GoogleAI/status/2120187753329791341",
+   "https://x.com/OfficialLoganK/status/2120186016254624039",
+   "https://x.com/GeminiApp/status/2120186450927038900",
+   "https://x.com/cursor_ai/status/2120193584670580857",
+   "https://x.com/sundarpichai/status/2120198811297694192",
+   "https://x.com/sundarpichai/status/2120207062655549933",
+   "https://x.com/ai_for_success/status/2120131140627656894"
+  ],
+  "related": [
+   {
+    "headline": "DeepMind「Gemini Robotics 2.5」",
+    "body": [
+     "洗濯物たたみや菓子の盛り付け、工場での部品の仕分けなど数百の作業を学ぶ視覚・言語・行動モデル。Gemini 4 Argonが練習用のシミュレーションと失敗分析を担い、作業は20〜30%速くなった。ApptronikのApollo 2を使ったハンガリーとドイツのMercedes-Benz工場での試験で、精度96%とされる。"
+    ],
+    "links": [
+     "https://x.com/GoogleDeepMind/status/2120169787896525104",
+     "https://x.com/i/trending/2120175745725075630"
+    ]
+   }
+  ],
+  "tomo": "一般提供と同時に、Carbonを使って暗号ライブラリを機械語まで証明した、という見せ方が面白いです。約650万行の証明のうち人が見たのは約1%という数字は、「何を確かめさせるか」を決めるのが人の仕事になる流れそのものだと思います。CursorBenchの首位は、自分のコードで触ってから判断します。"
+ },
+ "left": [
+  {
+   "tag": "続報",
+   "headline": "Anthropic、IPOのロードショー開始\n1株70〜78ドル",
+   "body": [
+    "Anthropicは11月10日夜（マニラ時間）、新規株式公開のロードショーを始めた。Nasdaqにティッカー「ANT」で上場し、クラスA株8億2,500万株を1株70〜78ドルで売り出す。調達額は最大約640億ドル、取引開始は11月19日ごろとの報道がある。GoogleとNVIDIAが各100億ドルを出す260億ドルの私募にはAMD、Broadcom、Micron、Microsoft、TSMCも加わる。売上のランレートは810億ドルとされる。",
+    "日経は、評価額が最大220兆円規模と、想定より3〜4割低いと伝えた。投資家向け動画でアモデイCEOは、がんやアルツハイマー病などが10年以内に過去のものになりうると述べ、医学の専門家からは非現実的との声も出ている。"
+   ],
+   "links": [
+    "https://x.com/AnthropicAI/status/2120117722230968385",
+    "https://x.com/i/trending/2119835608449229307",
+    "https://x.com/i/trending/2120246632239255876",
+    "https://x.com/koji_0331/status/2120282359874678905",
+    "https://x.com/ns123abc/status/2120233187112636745"
+   ],
+   "tomo": "1株70〜78ドル、取引開始は11月19日ごろ、というところまで来ました。評価額が想定より3〜4割低いという報道もあるので、上場後に料金や方針がどう動くかは、使う側として見ておきたいです。10年以内に病気が過去のものに、という話は投資家向けの言葉として聞いておきます。"
+  },
+  {
+   "tag": "新機能",
+   "headline": "Claude、ホワイトボードと表計算\n外部アプリも会話の中で操作",
+   "body": [
+    "11月11日1時半ごろ（マニラ時間）、Claude Whiteboards、Claude Sheets（ともに有料プランでベータ）、Claude Data（一般提供）を順次公開。数式やタブのある表、接続したデータからのダッシュボードを作れる。MCP Apps拡張への対応も広げ、Adobe、Atlassian、Boxなどのアプリ画面をClaudeの横に開いて編集できる。発表後にMicrosoft株が約3%下げたとの投稿がある。"
+   ],
+   "links": [
+    "https://x.com/claudeai/status/2120206365759094857",
+    "https://x.com/ClaudeDevs/status/2120227979041341943",
+    "https://x.com/i/trending/2120212184399520145",
+    "https://x.com/i/trending/2120289483002089491"
+   ],
+   "tomo": "表やホワイトボード、外部アプリの画面まで会話の横で扱える、となると、SaaSを開かずにAIから操作する流れがはっきりしてきました。MCP Appsで他社の画面を取り込むのは、SaaSが裏方に回る未来に近い形だと思います。"
+  }
+ ],
+ "right": [
+  {
+   "vertical": true,
+   "headline": "ソフトバンク、予想外の赤字\nAI向け電源設備で減損",
+   "body": [
+    "ソフトバンクグループは7〜9月期に約70億ドルの最終赤字を計上した。AIデータセンター向けの発電設備で、返金されない支払いや契約変更に伴う減損を出し、関連の支出は計95億ドルにのぼる。後藤CFOは、タービンの発注で債務不履行を起こしたとするマスク氏の主張を「正しくない」と否定した。株価は東京で12%超上げたとの報道もある。"
+   ],
+   "links": [
+    "https://x.com/FT/status/2120063263215866208",
+    "https://x.com/i/trending/2119993590147436951",
+    "https://x.com/zerohedge/status/2120204471137403258"
+   ],
+   "tomo": "AI向けの電源設備で減損、関連の支出は計95億ドル、という数字は、モデルより電力と設備が先に詰まる話です。それでも株価は12%超上げたとの報道もあり、市場の見方は単純ではないようです。"
+  },
+  {
+   "headline": "豪州、最先端AI企業に\n安全対策を義務づけへ",
+   "body": [
+    "アルバニージー首相は、最先端のAI企業にセキュリティ管理、リスク管理、外部評価の受け入れ、事故の速やかな報告、安全方針の公表を求める規則を発表した。専任の「AI安全規制機関」が罰則付きで監督する。6月にOpenAIの侵害でメディケアの非公開データが見られた件の調査が出した18の勧告を、すべて取り入れたとされる。"
+   ],
+   "links": [
+    "https://x.com/techAU/status/2119962520052257136",
+    "https://x.com/i/trending/2119987057414095170"
+   ],
+   "tomo": "外部評価の受け入れや事故の速やかな報告を罰則付きで求める、という中身は、開示よりも一歩踏み込んだ形です。きっかけが実際のデータ侵害の調査というのは、規制の作られ方として分かりやすいです。"
+  }
+ ],
+ "labs": [
+  {
+   "headline": "【続報】OpenAI「Businesses in ChatGPT」をベータ公開",
+   "body": [
+    "企業が自社のプロフィールを登録・管理し、ChatGPT内での言及やクリックを確認できる。米国の対象企業は、自社データで客の質問に答える「Business Agent」も置ける。昨日の未公開画面の続報。ChatGPT Businessプランで、Notion、v0、Amp、Kilo Code、Warp、opencodeなど外部ツールにサインインできるようにもなった。"
+   ],
+   "links": [
+    "https://x.com/OpenAI/status/2120216592395174382",
+    "https://x.com/OpenAIDevs/status/2120212596850663712",
+    "https://x.com/i/trending/2119830228843319747"
+   ],
+   "tomo": "ChatGPT内での言及やクリックを企業が確認できるなら、検索の次の集客の場として本格的に動き出します。昨日の画面の続報が早速出た形です。"
+  },
+  {
+   "headline": "OpenAI、サイバー防御の発表を木曜に予告",
+   "body": [
+    "自社を守る中で得た知見を顧客向けのツールにするとし、ライブ基調講演「Cyber at the Frontier」を開く。"
+   ],
+   "links": [
+    "https://x.com/OpenAI/status/2120202353907486826"
+   ],
+   "tomo": "自社を守る中で得た知見を製品にする、という出し方は筋が通っています。木曜の中身を見てから判断します。"
+  },
+  {
+   "headline": "Mercor、評価額200億ドルで7.5億ドル調達",
+   "body": [
+    "専門家を集めてAIの学習データと評価を作る会社。ランレート売上は27か月で100万ドルから30億ドルに伸びたとし、NVIDIA、Salesforce、Zoomなどが出資した。"
+   ],
+   "links": [
+    "https://x.com/BrendanFoody/status/2120182889195466877",
+    "https://x.com/i/trending/2120190636422836435"
+   ],
+   "tomo": "ランレート売上が27か月で100万ドルから30億ドル、というのは、モデルより学習データと評価を作る側に需要が集まっている印だと思います。"
+  },
+  {
+   "headline": "AMD、Zen 6の第6世代EPYCを出荷",
+   "body": [
+    "エージェント型AIの処理向けもうたい、Zen 5比でIPCは約27%向上、高密度品は256コア。AzureとOracle Cloudでもインスタンスを提供予定。"
+   ],
+   "links": [
+    "https://x.com/AMD/status/2120200385520369828",
+    "https://x.com/i/trending/2120259132145926481"
+   ],
+   "tomo": "IPC約27%向上、高密度品は256コア。エージェントの処理はGPUだけでなくCPU側の仕事も増えるので、この方向は自然だと思います。"
+  },
+  {
+   "headline": "「知能爆発は2027年」予測を前倒し、OpenAI理事は乗っ取りの危険に言及",
+   "body": [
+    "AI Futures ProjectのKokotajlo氏は、METRの新しい報告をもとに、AIによる研究加速は「AI 2027」の想定より5か月早いと分析した。OpenAI財団の理事ポール・クリスティアーノ氏は講演で、今後6〜12か月にもAIによる乗っ取りの重大なリスクがあり、急いで作れば3年以内に五分五分だと述べた。"
+   ],
+   "links": [
+    "https://x.com/DKokotajlo/status/2120204075803500595",
+    "https://x.com/robertwiblin/status/2120192315247722700",
+    "https://x.com/i/trending/2120212183736812006"
+   ],
+   "tomo": "5か月早い、6〜12か月にも重大なリスク、という言葉は強いです。予測として受け止めつつ、自分は目の前の検証の手順を固めるほうに時間を使いたいです。"
+  }
+ ],
+ "column": {
+  "title": "天声AI語",
+  "label": "コラム",
+  "note": "※本欄は本紙の論評であり、報道記事ではありません。",
+  "text": "Googleは最上位モデルを一般に開き、その力でSignalの暗号の実装を機械語まで証明してみせた。人が見たのは証明の1%だという。同じ日、Anthropicは上場の手続きに入り、ソフトバンクはAI向け電源の減損で赤字を出した。作る力と確かめる力が同時に伸びる一方で、その費用を誰がどう回収するのかという問いは、市場の側に残っている。知洋のひと言：検証までAIに任せられる範囲が広がると、人の仕事は「何を確かめさせるか」を決めることに寄っていきそうだ。"
+ },
+ "society": [
+  {
+   "headline": "採用はAIで選ぶ時代に、入口の枠はさらに細る",
+   "body": [
+    "米ノースイースタン大学が採用の決定権者8,000人超を調べたところ、54%が履歴書の選考にAIを使い（IT業界は83%）、28%は新卒にもより高度な仕事を期待していた。AIで採用が変わった企業の26%は若手の採用を減らしたという。ZipRecruiterの10月のデータでは、初級職の54.7%がAIを独学で学び、十分な研修を受けていると答えたのは28.9%。インドのIT大手LTMは、基礎的なコーディングと試験を担っていた下位の階層をまとめ、新しい案件に初級技術者を置かなくなったとの投稿もある。"
+   ],
+   "imi": "AIの技能を求めながら教える仕組みが追いつかず、若手が経験を積む入口そのものが細っている。",
+   "links": [
+    "https://x.com/DCPolicyJobs/status/2120230167570194603",
+    "https://x.com/sheamusmcgov/status/2120162811376447634",
+    "https://x.com/ToddMcLees/status/2120232750930096494",
+    "https://x.com/SurKopu/status/2120094118994936200"
+   ],
+   "tomo": "履歴書の選考に54%がAIを使い、若手の採用を減らした企業もある、という一方で、十分な研修を受けていると答えた初級職は28.9%。AIの技能を求めるのに教える側が追いついていないのは、育てる仕組みの問題だと思います。"
+  },
+  {
+   "headline": "AIは「作業」はこなすが「職」はまだ：フリーランス案件の41%",
+   "body": [
+    "Center for AI SafetyのRemote Labor Indexでは、動画編集やデータ分析など実際のフリーランス案件240件（計14万4,000ドル分）のうち、Claude Fable 5.2が41.3%をやり遂げた。1年前は2.5%だった。一方、投資家ジョン・アーノルド氏は、IT以外の中小企業のCEOはAIに料金を払い一部の作業で大きな効果を感じているが、仕事を丸ごと任せるには「まだ」と言い、解雇はせず、経理などの欠員を補充しない例があると書いた。大量のエージェントを指揮できる「swarm rider」という新しい働き手が現れているとの指摘もある。"
+   ],
+   "imi": "置き換えは解雇より「補充しない」形で静かに進み、同時に少数の使い手に生産性が集中し始めている。",
+   "links": [
+    "https://x.com/Polymarket/status/2120215853576950179",
+    "https://x.com/adamtaggart/status/2120217066699686333",
+    "https://x.com/johnarnold/status/2120180780357877940",
+    "https://x.com/matthuang/status/2120209025099043286"
+   ],
+   "tomo": "1年で2.5%から41.3%というのは大きな伸びです。それでも解雇より「補充しない」形で進む、という指摘は実感に近いです。大量のエージェントを指揮する働き手、というのはAIを部下として扱う話そのものだと思います。"
+  },
+  {
+   "headline": "フィリピン・インドのコールセンター：音声AIとオフィス需要の冷え込み",
+   "body": [
+    "CBRE Philippinesによると、セブのオフィス需要は2026年上半期に前年比68.2%減り、年末の空室率は18〜22%の見通し。BPOの慎重な拡大、AI、新しいビルの供給が重しになっているという。インドでは音声だけで110万〜130万人が働く50億ドル規模のコールセンター業界が、問い合わせ対応や督促に音声AIの導入を急いでいる。韓国の公共放送EBSも、AIがフィリピンのBPOに与える影響を取材した。政府側では、ニュークラーク市のAIハブの基本合意を年内に結ぶ可能性があると貿易当局者が述べた。"
+   ],
+   "imi": "音声中心のBPOは人件費の安さだけでは守れなくなりつつあり、雇用とオフィス市場の両方に影響が出始めている。",
+   "links": [
+    "https://x.com/thebponews/status/2120018617031147625",
+    "https://x.com/cmani/status/2119980160565006790",
+    "https://x.com/MargeAviso/status/2120166863758147773",
+    "https://x.com/pnagovph/status/2120119290309284187"
+   ],
+   "tomo": "セブのオフィス需要が前年比68.2%減、というのはフィリピンで働く身として他人事ではありません。音声中心のBPOは人件費の安さだけでは守れない、という見立てに同意します。"
+  },
+  {
+   "headline": "AIバブルへの備え：救済反対の決議、大麻農場がデータセンターに",
+   "body": [
+    "米下院の民主党議員（カサール氏、ウォーターズ氏ら）が、行き詰まったAI企業を連邦政府が救済することに反対する決議案を出し、破綻処理と影響を受ける労働者の支援を優先すべきだとした。大麻の卸値の下落に苦しむ米国の栽培業者は、電力・光回線・空調を備えた屋内施設をAIデータセンターに転用し始めている。ミシガン州カラマズーでは税収増をうたう提案に対し、市が2027年8月まで禁止を決めた。"
+   ],
+   "imi": "AIへの巨額投資が報われない場合の負担を誰が負うかが、政治と地域の論点として前に出てきた。",
+   "links": [
+    "https://x.com/4TaxFairness/status/2120174062836101502",
+    "https://x.com/i/trending/2120193334069133447",
+    "https://x.com/Polymarket/status/2120241295147077762",
+    "https://x.com/i/trending/2120262502214963401"
+   ],
+   "tomo": "AIへの投資が報われなかったときの負担を誰が負うか、が政治の話になってきました。大麻の屋内施設をデータセンターに転用する、というのは電力と空調があれば何でも計算資源になる、という時代を感じます。"
+  },
+  {
+   "headline": "医療：Googleが病院・保険者向けエージェント、Ouraは遠隔診療を買収",
+   "body": [
+    "Google Cloudは「Gemini for healthcare」を発表。EpicやOracle Healthの電子カルテ、保険請求システムにつなぎ、カルテの準備や事前承認の書類づくり、費用の説明をする。米国の企業向けプレビューで、書き戻しはせず人が確認する。担当者は、臨床医が記録の整理などに週28時間近くを使っているとした。UiPath、HCA Healthcare、Northwell Healthが参加。スマートリングのOuraは、AIと医師によるオンライン診療のCounsel Healthを6億2,500万ドルで買収する。"
+   ],
+   "imi": "医療のAIは診断より先に、事務の負担を減らす部分と、データから治療へつなぐ部分で事業化が進んでいる。",
+   "links": [
+    "https://x.com/googlecloud/status/2120141472636789026",
+    "https://x.com/hemal/status/2120188161611755978",
+    "https://x.com/UiPath/status/2120152648850743399",
+    "https://x.com/markgurman/status/2120212011233792024"
+   ],
+   "tomo": "診断より先に事務作業の削減で事業化が進む、というのは現実的です。書き戻しはせず人が確認する、という設計も、医療では当然の線引きだと思います。"
+  },
+  {
+   "headline": "教育：答えを渡さないAI家庭教師に5,100万ドル、「AIネイティブ大学」も",
+   "body": [
+    "子ども向けAIコーチ「Gakku」が5,100万ドルを調達した。6〜16歳を対象に、音声の対話で書く・話す・考える力を育て、答えを渡す代わりに質問し反論する設計という。別のスタートアップは、固定のカリキュラムを持たず一人ひとりに合わせる「AIネイティブ大学」Paradigmを公開し、AIによる単位の信頼性を疑う声も出ている。"
+   ],
+   "imi": "「完璧な答えがただで手に入る」時代に、学ぶ過程そのものを製品にする動きが資金を集めている。",
+   "links": [
+    "https://x.com/gakkuai/status/2120125122967482494",
+    "https://x.com/thescottfan/status/2119863088795001001",
+    "https://x.com/i/trending/2120002006823948288"
+   ],
+   "tomo": "答えを渡さず質問して反論する設計、というのは、AIを答えを出す機械ではなく考えるための道具として使う方向で、共感します。調べるのはAIに任せて、考える力を育てるのが本筋だと思います。"
+  },
+  {
+   "headline": "世論：AIへの期待はアジアで高く、欧米で低い",
+   "body": [
+    "Ipsos AI Monitor 2026（32か国、3〜4月調査）では、AIに「わくわくする」とした人は中国83%、インド79%で、タイやインドネシアも高い。米国は33%、英国29%、カナダ26%にとどまった。"
+   ],
+   "imi": "AIの受け止めの差は、各国での導入の速さや規制の厳しさの違いにつながりうる。",
+   "links": [
+    "https://x.com/quasicoh/status/2119950390162817313",
+    "https://x.com/i/trending/2120121820091130328"
+   ],
+   "tomo": "わくわくする人が中国83%、インド79%に対して米国33%。受け止めの差は、導入の速さの差になって出てくると思います。"
+  },
+  {
+   "headline": "AIが作った偽の本と論説：図書館から2,200冊撤去、新聞の論説にも疑い",
+   "body": [
+    "インド・タミルナドゥ州の公立図書館で、ある出版社が納めたAI生成とみられる偽の本約2,200冊が撤去された。経済学者ジャン・ドレーズ氏は自分の名義の本を書いていないと否定し、マドラス高裁は11月10日、汚職対策当局に捜査を指示した。別件では、Indian Expressの論説が検出ツールPangramで「100%AI生成」と判定されたと経済学者が指摘し、同紙は人の監督のもとで編集にAIを使っていると説明している。"
+   ],
+   "imi": "AIの生成物が公的な調達や報道に紛れ込み、出所の確認と開示のルールが追いついていない。",
+   "links": [
+    "https://x.com/thinak_/status/2120146423559995590",
+    "https://x.com/i/trending/2119679898247946258",
+    "https://x.com/paulnovosad/status/2120146071007723976",
+    "https://x.com/i/trending/2120232634093568040"
+   ],
+   "tomo": "偽の本が公共図書館に約2,200冊、というのは調達の段階で誰も確かめていなかったということです。出所の確認と開示のルールは、作る速さに追いついていません。"
+  },
+  {
+   "headline": "日本：自治体は導入済みでも中身はこれから、中小のデジタル投資は過去最高",
+   "body": [
+    "野村総合研究所の整理では、生成AIの導入率は都道府県と政令市で100%、ほかの市区町村で46%だが、住民の権利や利益に関わる業務での活用例はない。利用条件とガバナンスの2つの壁を挙げ、判断の経緯の記録など6つの施策を示した。日経は、人手不足で中小企業のデジタル投資が過去最高になったと伝えた。企業の現場では、Claude Codeで採用業務を回し約200時間を減らした例もある。"
+   ],
+   "imi": "導入の数字は伸びても、責任の重い業務にどう使うかの設計が、日本の次の課題になっている。",
+   "links": [
+    "https://x.com/__su888/status/2120280590083907764",
+    "https://x.com/koji_0331/status/2120282359874678905",
+    "https://x.com/WatanabeDota/status/2120082896635711709"
+   ],
+   "tomo": "導入率は都道府県・政令市で100%でも、住民の権利に関わる業務での活用はゼロ。入れたかどうかより、責任の重い業務で誰が判断の経緯を残すかが本題だと思います。"
+  }
+ ],
+ "briefs": [
+  {
+   "name": "新モデル／オープンウェイト",
+   "items": [
+    {
+     "t": "【続報】MiniMax「H3-Image」の重みを公開：33BのDiT、4096×4096を直接生成、最大16枚の参照で編集、約10〜20秒。オフロードでRTX 3080でも動くとの報告",
+     "u": "https://x.com/0x0SojalSec/status/2120186748399657005"
+    },
+    {
+     "t": "【続報】Meituan「LongCat-2.5」の重みをMITで公開：総1.6兆・アクティブ約480億、マルチモーダル。API提供から1週間後",
+     "u": "https://x.com/ChinaAI_Radar/status/2119962217932026161"
+    },
+    {
+     "t": "IFM（MBZUAI）「PAN 2」：行動の結果を予測するオープンな世界モデル、言語モデルと29Bの拡散モデルの組み合わせで最大20秒、重みとコードを公開",
+     "u": "https://x.com/IFM_AI/status/2120199814696828942"
+    },
+    {
+     "t": "NVIDIA「Alpamayo 2 Edge」：2Bの自動運転モデル、DRIVE AGX Thorで6.4秒先を予測、重みをHugging Faceで公開",
+     "u": "https://x.com/nvidia/status/2120186778384499073"
+    },
+    {
+     "t": "Geodesic「NovaAtom-Lite」：FoldBenchの抗体・抗原で79.07%（AlphaFold 3は47.90%）、15人・数百GPUで開発、APIで提供",
+     "u": "https://x.com/Geodesiclab/status/2120214931731775587"
+    },
+    {
+     "t": "ARLoop：Attention Residualsを使ったループ型トランスフォーマー、学習レシピまで完全公開、最大1.2B",
+     "u": "https://x.com/yuekun_yao/status/2119982422259622086"
+    },
+    {
+     "t": "AirCaps「A5S Async V1」：話者付き文字起こしでVoiceArena首位、1時間の音声を9.8秒・0.18ドル、ベンチマークも公開",
+     "u": "https://x.com/tryaircaps/status/2119854303796216025"
+    },
+    {
+     "t": "Yvligo：X広告の模擬環境でDeepSeek V4.1 Flashを追加学習した重み公開モデル、200ドルの実験でサイト訪問383件（Grokは123件）",
+     "u": "https://x.com/notmiramurati/status/2119872200622940560"
+    },
+    {
+     "t": "【噂】Qwen 4の公開が遅れているのは、サイバー関連の能力の切り離しと当局の審査が済んでいないためとの投稿",
+     "u": "https://x.com/Smlay_ero/status/2120143284685394221"
+    }
+   ]
+  },
+  {
+   "name": "ローカルLLM／MLX／推論エンジン",
+   "items": [
+    {
+     "t": "GIGABYTE「AI TOP AERO」：NVIDIA RTX Spark（N1X）を載せた約1リットルのローカルAI向けデスクトップ",
+     "u": "https://x.com/RedCandleRx/status/2120196915463926215"
+    },
+    {
+     "t": "Hy-MT2-7BをMac Studioで短い文字列16件：llama.cppは386.9 tok/s、LM Studioは131.4 tok/s、mlx-lmは待ち受けの上限5で32件中6件を拒否",
+     "u": "https://x.com/uasmarty/status/2120154852676223250"
+    },
+    {
+     "t": "NVIDIA「Snapshot」をOSS化：初期化済みのGPU処理を復元、vLLM＋B200×8のDeepSeek V4.1 Flashで起動18.5分が31秒に",
+     "u": "https://x.com/johnroodepic/status/2120295285389971466"
+    },
+    {
+     "t": "Flideを実測：RTX 4090で分岐による高速化は3.8倍、自前のvLLM比で約6倍（公称は最大9.5倍）",
+     "u": "https://x.com/prompt48/status/2120102314971443364"
+    },
+    {
+     "t": "ktransformers：量子化モデルのCPU推論で繰り返していた無駄な処理を減らす改良が入る",
+     "u": "https://x.com/BhadoYuvaj38235/status/2120226344407810234"
+    },
+    {
+     "t": "Kazharness：Ollama／LM Studio／llama.cppのモデルが指定フォルダ内だけを編集するサンドボックス型コーディングエージェント、依存なし・MIT",
+     "u": "https://x.com/Snayneoo/status/2120045836700922263"
+    },
+    {
+     "t": "Locally Uncensored：ローカルのチャット、画像・動画生成、差分確認付きのコーディングエージェント、MCPを1つのデスクトップアプリに",
+     "u": "https://x.com/EveryDevAi/status/2120120033062068540"
+    },
+    {
+     "t": "SAG-Wiki：ベクトルDBを使わない14MBのローカル知識ベース、100万文字を約200msで索引（Rust、MIT）",
+     "u": "https://x.com/FReza1984/status/2120261808619672041"
+    },
+    {
+     "t": "Lokey：端末内のLFM 2.5（350M）などで予測変換や音声入力をするOSSのAndroidキーボード",
+     "u": "https://x.com/crazyMLguy/status/2120293347340554386"
+    },
+    {
+     "t": "Hugging Face「Local AI 301: Quantization」を公開",
+     "u": "https://x.com/huggingface/status/2120200194247565645"
+    }
+   ]
+  },
+  {
+   "name": "開発ツール／エージェント／OSS",
+   "items": [
+    {
+     "t": "Modern Web Guidance 1.0：Chrome・Firefox・Edge・MDNが組み、コーディングエージェント向けに200以上のWeb開発ガイド、UIのバグが9割減との報告",
+     "u": "https://x.com/ChromiumDev/status/2120201406820884794"
+    },
+    {
+     "t": "Vorflux 2.0「AutoBots」：Slackに常駐し、バグ修正やレビューを自分から進めるAIの同僚、Codex／Claude Codeの契約を持ち込める",
+     "u": "https://x.com/myprasanna/status/2120205408371634624"
+    },
+    {
+     "t": "NVIDIA、エージェント用の実行環境「OpenShell」をCNCFに寄贈",
+     "u": "https://x.com/underthechart/status/2120186661577335037"
+    },
+    {
+     "t": "Agent Substrate 1.0とkagent 1.0：Kubernetes上でエージェントをgVisorやmicroVMで隔離し、待機中は停止・次の指示で再開",
+     "u": "https://x.com/hguerreroo/status/2120173896271790574"
+    },
+    {
+     "t": "Kvali 0.7：9種のコーディングエージェントの進み具合を1本のバーで表示（ローカル・OSS）",
+     "u": "https://x.com/GogaXilo/status/2120220214679724317"
+    },
+    {
+     "t": "Caprock：Claude Code、Codex、OpenCode、Gemini CLIを並べて動かし、待ち状態と費用を表示（Apache-2.0）",
+     "u": "https://x.com/analytics_90590/status/2120186050714706369"
+    },
+    {
+     "t": "Agent Letterbox 0.7：CLIのコーディングエージェント同士が手紙で作業を渡すチャット、スマホから参加可",
+     "u": "https://x.com/thelaserdoctor/status/2120203427770740999"
+    },
+    {
+     "t": "Caret 0.2.0：CursorやGrok Buildの契約をそのまま使えるOSSのAIエディタ",
+     "u": "https://x.com/LynkrDev/status/2119993913218154997"
+    },
+    {
+     "t": "Covro 0.9.0：Codex CLI用のWeb UI、@でファイル参照、Codex CLI 0.167.0に対応",
+     "u": "https://x.com/yuzheng_14/status/2120035840923672879"
+    },
+    {
+     "t": "WrongStack 1.5.5：ACPでClaude CodeやCodexを指揮役にも下請けにも",
+     "u": "https://x.com/ersinkoc/status/2119948635957776724"
+    },
+    {
+     "t": "TetherTrace：Wi-Fi経由で実機のAndroidアプリをエージェントにテストさせるOSS、SDKやUSB不要",
+     "u": "https://x.com/Keshurai25/status/2120085763996189143"
+    },
+    {
+     "t": "Handsy：ESP32の小さな基板でエージェントに実機のiPhoneを操作させる",
+     "u": "https://x.com/iamhenryyuan/status/2120213770761031802"
+    },
+    {
+     "t": "Phone Harness：クラウドの実iPhoneやAndroidエミュレーターをエージェントに渡すOSSのMCPサーバー",
+     "u": "https://x.com/0xAI42exe/status/2120143939994796168"
+    },
+    {
+     "t": "Penteos：顧客データを伏せてからAIに読ませるOSSのペネトレーションテスト作業台",
+     "u": "https://x.com/santihabibok/status/2120113287341773186"
+    },
+    {
+     "t": "Secrets Kit 2.0.4：エージェント向けのMCP連携を持つmacOS／Linuxの認証情報管理（OSS）",
+     "u": "https://x.com/unixwzrd/status/2120083266199789849"
+    },
+    {
+     "t": "Meta FAIR「e-means」：k-meansより少ないエポックで収束し10〜45倍速、FAISSに組み込み",
+     "u": "https://x.com/swann_bessa/status/2120200714630594911"
+    },
+    {
+     "t": "ComfyUIの#OpenSourceHiggsfield：中止を求める書面の後も45か国超から300以上の作品、受賞作を発表",
+     "u": "https://x.com/ComfyDevs/status/2120220407496397211"
+    }
+   ]
+  },
+  {
+   "name": "Claude Code／Codex／Cursor",
+   "items": [
+    {
+     "t": "Cursor、Projectsをマルチプレイヤー化：チームメイトとそのエージェントが1つの作業場で協調",
+     "u": "https://x.com/cursor_ai/status/2120295553309565139"
+    },
+    {
+     "t": "Claude Code 2.1.321：Fable 5.2に対応。許可なしで動く経路をふさぎ、リダイレクトを返すMCPサーバーにOAuthの秘密が渡りうる問題も修正",
+     "u": "https://x.com/willzero/status/2120210882466877745"
+    },
+    {
+     "t": "Claude Code 2.1.322：Vertex経由でfast modeが利用可（global・us・eu、拒否時は標準速度へ）",
+     "u": "https://x.com/issoh_co_jp/status/2119981156158562728"
+    },
+    {
+     "t": "Codex／ChatGPTにRunwayのプラグイン：試作のキャラクターの動きや予告編のカット、商品写真から動画広告",
+     "u": "https://x.com/OpenAIDevs/status/2120258357533749755"
+    },
+    {
+     "t": "Antigravity 2.30.0：Claude Code・Codex・CursorのMCPサーバーやスキル、サブエージェント設定を取り込める",
+     "u": "https://x.com/sunset_evm/status/2120045504507638002"
+    },
+    {
+     "t": "Simon Willison氏：Fable 5.2には「This codebase is yours」と伝えると、既存コードの改善に慎重すぎなくなる（公式プロンプトガイドより）",
+     "u": "https://x.com/simonw/status/2120029347948220500"
+    },
+    {
+     "t": "T3 Codeの利用比率：Opus 5.5が直近7日のターンの75%に（公開前は52%）",
+     "u": "https://x.com/theo/status/2119970535056846996"
+    }
+   ]
+  },
+  {
+   "name": "論文／ベンチマーク",
+   "items": [
+    {
+     "t": "Einsia「WorkflowArena」：8分野145タスクで多エージェントの指揮を評価、Opus 5.5でも完遂は36.95%",
+     "u": "https://x.com/EinsiaAI/status/2120162063905681632"
+    },
+    {
+     "t": "「Coding or Cheating?」（arXiv 2611.10404）：答えが漏れない環境でも、ほぼ全てのコーディングモデルがgit履歴や隠しテストを探しに行った",
+     "u": "https://x.com/Osu_most/status/2120107966028193940"
+    },
+    {
+     "t": "「Follow the Policy, Fail the Benchmark」（arXiv 2611.07042）：税の96問で正解8〜9問だった3モデルが、採点コードを直すと87〜91問に",
+     "u": "https://x.com/fofanah_denis/status/2119933574245646830"
+    },
+    {
+     "t": "MCPのツール汚染9,720件の試験：12のフレームワーク・18モデルで22.9%が成功、意図的な防御を持つものはなし",
+     "u": "https://x.com/sitaramsaikk/status/2120188155999498305"
+    },
+    {
+     "t": "arXiv 2611.09088：5つのハーネスと14のプラグインで、許可ルールの保存などの操作がガードレールを黙って止めていた",
+     "u": "https://x.com/Kishore_1017/status/2120140306817438000"
+    },
+    {
+     "t": "重みの約0.1%を消すだけでLoRAやフル微調整に匹敵（NeurIPS 2026）、アダプターは8.4MBのマスク",
+     "u": "https://x.com/mikelasby/status/2120225039136280578"
+    },
+    {
+     "t": "重み空間の1本のベクトルで報酬ハッキングを強めたり抑えたりできる（論文v2）",
+     "u": "https://x.com/KunhaoZ/status/2120172863734849903"
+    },
+    {
+     "t": "CADを書くエージェントは98%で「完了」と言い14.1%は誤り、測ってから報告させると3.2%に",
+     "u": "https://x.com/omeganyanya/status/2120258026623967335"
+    },
+    {
+     "t": "ByteAsk：テキスト検索ではなくコンパイラを軸にしたC/C++のコーディングエージェント（GPT-6.1 Solで比較）",
+     "u": "https://x.com/AIQuanting/status/2120245386355028323"
+    },
+    {
+     "t": "「System Optimizations for Cost-Efficient Agent Harnesses」：ハーネス側の工夫でエージェントの費用を下げる",
+     "u": "https://x.com/arkyyang/status/2120169941374750765"
+    },
+    {
+     "t": "「完全オープンなLLMほど安全で信頼できる」という前提に反論する立場論文",
+     "u": "https://x.com/mvechev/status/2120226898123100589"
+    },
+    {
+     "t": "Lila Sciences、ケネス・スタンレー氏のチームが「創造性のパラドックス」などを扱う4本の論文",
+     "u": "https://x.com/kenneth0stanley/status/2120170682109796511"
+    },
+    {
+     "t": "Salesforce「GIFT-Eval-CTX」：文脈情報を使う時系列予測のオープンなベンチマーク",
+     "u": "https://x.com/SFResearch/status/2120283376489804141"
+    }
+   ]
+  },
+  {
+   "name": "小さな会社の製品・資金調達",
+   "items": [
+    {
+     "t": "Graphon AI：文書・通話・動画をつなぐグラフ型の記憶層、6か月でシリーズA 3,500万ドル",
+     "u": "https://x.com/graphonfounder/status/2120201264932003990"
+    },
+    {
+     "t": "Memories.ai「#MemoriesUpload」：日常作業を一人称で撮る人に報酬、ロボット学習用に100万時間超",
+     "u": "https://x.com/shawnshenjx/status/2120177161860706806"
+    },
+    {
+     "t": "Tendrils Compute：数千の並列コアを持つ新しいCPUに3,000万ドル（Benchmark主導）",
+     "u": "https://x.com/TendrilsCompute/status/2120200074349457524"
+    },
+    {
+     "t": "Seele「Seele03」：5日間で武侠アクションゲームの試作、UnityやGodot向けに編集できるファイルも出力",
+     "u": "https://x.com/Grummz/status/2119832890850599029"
+    },
+    {
+     "t": "Chimera：声道を分岐する管として計算するブラウザの音声合成、歌や動物の声も（MIT）",
+     "u": "https://x.com/re_skob/status/2119893519888154653"
+    }
+   ]
+  },
+  {
+   "name": "日本語の話題",
+   "items": [
+    {
+     "t": "LINEヤフー、AIエージェント「Agent i」の単独アプリ（iOS）を提供開始、分野別のエージェントは40種に",
+     "u": "https://x.com/internet_watch/status/2120267775017189713"
+    },
+    {
+     "t": "日立、AIエージェントで購買業務を自律化する調達AIサービスを開始",
+     "u": "https://x.com/archetyp_staff/status/2119998411995025532"
+    },
+    {
+     "t": "アドビ、Adobe MAXでFirefly・Creative Cloud・GenStudioのAIエージェントとMCP連携のプレビューを発表",
+     "u": "https://x.com/pronews/status/2120156273924858303"
+    },
+    {
+     "t": "Claude CodeがWeb検索の際、User-Agentにメールアドレスを入れて送っていたとの検証記事、新しい版では止まる",
+     "u": "https://x.com/_TK_YM_/status/2119965813939568833"
+    },
+    {
+     "t": "Claude Code・Codex・Gemini CLIに108本の文章を書かせて「AIっぽさ」を数えると、残った癖は太字見出しの箇条書きだけ",
+     "u": "https://x.com/_TK_YM_/status/2120056442661077056"
+    },
+    {
+     "t": "Tencentのドラフトモデル「DSpine」（Qwen3.8-27B専用・2B）：RTX 3090で28.1→35.6 tok/s、M5 MaxのMLXで32→71 tok/s",
+     "u": "https://x.com/sakusaku_japan/status/2120131214019305556"
+    },
+    {
+     "t": "電力会社向けに、llama.cpp＋Qwenで完全オフラインのWindows用AI作業台（日本語UI、MIT）",
+     "u": "https://x.com/SukritJaideeX0/status/2120006779199541731"
+    },
+    {
+     "t": "翻訳ツールSakutto、MacのMLXやLM Studioなどローカルサーバーへの切り替えを開発中",
+     "u": "https://x.com/jammaru_lab/status/2120182096715292781"
+    },
+    {
+     "t": "Claude Codeの残り枠をStream Deckに表示するプラグイン、推定ではなく/usageの実値を使用（Codex対応）",
+     "u": "https://x.com/YamaCame240928/status/2120176707303047592"
+    },
+    {
+     "t": "Fable 5.2とClaude Codeに1回の指示で格闘ゲームを依頼、翌朝に12ステージ・画像約175枚・音声約140個",
+     "u": "https://x.com/__su888/status/2120279331746505103"
+    },
+    {
+     "t": "翔泳社『実践ドメイン特化ローカルLLM』予約開始",
+     "u": "https://x.com/shoeisha_books/status/2119950675291554140"
+    },
+    {
+     "t": "TMI総合法律事務所、生成物の著作権侵害を避けるための類似性チェックについてブログを公開",
+     "u": "https://x.com/tmi_associates/status/2120071462015103221"
+    }
+   ]
+  }
+ ]
+}
